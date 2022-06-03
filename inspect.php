@@ -23,7 +23,7 @@
                 $row = mysqli_fetch_array($run_email);
 
 
-                $text = utf8_encode( $row['text'] );
+                $text = utf8_decode( $row['text'] );
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
                 $run_email = mysqli_query($db,$get_email);
