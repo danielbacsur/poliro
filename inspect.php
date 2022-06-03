@@ -31,7 +31,7 @@
                 {
                     $error_index = $row["index"];
                     echo $error_char.'---';
-                    $error_char = utf8_decode( $row["char"] ) ;
+                    $error_char = utf8_encode( $row["char"] ) ;
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
