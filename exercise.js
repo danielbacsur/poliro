@@ -8,16 +8,16 @@ document.getElementById("ctext").addEventListener("focus", function() {
   setBlink();
 });
 
-var source = ["kavarom a kávém,<br> orvos javasol, vakarom a karom, a sav mar",
+var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
 
 ];
-source = source.join(', ')
-source = source.toString().replace(/,/g, "&#44;");
 
 window.addEventListener("load", function() {
+  source = source.join(', ')
+  source = source.toString().replace(/,/g, "&#44;");
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
   //document.getElementById("nyarr").innerHTML = x;
