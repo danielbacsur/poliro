@@ -25,7 +25,7 @@
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
-                
+                $loca = 0
                 while ($row = mysqli_fetch_array($run_email))  
                 {
                     $error_index = $row["index"];
@@ -33,8 +33,8 @@
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     echo $corr.'<br>';
                     $tlen = strlen($text);
-                    $text = substr($text, 0, $error_index).'---'.substr($text, -($tlen - $error_index-1+3)).'<br>';
-
+                    $text = substr($text, 0, $error_index+$loca).'---'.substr($text, -($tlen - $error_index-1-$loca)).'<br>';
+                    $loca += 3;
                 }
                 echo $text;
 
