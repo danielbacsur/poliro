@@ -1,5 +1,5 @@
 function goAgain() {
-  window.location = "index.html";
+  window.location = "exercise.html";
 }
 function dblclickc() {
   document.getElementById("ctext").click();
