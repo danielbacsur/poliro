@@ -9,6 +9,7 @@
 
         <?php
                 $account_id = $_SESSION['account_id'];
+                echo $account_id;
                 $exercise_id = $_GET['exercise_id'];
                 $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
