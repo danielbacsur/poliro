@@ -2,6 +2,7 @@
 <?php include("database.php"); ?>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Hxdro</title>
     </head>
     <body>
