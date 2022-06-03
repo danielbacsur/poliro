@@ -14,7 +14,7 @@ var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
 
 ];
-var source = source.join('<br>')
+var source = source.join(', ')
 
 window.addEventListener("load", function() {
   source2 = source.toString().replace(/,/g, "&#44;");
@@ -156,6 +156,7 @@ function compare() {
   console.log(res);
   console.log(source);
   console.log(c);
+  document.location = 'upload.php?data='+c;
 }
 
 function displayScore() {
