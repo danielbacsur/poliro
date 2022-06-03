@@ -7,8 +7,8 @@
     </head>
     <body>
         <?php
-            $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
-            $w = $_GET['data'];
+            $source = utf8_encode('kavarom a kávém, orvos javasol, vakarom a karom, a sav mar');
+            $w = utf8_encode($_GET['data']);
             echo $w;
             echo 'a';
 
