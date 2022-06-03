@@ -38,7 +38,7 @@
                 }*/
 
                 $text = substr($text, 0, 3).'---'.substr($text, -($tlen - 3-1 )).'<br>';
-                $text = substr($text, 0, 6+1).'---'.substr($text, -($tlen - 6-1 )+1).'<br>';
+                $text = substr($text, 0, 6+2).'---'.substr($text, -($tlen - 6-1 )+2).'<br>';
 
                 echo $text;
 
