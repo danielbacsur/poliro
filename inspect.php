@@ -26,8 +26,10 @@
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$pid'";
                 $run_email = mysqli_query($db,$get_email);
-                while( $row = mysqli_fetch_array($run_email) ) {
-                    echo $row['index'].' '$row['char'].'<br>';
+                
+                while ($row = mysql_fetch_array($run_email))  
+                {
+                    echo $row["char"];
                 }
 
 
