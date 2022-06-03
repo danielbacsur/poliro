@@ -33,7 +33,7 @@
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     echo $corr.'<br>';
                     $tlen = strlen($text);
-                    echo substr($text, 0, $error_index-1).'---'.substr($text, $error_index, 0).'<br>';
+                    echo substr($text, 0, $error_index).'---'.substr($text, -($tlen - $error_index)).'<br>';
                 }
                 echo $text;
 
