@@ -14,7 +14,7 @@ var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
 
 ];
-var source = source.join(', ')
+var source = source.join('<br>')
 
 window.addEventListener("load", function() {
   source2 = source.toString().replace(/,/g, "&#44;");
