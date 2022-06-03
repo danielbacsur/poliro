@@ -31,7 +31,7 @@
                     $error_index = $row["index"];
                     $error_char = $row["char"];
                     $text = substr_replace($text,'<span class="red">'.$error_char.'</span>', $error_index,1);
-                    echo substr_replace('hello','<span class="red">'.'vilag'.'</span>', 2,1).'<br>;
+                    echo substr_replace('hello','<span class="red">'.'vilag'.'</span>', 2,1).'<br>';
                 }
 
                 echo $text;
