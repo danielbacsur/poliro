@@ -32,11 +32,10 @@
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     $corr_len = strlen($corr);
-                    $corr_len = 3;
 
                     //$texta = substr($text, 0, $error_index+$loca-1);
                     //$textb = substr($text, -($tlen - $error_index-1 )+$loca-1);
-                    $text = substr($text, 0, $error_index+$loca).'###'.substr($text, -($tlen - $error_index-1 )+$loca).'<br>';
+                    $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca).'<br>';
                     $loca += $corr_len-1;
                     //$text = $texta.$corr.$textb;
                 }
