@@ -14,14 +14,14 @@ var source = ["kavarom a kávém,<br> orvos javasol, vakarom a karom, a sav mar"
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
 
 ];
+source = source.join(', ')
+source = source.toString().replace(/,/g, "&#44;");
 
 window.addEventListener("load", function() {
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
   //document.getElementById("nyarr").innerHTML = x;
   
-  source = source.join(', ')
-  source = source.toString().replace(/,/g, "&#44;");
   document.getElementById("atext").innerHTML = source;
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
