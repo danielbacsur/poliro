@@ -30,6 +30,7 @@
                 while ($row = mysqli_fetch_array($run_email))  
                 {
                     $error_index = $row["index"];
+                    echo $error_index.'---';
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
 
