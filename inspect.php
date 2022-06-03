@@ -11,7 +11,7 @@
         echo 'a';
                 $account_id = $_SESSION['account_id'];
                 $exercise_id = $_GET['exercise_id'];
-                $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND exercise_id='$exercise_id'";
+                $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $pid = $row["paragraph_id"];
