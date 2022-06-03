@@ -61,7 +61,7 @@
 
             $insert_customer = "INSERT INTO accounts (`name`, `username`, `email`, `password`, `role_id`) VALUES ('$account_name', '$account_username', '$account_email','$account_password', '1')";
             $run_customer = mysqli_query($db,$insert_customer);
-            $_SESSION['account_id'] = mysqli_insert_id();
+            $_SESSION['account_id'] = mysqli_insert_id($db);
             echo 'lol';
 
             if(!isset($_GET['redirect'])) {
