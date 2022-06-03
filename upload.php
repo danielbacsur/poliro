@@ -16,9 +16,9 @@
             echo '-';
 
                 if($source[$i] != $w[$i]) {
-                    $insert_customer = "INSERT INTO errors ('exercise_id', 'index', 'char') VALUES (1, '$i', '$w[$i]')";
+                    $ccc = $w[$i];
+                    $insert_customer = "INSERT INTO errors ('exercise_id', 'index', 'char') VALUES (1, '$i', '$ccc')";
                     $run_customer = mysqli_query($db,$insert_customer);
-                    $_SESSION['account_id'] = mysqli_insert_id($db);
                 }
                 else {
                     echo $source[$i].' <> '.$w[$i].' GOOD<br>';
