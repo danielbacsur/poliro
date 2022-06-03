@@ -32,7 +32,8 @@
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     echo $corr.'<br>';
-                    $text = substr_replace($text,$corr, $error_index,1);
+                    $tlen = strlen($text);
+                    echo substr($text, 0, $error_index-1).'---'.substr($text, $error_index, 0).'<br>';
                 }
                 echo $text;
 
