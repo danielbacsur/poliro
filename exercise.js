@@ -16,7 +16,7 @@ var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
 ];
 var source = source.join(', ')
 
-window.addEventListener("load", function() {
+/*window.addEventListener("load", function() {
   source2 = source.toString().replace(/,/g, "&#44;");
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
@@ -25,7 +25,12 @@ window.addEventListener("load", function() {
   document.getElementById("atext").innerHTML = source2;
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
-});
+});*/
+function load() {
+  
+  document.getElementById("ctext").focus();
+  document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
+}
 
 function clickc() {
   var c = document.getElementById("ctext");
