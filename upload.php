@@ -8,8 +8,12 @@
         <?php
             $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
             $w = $_GET['data'];
+            echo $w;
+            echo 'a';
 
             for($i = 0; $i < $w.count(); $i++) {
+            echo '-';
+
                 if($source[$i] != $w[$i]) {
                     echo 'error'.$w[$i].'<br>';
                 }
@@ -17,6 +21,8 @@
                     echo 'good'.$source[$i].'<br>';
                 }
             }
+            echo 'c';
+
 /*
             $insert_customer = "INSERT INTO errors (id, index, char) VALUES ('$id', '$index', '$char')";
             $run_customer = mysqli_query($db,$insert_customer);
