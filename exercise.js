@@ -154,6 +154,8 @@ function compare() {
     
   }
   console.log(res);
+  console.log(source);
+  console.log(c);
 }
 
 function displayScore() {
