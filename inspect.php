@@ -34,7 +34,7 @@
                     echo substr_replace('hello','span class="red"'.'vilag'.'/span', 2,1).'<br>';
                 }
                 $test = 'fubar';
-                echo "<p id='$test'>This is a <span stlye='color: red;'>$test</span>.</p>";
+                echo'<span style="font-color: red;">Your passwords do not match!</span>';
                 echo $text;
 
 ?>
