@@ -32,7 +32,7 @@
                     $error_char = $row["char"];
                     $text[$error_index] = $error_char;
                 }
-
+                echo $text;
 
 ?>
                 
