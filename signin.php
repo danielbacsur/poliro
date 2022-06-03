@@ -32,7 +32,7 @@
                 echo "<script>alert('Hibás email cím vagy jelszó!')</script>";
                 exit();
             }
-            $_SESSION['account_id'] = $row_account['account_id'];
+            $_SESSION['account_id'] = mysqli_insert_id($db);
             if(!isset($_GET['redirect'])) {
                 header( 'Location: index.php' );
             } else {
