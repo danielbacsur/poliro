@@ -34,8 +34,8 @@
                     $corr_len = strlen($corr);
                     $texta = substr($text, 0, 6+$loca-1);
                     $loca += $corr_len;
-                    $textb = substr($text, -($tlen - 6-1 )+$loca-1).'<br>';
-                    $text = $texta . $corr . $textb;
+                    $textb = substr($text, -($tlen - 6-1 )+$loca-1);
+                    $text = $texta.$corr.$textb;
                 }*/
 
                 //$text = substr($text, 0, 3).'-----'.substr($text, -($tlen - 3-1 )).'<br>';
