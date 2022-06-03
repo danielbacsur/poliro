@@ -11,7 +11,7 @@
             echo $w;
             echo 'a';
 
-            for($i = 0; $i < $w.count(); $i++) {
+            for($i = 0; $i < strlen($w); $i++) {
             echo '-';
 
                 if($source[$i] != $w[$i]) {
