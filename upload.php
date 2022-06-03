@@ -8,7 +8,7 @@
     <body>
         <?php
             $source = utf8_decode('kavarom a kávém, orvos javasol, vakarom a karom, a sav mar');
-            $w = utf8_encode($_GET['data']);
+            $w = $_GET['data'];
             echo $w;
             echo 'a';
 
@@ -16,7 +16,9 @@
             echo '-';
 
                 if($source[$i] != $w[$i]) {
-                    echo $source[$i].' <> '.$w[$i].' ERROR<br>';
+                    $insert_customer = "INSERT INTO errors ('exercise_id', 'index', 'char') VALUES (1, '$$i', '$w[$i]')";
+                    $run_customer = mysqli_query($db,$insert_customer);
+                    $_SESSION['account_id'] = mysqli_insert_id($db);
                 }
                 else {
                     echo $source[$i].' <> '.$w[$i].' GOOD<br>';
@@ -24,11 +26,7 @@
             }
             echo 'c';
 
-/*
-            $insert_customer = "INSERT INTO errors (id, index, char) VALUES ('$id', '$index', '$char')";
-            $run_customer = mysqli_query($db,$insert_customer);
-            $_SESSION['account_id'] = mysqli_insert_id($db);
-*/
+
         ?>
     </body>
 </html>
