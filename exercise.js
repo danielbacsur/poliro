@@ -120,7 +120,7 @@ function ku(e) {
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
 }
 
-timelength = 59;
+timelength = 10;
 var ttimer;
 function initCount() {
   document.getElementById("timefooter").innerHTML = "&nbsp;";
