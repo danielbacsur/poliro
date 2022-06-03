@@ -31,18 +31,10 @@
                     $error_index = $row["index"];
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
-                    $corr_len = strlen($corr);
 
-                    //$texta = substr($text, 0, $error_index+$loca-1);
-                    //$textb = substr($text, -($tlen - $error_index-1 )+$loca-1);
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca).'<br>';
-                    $loca += $corr_len-1;
-                    //$text = $texta.$corr.$textb;
+                    $loca += strlen($corr)-1;
                 }
-
-                //$text = substr($text, 0, 3).'-----'.substr($text, -($tlen - 3-1 )).'<br>';
-                //$text = substr($text, 0, 6+4).'#####'.substr($text, -($tlen - 6-1 )+4).'<br>';
-
                 echo $text;
 
 ?>
