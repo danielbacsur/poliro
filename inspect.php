@@ -30,7 +30,6 @@
                 {
                     $error_index = $row["index"];
                     $error_char = $row["char"];
-                    $text[$error_index] = $error_char;
                     $text = substr_replace($text,'<span class="red">'.$error_char.'</span>', $error_index,1);
                 }
 
