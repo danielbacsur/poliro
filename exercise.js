@@ -16,13 +16,13 @@ var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
 ];
 
 window.addEventListener("load", function() {
-  source = source.join(', ')
-  source = source.toString().replace(/,/g, "&#44;");
+  var source2 = source.join(', ')
+  source2 = source2.toString().replace(/,/g, "&#44;");
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
   //document.getElementById("nyarr").innerHTML = x;
   
-  document.getElementById("atext").innerHTML = source;
+  document.getElementById("atext").innerHTML = source2;
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 });
