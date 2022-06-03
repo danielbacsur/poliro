@@ -14,10 +14,10 @@ var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
 
 ];
+var source = source.join(', ')
 
 window.addEventListener("load", function() {
-  var source2 = source.join(', ')
-  source2 = source2.toString().replace(/,/g, "&#44;");
+  source2 = source.toString().replace(/,/g, "&#44;");
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
   //document.getElementById("nyarr").innerHTML = x;
