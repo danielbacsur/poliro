@@ -30,8 +30,8 @@
                 {
                     $error_index = $row["index"];
                     $error_char = $row["char"];
-                    $text = substr_replace($text,'<span class="red">'.$error_char.'</span>', $error_index,1);
-                    echo substr_replace('hello','span class="red"'.'vilag'.'/span', 2,1).'<br>';
+                    $text = substr_replace($text,'<span style="color:blue">'.$error_char.'</span>', $error_index,1);
+                    echo substr_replace('hello','span style="color:blue"'.'vilag'.'/span', 2,1).'<br>';
                 }
                 $test = 'fubar';
                 echo '
