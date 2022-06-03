@@ -31,7 +31,9 @@
                     $error_index = $row["index"];
                     $error_char = $row["char"];
                     $text[$error_index] = $error_char;
+                    substr_replace($text,$error_char, $error_index,1);
                 }
+
                 echo $text;
 
 ?>
