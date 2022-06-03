@@ -16,6 +16,7 @@
         <form action="" method="post">
             Neved: <input type="text" name="name"><br>
             Email Cimed: <input type="text" name="email"><br>
+            username: <input type="text" name="username"><br>
             Jelszavad: <input type="password" name="password"><br>
             <input type="submit" name="signup">
         </form>
@@ -48,6 +49,7 @@
                                                     
             $account_name = $_POST['name'];
             $account_email = $_POST['email'];
+            $account_username = $_POST['username'];
             $account_password = hash('sha256', $_POST['password']);
 
             $get_email = "SELECT * FROM accounts WHERE account_email='$account_email'";
@@ -57,7 +59,7 @@
                 echo "<script>alert('Ez az email cím már regisztrálva lett. Próbálj másikat.')</script>";
                 exit();
             }
-            $insert_customer = "INSERT INTO accounts VALUES ('$account_id', '$account_name','$account_email','$account_password')";
+            $insert_customer = "INSERT INTO accounts VALUES ('$account_id', '$account_name', '$account_name', '$account_email','$account_password')";
             $run_customer = mysqli_query($db,$insert_customer);
             $_SESSION['account_id'] = $account_id;
             if(!isset($_GET['redirect'])) {
