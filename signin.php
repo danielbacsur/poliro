@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
-<?php include("functions.php"); ?>
 <html>
     <head>
         <title>Hxdro</title>
