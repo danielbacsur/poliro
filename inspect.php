@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Hxdro</title>
+        <meta charset="UTF-8">
     </head>
     <body>
         <h1>Hxdro Cloud</h1>
