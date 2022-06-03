@@ -15,10 +15,10 @@
             echo '-';
 
                 if($source[$i] != $w[$i]) {
-                    echo 'error'.$w[$i].'<br>';
+                    echo $source[$i].' <> '.$w[$i].' ERROR<br>';
                 }
                 else {
-                    echo 'good'.$source[$i].'<br>';
+                    echo $source[$i].' <> '.$w[$i].' GOOD<br>';
                 }
             }
             echo 'c';
