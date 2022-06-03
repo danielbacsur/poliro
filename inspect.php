@@ -32,7 +32,7 @@
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     echo $corr.'<br>';
-                    $text = substr_replace($text,'<span style="color:blue">'.$error_char.'</span>', $error_index,1);
+                    $text = substr_replace($text,$corr, $error_index,1);
                     echo substr_replace('hello','span style="color:blue"'.'vilag'.'/span', 2,1).'<br>';
                 }
                 $test = 'fubar';
