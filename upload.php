@@ -18,7 +18,8 @@
                 if($source[$i] != $w[$i]) {
                     $ccc = $w[$i];
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
-                    $run_customer = mysqli_query($db,$insert_customer);
+                    echo $insert_customer.'<br>';
+                    //$run_customer = mysqli_query($db,$insert_customer);
                 }
                 else {
                     echo $source[$i].' <> '.$w[$i].' GOOD<br>';
