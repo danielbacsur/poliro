@@ -58,7 +58,7 @@
                 echo "<script>alert('Ez az email cím már regisztrálva lett. Próbálj másikat.')</script>";
                 exit();
             }
-            $insert_customer = "INSERT INTO accounts VALUES ('$account_id', '$account_name', '$account_username', '$account_email','$account_password', '1')";
+            $insert_customer = "INSERT INTO accounts (`account_name`, `account_username`, `account_email`, `account_password`, `account_role`) VALUES ('$account_name', '$account_username', '$account_email','$account_password', '1')";
             $run_customer = mysqli_query($db,$insert_customer);
             $_SESSION['account_id'] = $account_id;
             if(!isset($_GET['redirect'])) {
