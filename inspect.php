@@ -34,7 +34,9 @@
                     echo substr_replace('hello','span class="red"'.'vilag'.'/span', 2,1).'<br>';
                 }
                 $test = 'fubar';
-                echo'<span style="font-color: red;">Your passwords do not match!</span>';
+                echo '
+                <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+                ';
                 echo $text;
 
 ?>
