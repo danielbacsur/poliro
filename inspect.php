@@ -27,7 +27,7 @@
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
                 
-                while ($row = mysql_fetch_array($run_email))  
+                while ($row = mysqli_fetch_array($run_email))  
                 {
                     echo $row["char"];
                 }
