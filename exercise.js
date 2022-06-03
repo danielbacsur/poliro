@@ -161,7 +161,7 @@ function compare() {
   console.log(res);
   console.log(source);
   console.log(c);
-  document.location = 'upload.php?data='+c;
+  document.location = 'upload.php?exercise_id=1&data='+c;
 }
 
 function displayScore() {

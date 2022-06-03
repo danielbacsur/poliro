@@ -50,7 +50,9 @@
             <div id="btext" style="color:transparent;" contenteditable="true"></div>
             <div id="ctext" autocomplete="off" autocorrect="off" autocapitalize="off" onmouseup="clickc()" onblur="unfocus()" onkeydown="kd(event)" onkeyup="ku(event)" style="outline: 0 solid transparent;color:transparent;" contenteditable="true" spellcheck="false"></div>
             <div id="dtext" contenteditable="true"></div>
-            <div id="atext" style="background-color:white;color:rgba(0,0,0,0.3);" contenteditable="true">Alma Jancsi</div>
+            <div id="atext" style="background-color:white;color:rgba(0,0,0,0.3);" contenteditable="true">
+                kavarom a kávém, orvos javasol, vakarom a karom, a sav mar
+            </div>
         </div>
     </div>
     <script src="exercise.js">load();</script>
