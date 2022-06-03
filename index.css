@@ -1,0 +1,97 @@
+.w3-sidebar {
+    display:none !important
+  }
+  .w3-sidebar.w3-collapse{
+    display:none !important
+  }
+  .w3-main {
+    margin-left:0 !important
+  }
+  a.topnav-icons.fa-menu  {
+    display:none;
+  }
+  
+  div.typingtest {
+    background-color: #d4edda;
+    text-align:center;
+    font-family:Roboto;
+    padding-bottom:40px;
+  }
+  .typingtest h1, .typingtest h2 {
+    font-family:Roboto;
+  }
+  .typingtest #words,.typingtest #time {
+    font-size:50px;
+  }
+  .typingtest #characters,.typingtest #errors {
+    font-size:30px;
+  }
+  .typingtest .corchar {
+    color:rgba(30, 144, 255,0.5);
+  }
+  .typingtest .errchar {
+    color:rgba(0,0,0,0.5);
+    background-color:rgba(255, 0, 0,0.2);
+  }
+  .typingtest #atext,.typingtest #btext,.typingtest #ctext,.typingtest #dtext {
+    font-family:Roboto Mono;
+    font-size:36px;
+    padding:40px;
+    width:100%;
+    text-align:left;
+  }
+  
+  .typingtest #btext,.typingtest #ctext,.typingtest #dtext {
+    position:absolute;
+  }
+  
+  .typingtest #dtext {
+    padding-top:0;
+    padding-bottom:0;
+    height:auto;
+    visibility:hidden;
+  }
+  
+  .typingtest .donechars {
+    color:transparent;
+  }
+  .typingtest #timefooter {
+    opacity:0.5;
+  }
+  
+  #finishdiv {
+    display:none;
+  }
+  
+  #phonebutton {
+    display:none;
+  }
+  @media (max-width:600px) {
+    .typingtest #atext,.typingtest #btext,.typingtest #ctext,.typingtest #dtext {
+      font-size:24px;
+      padding:20px;
+    }
+    .w3-info {
+      padding:1px;
+    }
+    #ctext {
+    caret-color:transparent;
+    }
+    .typingtest #words,.typingtest #time {
+      font-size:30px;
+    }
+    .typingtest #characters,.typingtest #errors {
+      font-size:20px;
+    }
+    h1 {
+    font-size:24px;
+    }
+    .typingtest #timefooter {
+      font-size:14px;
+    }
+    #phonebutton {
+      display:block;
+      font-size:12px;
+      opacity:0.5;
+    }
+  }
