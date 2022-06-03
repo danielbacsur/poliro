@@ -25,7 +25,7 @@
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
-                $loca = 1
+                $loca = 1;
                 while ($row = mysqli_fetch_array($run_email))  
                 {
                     $error_index = $row["index"];
