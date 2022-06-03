@@ -11,6 +11,7 @@
             <a href="signin.php">signin</a>
         <?php } else { ?>
             <a href="signout.php">signout</a>
+            <a href="history.php">history</a>
         <?php } ?>
     </body>
 </html>

@@ -24,7 +24,7 @@
             $account_email = $_POST['email'];
             $account_password = hash('sha256', $_POST['password']);
 
-            $get_email = "SELECT * FROM accounts WHERE account_email='$account_email' AND account_password='$account_password'";
+            $get_email = "SELECT * FROM 'accounts' WHERE 'email'='$account_email' AND 'password'='$account_password'";
             $run_email = mysqli_query($db,$get_email);
             $check_email = mysqli_num_rows($run_email);
             $row_account = mysqli_fetch_array($run_email);
@@ -51,14 +51,14 @@
             $account_username = $_POST['username'];
             $account_password = hash('sha256', $_POST['password']);
 
-            $get_email = "SELECT * FROM accounts WHERE account_email='$account_email'";
+            $get_email = "SELECT * FROM accounts WHERE email='$account_email'";
             $run_email = mysqli_query($db,$get_email);
             $check_email = mysqli_num_rows($run_email);
             if($check_email == 1){
                 echo "<script>alert('Ez az email cím már regisztrálva lett. Próbálj másikat.')</script>";
                 exit();
             }
-            $insert_customer = "INSERT INTO accounts (`account_name`, `account_username`, `account_email`, `account_password`, `account_role`) VALUES ('$account_name', '$account_username', '$account_email','$account_password', '1')";
+            $insert_customer = "INSERT INTO accounts (`name`, `username`, `email`, `password`, `role_id`) VALUES ('$account_name', '$account_username', '$account_email','$account_password', '1')";
             $run_customer = mysqli_query($db,$insert_customer);
             $_SESSION['account_id'] = $account_id;
             if(!isset($_GET['redirect'])) {
