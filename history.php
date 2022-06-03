@@ -6,6 +6,17 @@
     </head>
     <body>
         <h1>Hxdro Cloud</h1>
+
+        <?php if(!isset($_SESSION['account_id'])) { ?>
+            <a href="signin.php">signin</a>
+        <?php } else { 
+            echo $_SESSION['account_id']; ?>
+
+            <a href="signout.php">signout</a>
+            <a href="history.php">history</a>
+        <?php } ?>
+
+        asd
         <?php
                 $account_id = $row_account['account_id'];
                 $get_email = "SELECT * FROM exercises WHERE account_id='$account_id'";
