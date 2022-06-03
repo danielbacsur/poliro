@@ -33,12 +33,7 @@
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     echo $corr.'<br>';
                     $text = substr_replace($text,$corr, $error_index,1);
-                    echo substr_replace('hello','span style="color:blue"'.'vilag'.'/span', 2,1).'<br>';
                 }
-                $test = 'fubar';
-                echo '
-                <p>My mother has <span style="color:blue">blue</span> eyes.</p>
-                ';
                 echo $text;
 
 ?>
