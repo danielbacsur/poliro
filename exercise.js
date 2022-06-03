@@ -153,6 +153,7 @@ function compare() {
     }
     
   }
+  console.log(res);
 }
 
 function displayScore() {
