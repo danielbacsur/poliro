@@ -37,7 +37,8 @@
                     $loca += 3;
                 }*/
 
-                $text = substr($text, 0, 4-1).'---'.substr($text, -($tlen - 4)).'<br>';
+                $text = substr($text, 0, 3).'---'.substr($text, -($tlen - 4 - 1)).'<br>';
+                $text = substr($text, 0, 6).'---'.substr($text, -($tlen - 6 - 1)).'<br>';
 
                 echo $text;
 
