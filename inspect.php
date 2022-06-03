@@ -32,9 +32,9 @@
                     $error_char = $row["char"];
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
                     $corr_len = strlen($corr);
-                    $texta = substr($text, 0, 6+$loca-1);
+                    $texta = substr($text, 0, $error_index+$loca-1);
                     $loca += $corr_len;
-                    $textb = substr($text, -($tlen - 6-1 )+$loca-1);
+                    $textb = substr($text, -($tlen - $error_index-1 )+$loca-1);
                     $text = $texta.$corr.$textb;
                 }
 
