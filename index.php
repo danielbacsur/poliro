@@ -9,7 +9,9 @@
 
         <?php if(!isset($_SESSION['account_id'])) { ?>
             <a href="signin.php">signin</a>
-        <?php } else { ?>
+        <?php } else { 
+            echo $_SESSION['account_id']; ?>
+
             <a href="signout.php">signout</a>
             <a href="history.php">history</a>
         <?php } ?>
