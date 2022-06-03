@@ -33,7 +33,8 @@
                     $text = substr_replace($text,'<span class="red">'.$error_char.'</span>', $error_index,1);
                     echo substr_replace('hello','span class="red"'.'vilag'.'/span', 2,1).'<br>';
                 }
-                print "<span class=\"red\">A</span>LMA";
+                $test = 'fubar';
+                echo "<p id='$test'>This is a <span stlye='color: red;'>$test</span>.</p>";
                 echo $text;
 
 ?>
