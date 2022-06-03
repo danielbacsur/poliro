@@ -12,7 +12,7 @@ window.addEventListener("load", function() {
   //var x = mywords.sort(function() {return 0.5 - Math.random() });
   //x = x.slice(0, 200);
   //document.getElementById("nyarr").innerHTML = x;
-  var x = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
+  var x = ["kavarom a kávém,<br> orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
   "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
