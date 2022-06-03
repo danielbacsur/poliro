@@ -24,7 +24,7 @@
 
                 $text = $row['text'];
 
-                /*$get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
+                $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
                 $loca = 0;
                 while ($row = mysqli_fetch_array($run_email))  
@@ -35,7 +35,7 @@
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca).'<br>';
                     $loca += strlen($corr)-1;
-                }*/
+                }
                 echo $text;
 
 ?>
