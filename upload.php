@@ -13,7 +13,7 @@
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = mb_convert_encoding($paragraph_text, "UTF-8" , "UTF-16LE");
+            $source = mb_convert_encoding($paragraph_text, "UTF-8" , "UTF-16");
             $arr1 = str_split($source);
             
             $w =      ',.-éáőúűüű'; #($_GET["data"]);
