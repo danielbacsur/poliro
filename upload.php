@@ -8,20 +8,10 @@
     <body>
         <?php
             $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
-            $w =      $_GET["data"];
+            $w =      urldecode( $_GET["data"] );
+
             $nobreak = str_replace(["\r", "\n"], "", $w);
-
-            for($i = 0; $i < strlen($w); $i++)
-            {
-            echo ord($w[$i])." ";
-            }
-            echo '<br>';
-            for($i = 0; $i < strlen($source); $i++)
-            {
-            echo ord($source[$i])." ";
-            }
-            echo '<br>';
-
+            echo $source.'<br>'.$w.'<br>'.$nobreak;
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
                 if($source[$i] != $w[$i]) {
