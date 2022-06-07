@@ -7,8 +7,16 @@
     </head>
     <body>
         <?php
-            $source = utf8_decode('kavarom a kávém, orvos javasol, vakarom a karom, a sav mar');
-            $w =      utf8_decode( $_GET["data"] );
+
+            $get_email = "SELECT * FROM paragraphs WHERE id='1'";
+            $run_email = mysqli_query($db,$get_email);
+            $row = mysqli_fetch_array($run_email);
+            $paragraph_title = $row["title"];
+            $paragraph_text = $row["text"];
+            echo $paragraph_text;
+
+            $source = $paragraph_text;
+            $w =      urldecode( $_GET["data"] );
 
             $nobreak = str_replace(["\r", "\n"], "", $w);
             echo $source.'<br>'.$w.'<br>'.$nobreak;
