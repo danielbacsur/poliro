@@ -16,8 +16,8 @@
 
             $source = utf8_decode($paragraph_text);
             $w =      utf8_decode($_GET["data"]);
-            $conv1 =  utf8_decode( $source);
-            $conv2 =  utf8_decode( $w);
+            $conv1 =  iconv("UTF-8", "ASCII//TRANSLIT", $paragraph_text);
+            $conv2 =  iconv("UTF-8", "ASCII//TRANSLIT", $_GET["data"]);
             echo $conv1.'<br>'.$conv2.'<br>';
 
 
