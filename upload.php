@@ -29,6 +29,7 @@
 
 
             echo strlen($source).'<br>'.strlen($w).'<br>';
+            echo count($arr1).'<br>'.count($arr2).'<br>';
             
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller length
