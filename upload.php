@@ -19,6 +19,13 @@
             $w =      ',.-éáőúűüű'; #($_GET["data"]);
             $arr2 = str_split($w);
             echo $arr1.'<br>'.$arr2.'<br>';
+            
+            for($i = 0; $i < strlen($source); $i++) {
+                echo $source[$i];
+            }
+            for($i = 0; $i < strlen($w); $i++) {
+                echo $w[$i];
+            }
 
 
             echo strlen($source).'<br>'.strlen($w).'<br>';
