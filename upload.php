@@ -16,7 +16,7 @@
             echo $paragraph_text;
 
             $source = $paragraph_text;
-            $w =      urldecode( $_GET["data"] );
+            $w =      $_GET["data"];
 
             $nobreak = str_replace(["\r", "\n"], "", $w);
             echo $source.'<br>'.$w.'<br>'.$nobreak;
