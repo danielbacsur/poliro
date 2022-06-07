@@ -8,7 +8,7 @@
     <body>
         <?php
             $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
-            $w =      utf8_decode($_GET["data"]);
+            $w =      $_GET["data"];
             echo $source.'<br>'.$w;
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
