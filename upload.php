@@ -26,7 +26,7 @@
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller length
 
                 if(strcmp($source[$i], $w[$i]) !== 0) {
-                    $ccc =  utf8_decode($w[$i]) ;
+                    $ccc =  utf8_encode($w[$i]) ;
 
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
                     echo $insert_customer.'<br>';
