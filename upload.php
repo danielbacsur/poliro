@@ -13,7 +13,7 @@
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = utf8_decode($paragraph_text);
+            $source = utf8_decode(utf8_decode($paragraph_text));
             $arr1 = str_split($source);
             
             $w =      ',.-éáőúűüű'; #($_GET["data"]);
