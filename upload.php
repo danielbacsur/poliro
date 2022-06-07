@@ -7,7 +7,6 @@
     </head>
     <body>
         <?php
-        header('Content-Type: text/html; charset=utf-8');
             $get_email = "SELECT * FROM paragraphs WHERE id='1'";
             $run_email = mysqli_query($db,$get_email);
             $row = mysqli_fetch_array($run_email);
@@ -15,13 +14,12 @@
             $paragraph_text = $row["text"];
 
             $source = ($paragraph_text);
-            $w =      htmlentities(',.-éáőúűüű'); #($_GET["data"]);
-            $conv1 =  iconv("UTF-8", "ASCII//TRANSLIT", $paragraph_text);
-            $conv2 =  iconv("UTF-8", "ASCII//TRANSLIT", $_GET["data"]);
+
+            $w =      ',.-éáőúűüű'; #($_GET["data"]);
             #echo $conv1.'<br>'.$conv2.'<br>';
 
 
-            echo $source.'<br>'.$w.'<br>';
+            echo strlen($source).'<br>'.strlen($w).'<br>';
             
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller length
