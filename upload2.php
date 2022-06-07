@@ -18,7 +18,7 @@
                     $run_customer = mysqli_query($db,$insert_customer);
 
             }
-            */
+            
         ?>
     </body>
 </html>
