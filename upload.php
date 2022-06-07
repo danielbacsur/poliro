@@ -8,7 +8,7 @@
     <body>
         <?php
             $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
-            $w =      urldecode( $_GET["data"] );
+            $w =      utf8_decode( $_GET["data"] );
 
             $nobreak = str_replace(["\r", "\n"], "", $w);
             echo $source.'<br>'.$w.'<br>'.$nobreak;
