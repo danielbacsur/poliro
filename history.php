@@ -11,9 +11,13 @@
                 $account_id = $_SESSION['account_id'];
                 $get_email = "SELECT * FROM exercises WHERE account_id='$account_id'";
                 $run_email = mysqli_query($db,$get_email);
-                echo $account_id;
                 while ($row = mysqli_fetch_array($run_email)) {
-                    echo $row["paragraph_id"];
+                    $paragraph_id = $row["paragraph_id"];
+                    $gg = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
+                    $asd = mysqli_query($db,$gg);
+                    $rowss = mysqli_fetch_array($asd);
+                    $paragraph_text = $rowss["text"];
+                    echo $paragraph_text;
                 }
 ?>
                 
