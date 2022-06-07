@@ -14,17 +14,17 @@
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = utf8_decode($paragraph_text);
-            $w =      utf8_decode($_GET["data"]);
+            $source = ($paragraph_text);
+            $w =      ($_GET["data"]);
             $conv1 =  iconv("UTF-8", "ASCII//TRANSLIT", $paragraph_text);
             $conv2 =  iconv("UTF-8", "ASCII//TRANSLIT", $_GET["data"]);
-            echo $conv1.'<br>'.$conv2.'<br>';
+            #echo $conv1.'<br>'.$conv2.'<br>';
 
 
             echo $source.'<br>'.$w.'<br>';
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
-                if($source[$i] != $w[$i]) {
+                if(strcmp($source[$i], $w[$i]) !== 0) {
                     $ccc =  ($w[$i]) ;
 
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
