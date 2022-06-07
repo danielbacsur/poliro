@@ -165,6 +165,11 @@ function compare() {
   console.log(source);
   console.log(c);
   console.log(arr);
+
+  var link = 'upload.php?exercise_id=1&';
+  for (let i = 0; i < arr.length; i++) {
+    link += 'd[]=' + arr[i].toString()
+  }
   //document.location = 'upload.php?exercise_id=1&data='+c;
 }
 
