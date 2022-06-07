@@ -15,7 +15,7 @@
             $paragraph_text = $row["text"];
 
             $source = ($paragraph_text);
-            $w =      ',.-éáőúűüű'; #($_GET["data"]);
+            $w =      utf8_decode(',.-éáőúűüű'); #($_GET["data"]);
             $conv1 =  iconv("UTF-8", "ASCII//TRANSLIT", $paragraph_text);
             $conv2 =  iconv("UTF-8", "ASCII//TRANSLIT", $_GET["data"]);
             #echo $conv1.'<br>'.$conv2.'<br>';
