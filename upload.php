@@ -16,7 +16,7 @@
             $source = utf8_decode(utf8_decode($paragraph_text));
             $arr1 = str_split($source);
             
-            $w =      ',.-éáőúűüű'; #($_GET["data"]);
+            $w =      utf8_decode(',.-éáőúűüű'); #($_GET["data"]);
             $arr2 = str_split($w);
             echo $arr1.'<br>'.$arr2.'<br>';
             
