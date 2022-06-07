@@ -13,14 +13,14 @@
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = urldecode($paragraph_text);
-            $w =      urldecode($_GET["data"]);
+            $source = $paragraph_text;
+            $w =      $_GET["data"];
 
             echo $source.'<br>'.$w.'<br>';
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
                 if($source[$i] != $w[$i]) {
-                    $ccc =  urlencode($w[$i]) ;
+                    $ccc =  ($w[$i]) ;
 
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
                     echo $insert_customer.'<br>';
