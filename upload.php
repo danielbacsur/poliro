@@ -7,18 +7,16 @@
     </head>
     <body>
         <?php
-            mysqli_set_charset('utf8'); 
             $get_email = "SELECT * FROM paragraphs WHERE id='1'";
             $run_email = mysqli_query($db,$get_email);
             $row = mysqli_fetch_array($run_email);
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = $paragraph_text;
-            $w =      $_GET["data"];
+            $source = urldecode($paragraph_text);
+            $w =      urldecode($_GET["data"]);
 
-            $nobreak = str_replace(["\r", "\n"], "", $w);
-            echo $source.'<br>'.$w.'<br>'.$nobreak;
+            echo $source.'<br>'.$w.'<br>';
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
                 if($source[$i] != $w[$i]) {
