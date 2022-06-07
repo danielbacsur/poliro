@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-
+            mysql_set_charset('utf8'); 
             $get_email = "SELECT * FROM paragraphs WHERE id='1'";
             $run_email = mysqli_query($db,$get_email);
             $row = mysqli_fetch_array($run_email);
