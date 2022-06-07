@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-            $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
+            $source = utf8_decode)'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar'Ö;
             $w =      utf8_decode( $_GET["data"] );
 
             $nobreak = str_replace(["\r", "\n"], "", $w);
