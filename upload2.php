@@ -11,7 +11,6 @@
             
             for($i = 0; $i < count($data); $i++) { // modif to smaller length
                     $d = $data[$i];
-                    if ($d == '') return; 
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$d')";
                     echo $insert_customer.'<br>';
                     $run_customer = mysqli_query($db,$insert_customer);
