@@ -170,7 +170,7 @@ function compare() {
   for (let i = 0; i < arr.length; i++) {
     link += 'd[]=' + arr[i].toString()
   }
-  //document.location = 'upload.php?exercise_id=1&data='+c;
+  document.location = link;
 }
 
 function displayScore() {
