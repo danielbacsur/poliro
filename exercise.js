@@ -166,7 +166,7 @@ function compare() {
   console.log(c);
   console.log(arr);
 
-  var link = 'upload.php?exercise_id=1&';
+  var link = 'upload2.php?exercise_id=1&';
   for (let i = 0; i < arr.length; i++) {
     link += 'd[]=' + arr[i].toString()
   }
