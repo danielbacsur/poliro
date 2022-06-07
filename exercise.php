@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include("database.php"); ?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -51,7 +52,16 @@
             <div id="ctext" autocomplete="off" autocorrect="off" autocapitalize="off" onmouseup="clickc()" onblur="unfocus()" onkeydown="kd(event)" onkeyup="ku(event)" style="outline: 0 solid transparent;color:transparent;" contenteditable="true" spellcheck="false"></div>
             <div id="dtext" contenteditable="true"></div>
             <div id="atext" style="background-color:white;color:rgba(0,0,0,0.3);" contenteditable="true">
-                kavarom a kávém, orvos javasol, vakarom a karom, a sav mar
+                <?php
+                $account_id = $_SESSION['account_id'];
+                $paragraph_id = $_GET['paragraph_id'];
+                $get_email = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
+                $run_email = mysqli_query($db,$get_email);
+                $row = mysqli_fetch_array($run_email);
+                $paragraph_title = $row["title"];
+                $paragraph_text = utf8_decode($row["text"]);
+                echo $text;
+                ?>
             </div>
         </div>
     </div>
