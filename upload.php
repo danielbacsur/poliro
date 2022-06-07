@@ -14,9 +14,11 @@
             $paragraph_text = $row["text"];
 
             $source = utf8_decode($paragraph_text);
-
+            $arr1 = str_split($source);
+            
             $w =      ',.-éáőúűüű'; #($_GET["data"]);
-            #echo $conv1.'<br>'.$conv2.'<br>';
+            $arr2 = str_split($w);
+            echo $arr1.'<br>'.$arr2.'<br>';
 
 
             echo strlen($source).'<br>'.strlen($w).'<br>';
