@@ -12,7 +12,7 @@
             for($i = 0; $i < count($data); $i++) { // modif to smaller length
                 $d = $data[$i];
                 if(!$d) continue;
-                if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $d))
+                if (preg_match('/[\'^£$%&*()}{@#~?><>,;|=_+¬-]/', $d))
                     {
                         $d = urlencode($d);
                     }
