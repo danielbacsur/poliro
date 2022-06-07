@@ -13,7 +13,6 @@
             $row = mysqli_fetch_array($run_email);
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
-            echo $paragraph_text;
 
             $source = $paragraph_text;
             $w =      $_GET["data"];
