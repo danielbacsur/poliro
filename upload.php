@@ -17,7 +17,7 @@
                     $ccc =  urlencode($w[$i]) ;
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
                     echo $insert_customer.'<br>';
-                    #$run_customer = mysqli_query($db,$insert_customer);
+                    $run_customer = mysqli_query($db,$insert_customer);
                 }
             }
         ?>
