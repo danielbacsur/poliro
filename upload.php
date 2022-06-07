@@ -13,12 +13,12 @@
 
             for($i = 0; $i < strlen($w); $i++)
             {
-            echo ord($w[$i])."<br/>";
+            echo ord($w[$i])." ";
             }
             echo '<br>';
             for($i = 0; $i < strlen($source); $i++)
             {
-            echo ord($source[$i])."<br/>";
+            echo ord($source[$i])." ";
             }
             echo '<br>';
 
