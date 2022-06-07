@@ -7,30 +7,16 @@
     </head>
     <body>
         <?php
-        echo $_GET["data"];
-        echo utf8_encode( $_GET["data"]);
-        /*
-            $source = utf8_decode('kavarom a kávém, orvos javasol, vakarom a karom, a sav mar');
-            $w =      utf8_decode('kavarom a kfvém, orvfs javgsol, vakarom c kagom, a sav mar');
-            echo $w;
-            echo 'a';
+            $source = 'kavarom a kávém, orvos javasol, vakarom a karom, a sav mar';
+            $w =      !$_GET["data"];
 
-            for($i = 0; $i < strlen($w); $i++) {
-            echo '-';
-
+            for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
                 if($source[$i] != $w[$i]) {
                     $ccc = $w[$i];
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
-                    echo $insert_customer.'<br>';
                     $run_customer = mysqli_query($db,$insert_customer);
                 }
-                else {
-                    echo $source[$i].' <> '.$w[$i].' GOOD<br>';
-                }
             }
-            echo 'c';
-
-*/
         ?>
     </body>
 </html>
