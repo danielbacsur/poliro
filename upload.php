@@ -7,6 +7,9 @@
     </head>
     <body>
         <?php
+        echo $_GET["data"];
+        echo utf8_encode( $_GET["data"]);
+        /*
             $source = utf8_decode('kavarom a kávém, orvos javasol, vakarom a karom, a sav mar');
             $w =      utf8_decode('kavarom a kfvém, orvfs javgsol, vakarom c kagom, a sav mar');
             echo $w;
@@ -27,7 +30,7 @@
             }
             echo 'c';
 
-
+*/
         ?>
     </body>
 </html>
