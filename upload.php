@@ -12,7 +12,7 @@
 
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller ength
                 if($source[$i] != $w[$i]) {
-                    $ccc = utf8_encode( $w[$i] );
+                    $ccc =  $w[$i] ;
                     echo $ccc;
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
                     $run_customer = mysqli_query($db,$insert_customer);
