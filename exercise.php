@@ -59,7 +59,7 @@
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $paragraph_title = $row["title"];
-                $paragraph_text = utf8_decode($row["text"]);
+                $paragraph_text = $row["text"];
                 echo $paragraph_text;
                 ?>
             </div>
