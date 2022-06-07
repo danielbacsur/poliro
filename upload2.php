@@ -11,7 +11,7 @@
             for($i = 0; $i < count($data); $i++) { // modif to smaller length
                 echo $data[$i].'<br>';
             }
-
+            /*
             for($i = 0; $i < strlen($w); $i++) { // modif to smaller length
 
                 if(strcmp($source[$i], $w[$i]) !== 0) {
@@ -23,6 +23,7 @@
                     #$run_customer = mysqli_query($db,$insert_customer);
                 }
             }
+            */
         ?>
     </body>
 </html>
