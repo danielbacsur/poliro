@@ -147,11 +147,14 @@ var res = '';
 
 function compare() {
   var c = document.getElementById("ctext").innerText
+  var arr = [];
   for (let i = 0; i < c.length; i++) {
+    arr.push('')
     const charr = c[i];
     const sourcec = source[i];
     if (charr != sourcec) {
       res += '#';
+      arr[i] = charr;
     }
     else {
       res += sourcec;
@@ -161,6 +164,7 @@ function compare() {
   console.log(res);
   console.log(source);
   console.log(c);
+  console.log(arr);
   //document.location = 'upload.php?exercise_id=1&data='+c;
 }
 
