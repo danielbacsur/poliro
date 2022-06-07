@@ -149,7 +149,7 @@ function compare() {
   var c = document.getElementById("ctext").innerText
   var arr = [];
   for (let i = 0; i < c.length; i++) {
-    arr.push('')
+    arr.push('null')
     const charr = c[i];
     const sourcec = source[i];
     if (charr != sourcec) {
