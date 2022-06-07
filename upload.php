@@ -14,7 +14,7 @@
             $paragraph_text = $row["text"];
 
             $source = $paragraph_text;
-            $w =      urldecode($_GET["data"]);
+            $w =      urlencode($_GET["data"]);
 
             echo $source.'<br>'.$w.'<br>';
 
