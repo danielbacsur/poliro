@@ -13,8 +13,8 @@
             $paragraph_title = $row["title"];
             $paragraph_text = $row["text"];
 
-            $source = $paragraph_text;
-            $w =      utf8_decode(utf8_encode($_GET["data"]));
+            $source = utf8_decode($paragraph_text);
+            $w =      utf8_decode($_GET["data"]);
             $conv1 =  utf8_decode( $source);
             $conv2 =  utf8_decode( $w);
             echo $conv1.'<br>'.$conv2.'<br>';
