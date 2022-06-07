@@ -15,8 +15,8 @@
 
             $source = $paragraph_text;
             $w =      utf8_decode(utf8_encode($_GET["data"]));
-            $conv1 = preg_replace('#[^\w\s]+#', '', iconv('UTF-8', 'ASCII//TRANSLIT', $source));
-            $conv2 = preg_replace('#[^\w\s]+#', '', iconv('UTF-8', 'ASCII//TRANSLIT', $w));
+            $conv1 = preg_replace('#[^\w\s]+#', '', utf8_decode( $source));
+            $conv2 = preg_replace('#[^\w\s]+#', '', utf8_decode( $w));
             echo $conv1.'<br>'.$conv2.'<br>';
 
 
