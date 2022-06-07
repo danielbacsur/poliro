@@ -11,17 +11,12 @@
             for($i = 0; $i < count($data); $i++) { // modif to smaller length
                 echo $data[$i].'<br>';
             }
-            /*
-            for($i = 0; $i < strlen($w); $i++) { // modif to smaller length
+            
+            for($i = 0; $i < count($data); $i++) { // modif to smaller length
+                    $d = $data[$i];
+                    $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$d')";
+                    $run_customer = mysqli_query($db,$insert_customer);
 
-                if(strcmp($source[$i], $w[$i]) !== 0) {
-                    echo 'ketsyer';
-                    $ccc =  utf8_encode($w[$i]) ;
-
-                    $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$ccc')";
-                    echo $insert_customer.'<br>';
-                    #$run_customer = mysqli_query($db,$insert_customer);
-                }
             }
             */
         ?>
