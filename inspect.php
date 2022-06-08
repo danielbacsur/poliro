@@ -63,7 +63,7 @@
             }
 
             $arr = array();
-            array_push($arr, $exercise_timestamp);
+            array_push($arr, ':'.$exercise_timestamp);
             array_push($arr, $exercise_id);
             array_push($arr, $paragraph_title);
             array_push($arr, substr($paragraph_text, 0, 20).'..');
@@ -74,6 +74,6 @@
             echo join('<br>', $arr);
 
 ?>
-
+    <b>TIMESTAMP:</b> <?php echo $exercise_timestamp; ?> <br/>
     </body>
 </html>
