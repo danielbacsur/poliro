@@ -23,10 +23,12 @@
             echo 'VAN ILZEN';
         } else {
             echo 'OUTDATED';
+            die();
         }
         $assignment_name = $row["name"];
     } else {
         echo 'NOT EXIST';
+        die();
     }
     
     echo $assignment_name;
