@@ -23,6 +23,7 @@
             $run_customer = mysqli_query($db,$insert_customer);
         }
 */
+echo 'alma';
         for($i = 0; $i < count($arr); $i++) {
             $arri = $arr[$i];
             $sum = '';
