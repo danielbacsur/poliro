@@ -21,9 +21,9 @@
             if(!$d) continue;
             $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('$exercise_id', '$i', '$d')";
             $run_customer = mysqli_query($db,$insert_customer);
-            header("Location: index.php");
-            die();
         }
+        header("Location: index.php");
+        die();
         ?>
     </body>
 </html>
