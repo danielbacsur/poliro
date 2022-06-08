@@ -31,7 +31,7 @@
                 $error_text = $error_arr['text'];
                 $error_length += strlen($error_text);
             }
-            $grade_arr = [ 50, 60, 70, 80]
+            $grade_arr = [ 50, 60, 70, 80];
             array_unshift($grade_arr, 0);
             array_push($grade_arr, 100);
             $grade = 0
