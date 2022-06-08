@@ -65,8 +65,10 @@
             </div>
         </div>
     </div>
-    <script src="exercise.js">
+    <script type="text/javascript">
         console.log('HIHIIHIH');
+        var almalol = 2;
     </script>
+    <script src="exercise.js"></script>
     </body>
 </html>
