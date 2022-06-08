@@ -66,8 +66,7 @@
         </div>
     </div>
     <script type="text/javascript">
-        console.log('HIHIIHIH');
-        var almalol = 2;
+        var almalol = <?php echo $paragraph_id; ?>;
     </script>
     <script src="exercise.js"></script>
     </body>
