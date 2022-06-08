@@ -31,12 +31,13 @@
                 $error_text = $error_arr['text'];
                 $error_length += strlen($error_text);
             }
+            $error_percent = 100 - ($error_length / $exercise_length * 100);
             $grade_arr = [ 50, 60, 70, 80];
             array_unshift($grade_arr, 0);
             array_push($grade_arr, 100);
             $grade = 0;
             for($i = 0; $i < 6; $i++) {
-                if ($average >= $grade_arr[$i] && $average < $grade_arr[$i+1])
+                if ($error_percent >= $grade_arr[$i] && $error_percent < $grade_arr[$i+1])
                 $grade = $i;
             }
 
@@ -46,7 +47,7 @@
             array_push($arr, $paragraph_title);
             array_push($arr, substr($paragraph_text, 0, 20).'..');
             array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
-            array_push($arr, strval(100-($error_length / $exercise_length * 100)).'%');
+            array_push($arr, strval($error_percent).'%');
             array_push($arr, $grade);
             array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
             echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
