@@ -43,7 +43,7 @@
                     array_push($arr, $paragraph_title);
                     echo 'C';
 
-                    array_push($arr, substr($paragraph_text, 0, 20)+'..');
+                    array_push($arr, substr($paragraph_text, 0, 20));
                     echo 'D';
 
                     array_push($arr, $exercise_length / $paragraph_length);
