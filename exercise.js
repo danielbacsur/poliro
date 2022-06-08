@@ -1,11 +1,7 @@
 document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
-console.log(almalol);
 
-function goAgain() {
-  window.location = "exercise.html";
-}
 function dblclickc() {
   document.getElementById("ctext").click();
 }
@@ -120,10 +116,9 @@ function updateTimer() {
   timelength--;
   document.getElementById("time").innerHTML = timelength;
   if (timelength == 0) {
+    window.clearInterval(ttimer);
     stopTyping();
     compare();
-    window.clearInterval(ttimer);
-    displayScore();
   }
 }
 var res = '';
@@ -133,22 +128,10 @@ function compare() {
   var arr = [];
   for (let i = 0; i < c.length; i++) {
     arr.push('')
-    const charr = c[i];
-    const sourcec = source[i];
-    if (charr != sourcec) {
-      res += '#';
-      arr[i] = charr;
+    if (c[i] != source[i]) {
+      arr[i] = c[i];
     }
-    else {
-      res += sourcec;
-    }
-    
   }
-  console.log(res);
-  console.log(source);
-  console.log(c);
-  console.log(arr);
-
   var link = 'upload2.php?';
   link += '&l=' + c.length.toString();
   link += '&p=' + almalol.toString();
@@ -160,7 +143,6 @@ function compare() {
 
 function displayScore() {
   document.getElementById("startdiv").style.display = "none";
-  document.getElementById("finishdiv").style.display = "block";
   window.scrollTo(0, 0);
 }
 

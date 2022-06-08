@@ -11,31 +11,6 @@
         <br class="w3-hide-small">
         <br>
         <h1>TEST YOUR TYPING SPEED</h1>
-        <div class="w3-row" style="max-width:500px;margin:auto;">
-          <div id="finishdiv">
-            <br>
-            <div>
-                WORDS PER MINUTE:<br>
-                <span class="bench" id="words">0</span>
-            </div>
-            <div class="w3-half">
-                CHARACTERS:<br>
-                <span class="bench" id="characters">0</span>
-            </div>
-            <div class="w3-half">
-                ERRORS:<br>
-                <span class="bench" id="errors">0</span>
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <button type="button" class="w3-btn w3-large" onclick="goAgain()">GO AGAIN</button>
-            <br>
-          </div>
-        </div>
         <br>
         <div id="startdiv" class="w3-row" style="max-width:500px;margin:auto;">
             TIME:<br>
