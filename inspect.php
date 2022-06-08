@@ -32,9 +32,10 @@
                 {
                     $error_index = $row["position"];
                     $error_char = $row["text"];
+                    $err_len = strlen($error_char);
                     $corr = '<span style="text-decoration:underline; color:red">'.$error_char.'</span>';
 
-                    $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
+                    $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca+$err_len);
                     $loca += strlen($corr)-1;
                 }
                 echo $text.'<br>LOL';
