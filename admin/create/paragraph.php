@@ -18,7 +18,7 @@
             $paragraph_sql = "INSERT INTO paragraphs (`title`, `text`) VALUES ('$paragraph_title', '$paragraph_text')";
             $paragraph_qry = mysqli_query($db,$paragraph_sql);
                         
-            header( 'Location: ../index.php' );
+            header( 'Location: ../../index.php' );
         } ?>
     </body>
 </html>
