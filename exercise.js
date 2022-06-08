@@ -8,7 +8,6 @@ document.getElementById("ctext").addEventListener("focus", function() {
   setBlink();
 });
 
-var source = "";
 
 /*window.addEventListener("load", function() {
   source2 = source.toString().replace(/,/g, "&#44;");
@@ -23,7 +22,7 @@ var source = "";
 function load() {
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
-  source = document.getElementById("atext").innerText;
+  var source = document.getElementById("atext").innerText;
   console.log(source);
   console.log('-A-');
 }
