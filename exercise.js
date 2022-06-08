@@ -164,7 +164,7 @@ function compare() {
   for (let i = 0; i < arr.length; i++) {
     link += '&d[]=' + encodeURI(arr[i].toString());
   }
-  document.location = link;
+  //document.location = link;
 }
 
 function displayScore() {
