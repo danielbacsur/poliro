@@ -15,13 +15,33 @@
         $insert_customer = "INSERT INTO exercises (`account_id`, `paragraph_id`, `length`) VALUES ('$account_id', '$paragraph_id', '$length')";
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
-
+/*
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
             $d = $data[$i];
             if(!$d) continue;
             $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$d')";
             $run_customer = mysqli_query($db,$insert_customer);
         }
+*/
+        for($i = 0; $i < count($arr); $i++) {
+            $arri = $arr[$i];
+            $sum = '';
+            echo '   ';
+            for($n = $i; $n < count($arr); $n++) {
+                $arrn = $arr[$n];
+                if($arrn == '') {
+                    break;
+                }
+                else {
+                    $sum .= $arrn;
+                    $i++;
+                }
+                
+            }
+            $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
+            $run_customer = mysqli_query($db,$insert_customer);
+        }
+
         header("Location: index.php");
         die();
         ?>
