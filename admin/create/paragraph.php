@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include("database.php"); ?>
+<?php include("../../database.php"); ?>
 <html>
     <?php include("head.php"); ?>
     <body>
