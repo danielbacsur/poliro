@@ -132,7 +132,7 @@ function compare() {
       arr[i] = c[i];
     }
   }
-  var link = 'upload2.php?';
+  var link = 'upload.php?';
   link += '&l=' + c.length.toString();
   link += '&p=' + almalol.toString();
   for (let i = 0; i < arr.length; i++) {

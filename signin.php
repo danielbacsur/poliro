@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
 <html>
-    <head>
-        <title>Hxdro</title>
-    </head>
+    <?php include("head.php"); ?>
     <body>
         <h1>Login</h1>
         <form action="" method="post">

@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Hxdro</title>
-    </head>
+    <?php include("head.php"); ?>
     <body>
         <h1>Hxdro Cloud</h1>
 

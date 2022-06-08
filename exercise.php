@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Poliro - Gyakorlat</title>
-        <link rel="stylesheet" href="exercise.css">
-    </head>
+    <?php include("head.php"); ?>
     <body>
         <div class="typingtest w3-panel w3-info intro">
         <br class="w3-hide-small">
