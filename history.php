@@ -34,10 +34,10 @@
             $error_percent = 100 - ($error_length / $exercise_length * 100);
             $grade_arr = [ 50, 60, 70, 80];
             array_unshift($grade_arr, 0);
-            array_push($grade_arr, 100);
+            array_push($grade_arr, 101);
             $grade = 0;
             for($i = 0; $i < 6; $i++) {
-                if ($error_percent >= $grade_arr[$i] && $error_percent < $grade_arr[$i+1])
+                if ($error_percent >= $grade_arr[$i] && $error_percent <= $grade_arr[$i])
                 $grade = $i;
             }
 
