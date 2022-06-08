@@ -22,6 +22,9 @@
                     $paragraph_title = $paragraph_row['title'];
                     $paragraph_text = $paragraph_row['text'];
                     $paragraph_length = strlen($paragraph_text);
+                    $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
+                    $error_qry = mysqli_query($db,$error_sql);
+                    $error_num = mysqli_num_rows($error_qry);
 
                     $arr = array();
                     array_push($arr, $exercise_timestamp);
@@ -29,6 +32,8 @@
                     array_push($arr, $paragraph_title);
                     array_push($arr, substr($paragraph_text, 0, 20).'..');
                     array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
+                    array_push($arr, strval($error_num / $exercise_length * 100).'%');
+
                     array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
                     echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
                 }
