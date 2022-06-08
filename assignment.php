@@ -15,7 +15,7 @@
             $exercise_type = $exercise_arr['type'];
             
             $paragraph_id = $exercise_arr['paragraph_id'];
-            $get_email = "SELECT * FROM paragraphs WHERE uuid='$paragraph_uuid'";
+            $get_email = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
             $run_email = mysqli_query($db,$get_email);
             $row = mysqli_fetch_array($run_email);
             $paragraph_uuid = $row["uuid"];
