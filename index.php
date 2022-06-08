@@ -10,9 +10,11 @@
         <?php } else { 
             echo $_SESSION['account_id']; ?>
 
-            <a href="signout.php">signout</a>
-            <a href="history.php">history</a>
-            <a href="exercise.php?paragraph_id=1">exercise</a>
+            <a href="signout.php">signout</a><br/>
+            <a href="history.php">history</a><br/>
+            <a href="exercise.php?paragraph_id=1">exercise</a><br/>
+            ADMIN: <br/>
+            <a href="history.php">history</a><br/>
         <?php } ?>
     </body>
 </html>
