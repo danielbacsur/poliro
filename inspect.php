@@ -51,7 +51,7 @@
 
             $error_percent = 100 - ($error_length / $exercise_length * 100);
 
-            $grade_sql = "SELECT * FROM consols WHERE control_id='$control_id'";
+            $grade_sql = "SELECT * FROM consols WHERE id='$control_id'";
             $grade_qry = mysqli_query($db,$grade_sql);
             $grade_row = mysqli_fetch_array($grade_qry);
             $grade_limits = $grade_row['grading'];
