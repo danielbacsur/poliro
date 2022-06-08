@@ -12,11 +12,9 @@
         $data = $_GET["d"];
         $paragraph_id = $_GET["p"];
         $length = $_GET["l"];
-        echo 'egz';
         $insert_customer = "INSERT INTO exercises (`account_id`, `paragraph_id`, `length`) VALUES ('$account_id', '$paragraph_id', '$length')";
         echo $insert_customer;
         $run_customer = mysqli_query($db,$insert_customer);
-        echo 'ketto';
         $exercise_id = mysqli_insert_id($db);
 /*
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
@@ -26,7 +24,6 @@
             $run_customer = mysqli_query($db,$insert_customer);
         }
 */
-echo 'alma';
         for($i = 0; $i < count($data); $i++) {
             $arri = $data[$i];
             $sum = '';
@@ -44,7 +41,7 @@ echo 'alma';
             }
             $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
             echo $insert_customer;
-            //$run_customer = mysqli_query($db,$insert_customer);
+            $run_customer = mysqli_query($db,$insert_customer);
         }
 
         header("Location: index.php");
