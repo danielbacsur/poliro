@@ -24,18 +24,14 @@
 
 
                 $text =  $row['text'] ;
-                $ntext = '';
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
                 $run_email = mysqli_query($db,$get_email);
                 while ($row = mysqli_fetch_array($run_email))  
                 {
                     $error_index = $row["index"];
-                    echo $error_char.'---';
                     $error_char = $row["char"];
-                    $error_char = 'X';
-                    $corr = '<span style="color:blue">'.$error_char.'</span>';
-                    $corr = $error_char;
+                    $corr = '<span style="color:pink">'.$error_char.'</span>';
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
                     $loca += strlen($corr)-1;
