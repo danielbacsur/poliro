@@ -49,7 +49,6 @@
             }
 
             $error_percent = 100 - ($error_length / $exercise_length * 100);
-            $error_percent = ($error_percent*4 + $writed_length*6) / 10;
 
             $grade_sql = "SELECT * FROM grades";
             $grade_qry = mysqli_query($db,$grade_sql);
