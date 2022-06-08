@@ -3,7 +3,7 @@
 <html>
     <?php include("head.php"); ?>
     <body>
-        <h1>Hxdro Cloud</h1>
+        <h1>Elemzés</h1>
 
         <?php
                 $account_id = $_SESSION['account_id'];

@@ -16,14 +16,14 @@
         <div class="typingtest w3-panel w3-info intro">
         <br class="w3-hide-small">
         <br>
-        <h1>TEST YOUR TYPING SPEED</h1>
+        <h1><?php echo $paragraph_title; ?></h1>
         <br>
         <div id="startdiv" class="w3-row" style="max-width:500px;margin:auto;">
             TIME:<br>
             <div class="bench" id="time" style="margin-bottom:-10px;">60</div>
-            <span id="timefooter">Starts counting when you start typing.</span>
+            <span id="timefooter">Az óra, az első billentyű lenyomásával együtt indul.</span>
             <div id="phonebutton">
-                Phone/Tablet users:<br>Double click the text field to activate the keyboard.
+                Telefonos / Tabletes felhasználók<br>Dupla klikk
             </div>
         </div>
         <br class="w3-hide-small">

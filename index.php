@@ -3,7 +3,7 @@
 <html>
     <?php include("head.php"); ?>
     <body>
-        <h1>Hxdro Cloud</h1>
+        <h1>Főoldal</h1>
 
         <?php if(!isset($_SESSION['account_id'])) { ?>
             <a href="signin.php">signin</a>

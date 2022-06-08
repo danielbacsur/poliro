@@ -3,7 +3,7 @@
 <html>
     <?php include("head.php"); ?>
     <body>
-        <h1>Login</h1>
+        <h1>Bejelentkezés</h1>
         <form action="" method="post">
             Email Cimed: <input type="text" name="email"><br>
             Jelszavad: <input type="password" name="password"><br>
