@@ -30,7 +30,12 @@
                 $error_length += strlen($error_text);
             }
             $error_percent = 100 - ($error_length / $exercise_length * 100);
-            $grade_arr = [ 50, 60, 70, 80];
+
+            $grade_sql = "SELECT * FROM grades'";
+            $grade_qry = mysqli_query($db,$grade_sql);
+            $grade_row = mysqli_fetch_array($grade_qry);
+            $grade_limits = $grade_row['limits'];
+            $grade_arr = unpack($grade_limits);
             array_unshift($grade_arr, 0);
             array_push($grade_arr, 101);
             $grade = 0;
