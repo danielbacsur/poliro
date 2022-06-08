@@ -65,6 +65,6 @@
             </div>
         </div>
     </div>
-    <script src="exercise.js">load();</script>
+    <script src="exercise.js"></script>
     </body>
 </html>

@@ -1,3 +1,7 @@
+document.getElementById("ctext").focus();
+document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
+var source = document.getElementById("atext").innerText;
+
 function goAgain() {
   window.location = "exercise.html";
 }
@@ -8,22 +12,6 @@ document.getElementById("ctext").addEventListener("focus", function() {
   setBlink();
 });
 
-
-/*window.addEventListener("load", function() {
-  source2 = source.toString().replace(/,/g, "&#44;");
-  //var x = mywords.sort(function() {return 0.5 - Math.random() });
-  //x = x.slice(0, 200);
-  //document.getElementById("nyarr").innerHTML = x;
-  
-  document.getElementById("atext").innerHTML = source2;
-  document.getElementById("ctext").focus();
-  document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
-});*/
-  document.getElementById("ctext").focus();
-  document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
-  var source = document.getElementById("atext").innerText;
-  console.log(source);
-  console.log('-A-');
 
 
 function clickc() {
@@ -164,7 +152,7 @@ function compare() {
   for (let i = 0; i < arr.length; i++) {
     link += '&d[]=' + encodeURI(arr[i].toString());
   }
-  //document.location = link;
+  document.location = link;
 }
 
 function displayScore() {

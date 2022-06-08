@@ -7,13 +7,17 @@
     </head>
     <body>
         <?php
+        echo 'redirecting..';
         $data = $_GET["d"];
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
             $d = $data[$i];
             if(!$d) continue;
             $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$d')";
-            echo $insert_customer.'<br>';
             $run_customer = mysqli_query($db,$insert_customer);
+            $url = $_SERVER['HTTP_HOST'];
+            $url .= 'index.php';
+            header("Location: $url");
+            die();
         }
         ?>
     </body>
