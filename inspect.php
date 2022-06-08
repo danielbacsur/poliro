@@ -35,7 +35,7 @@
                     $err_len = strlen($error_char);
                     $corr = '<span style="text-decoration:underline; color:red">'.$error_char.'</span>';
 
-                    $text = substr($text, 0, $error_index+$loca-$err_len).$corr.substr($text, -($tlen - $error_index-1 )+$loca+$err_len-1);
+                    $text = substr($text, 0, $error_index+$loca-$err_len).$corr.substr($text, -($tlen - $error_index-1 )+$loca+);
                     $loca += strlen($corr)-1-$err_len+1;
                 }
                 echo $text.'<br>LOL';
