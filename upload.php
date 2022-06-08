@@ -10,7 +10,6 @@
         $paragraph_id = $_GET["p"];
         $length = $_GET["l"];
         $insert_customer = "INSERT INTO exercises (`account_id`, `paragraph_id`, `length`) VALUES ('$account_id', '$paragraph_id', '$length')";
-        echo $insert_customer;
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
         
@@ -28,8 +27,6 @@
             }
             if(!$sum) continue;
             $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
-            $run_customer = mysqli_query($db,$insert_customer);
-            $insert_customer = "DELETE FROM assignments WHERE id='$assignment_id'";
             $run_customer = mysqli_query($db,$insert_customer);
         }
 
