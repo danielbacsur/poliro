@@ -38,17 +38,18 @@
                     $text = substr($text, 0, $error_index+$loca-$err_len).$corr.substr($text, -($tlen - $error_index-1 )+$loca-1);
                     $loca += strlen($corr)-$err_len;
                 }
-                echo $loca;
                 $text .= '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
-
+                $writed_length = strval($exercise_length / $paragraph_length * 100).'%';
                 $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
             $error_qry = mysqli_query($db,$error_sql);
             $error_length = 0;
             while ($error_arr = mysqli_fetch_array($error_qry)) {
                 $error_text = $error_arr['text'];
-                $error_length += strlen($error_text);
+                $error_length += ceil(strlen($error_text) / 10);
             }
+
             $error_percent = 100 - ($error_length / $exercise_length * 100);
+            $error_percent = ($error_percent + $writed_length) / 2;
 
             $grade_sql = "SELECT * FROM grades";
             $grade_qry = mysqli_query($db,$grade_sql);
@@ -79,7 +80,7 @@
   </tr>
   <tr>
     <td>MEGIRT HOSSZ:</td>
-    <td><?php echo strval($exercise_length / $paragraph_length * 100).'%'; ?></td>
+    <td><?php echo $writed_length; ?></td>
   </tr>
   <tr>
     <td>HELYESSÉG:</td>
