@@ -151,7 +151,7 @@ function compare() {
 
   var link = 'upload2.php?exercise_id=1';
   link += '&l=' + charr.length.toString();
-  link += '&e=' + almalol.toString();
+  link += '&p=' + almalol.toString();
   for (let i = 0; i < arr.length; i++) {
     link += '&d[]=' + encodeURI(arr[i].toString());
   }
