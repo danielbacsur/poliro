@@ -31,9 +31,7 @@
             array_push($arr, $assignment_id);
             array_push($arr, $paragraph_title);
             array_push($arr, $control_title);
-            array_push($arr, '<a href="exercise.php?
-                paragraph_id='.strval($paragraph_id).'&
-                control_id='.strval($control_id).'">Megnyitás</a>');
+            array_push($arr, '<a href="exercise.php?paragraph_id='.strval($paragraph_id).'&control_id='.strval($control_id).'">Megnyitás</a>');
             echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
 
         }
