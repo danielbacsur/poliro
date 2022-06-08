@@ -10,22 +10,7 @@
     $row = mysqli_fetch_array($run_email);
     $paragraph_title = $row["title"];
     $paragraph_text = $row["text"];
-    $assignment_id = $row["assignment_id"];
-    if(isset($assignment_id)) {
-        $get_email = "SELECT * FROM assignments WHERE id='$assignment_id' AND `open` < CURRENT_TIMESTAMP() AND `close` > CURRENT_TIMESTAMP()";
-        $run_email = mysqli_query($db,$get_email);
-        $num = mysqli_num_rows($run_email);
-        $row =  mysqli_fetch_array($run_email);
-        if($num > 0) {
-            echo 'VAN ILZEN';
-        } else {
-            echo 'OUTDATED';
-            die();
-        }
-        $assignment_name = $row["name"];
-    }
     
-    echo $assignment_name;
     ?>
     <body>
         <div class="typingtest w3-panel w3-info intro">
