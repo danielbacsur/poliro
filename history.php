@@ -47,6 +47,7 @@
             array_push($arr, substr($paragraph_text, 0, 20).'..');
             array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
             array_push($arr, strval(100-($error_length / $exercise_length * 100)).'%');
+            array_push($arr, $grade);
             array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
             echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
         }
