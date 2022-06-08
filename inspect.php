@@ -69,7 +69,7 @@
   </tr>
   <tr>
     <td>PARAGRAFUS CIME:</td>
-    <td><?php echo $text; ?></td>
+    <td><?php echo $paragraph_title; ?></td>
   </tr>
   <tr>
     <td>JAVITOTT PARAGRAFUS:</td>
