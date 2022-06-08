@@ -65,6 +65,8 @@
             </div>
         </div>
     </div>
-    <script src="exercise.js"></script>
+    <script src="exercise.js">
+        console.log('HIHIIHIH');
+    </script>
     </body>
 </html>
