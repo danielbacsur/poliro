@@ -19,7 +19,7 @@
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
             $d = $data[$i];
             if(!$d) continue;
-            $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('$exercise_id', '$i', '$d')";
+            $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$d')";
             $run_customer = mysqli_query($db,$insert_customer);
         }
         header("Location: index.php");

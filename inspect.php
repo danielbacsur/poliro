@@ -26,12 +26,12 @@
                 $text =  $row['text'];
                 $text = substr($text, 0, $exercise_length);
 
-                $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
+                $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'position' DESC";
                 $run_email = mysqli_query($db,$get_email);
                 while ($row = mysqli_fetch_array($run_email))  
                 {
-                    $error_index = $row["index"];
-                    $error_char = $row["char"];
+                    $error_index = $row["position"];
+                    $error_char = $row["text"];
                     $corr = '<span style="text-decoration:underline; color:red">'.$error_char.'</span>';
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
