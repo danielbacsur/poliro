@@ -71,7 +71,7 @@
             array_push($arr, strval($error_percent).'%');
             array_push($arr, $grade);
             array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
-            echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
+            echo join('<br>', $arr);
 
 ?>
 
