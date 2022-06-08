@@ -1,9 +1,6 @@
 document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
-console.log(paragraph_id);
-console.log(control_id);
-
 
 function dblclickc() {
   document.getElementById("ctext").click();
