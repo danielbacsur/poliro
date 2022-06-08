@@ -14,9 +14,7 @@
             if(!$d) continue;
             $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$d')";
             $run_customer = mysqli_query($db,$insert_customer);
-            $url = $_SERVER['HTTP_HOST'];
-            $url .= 'index.php';
-            header("Location: $url");
+            header("Location: index.php");
             die();
         }
         ?>
