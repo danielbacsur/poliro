@@ -27,7 +27,7 @@
                     $error_length = 0;
                     while ($error_arr = mysqli_fetch_array($error_qry)) {
                         $error_text = $error_arr['text'];
-                        $error_length += strlen($error_text)
+                        $error_length += strlen($error_text);
                     }
 
                     $arr = array();
