@@ -8,13 +8,7 @@ document.getElementById("ctext").addEventListener("focus", function() {
   setBlink();
 });
 
-var source = ["kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
-  "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
-  "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar",
-  "kavarom a kávém, orvos javasol, vakarom a karom, a sav mar"
-
-];
-var source = source.join(', ')
+var source = "";
 
 /*window.addEventListener("load", function() {
   source2 = source.toString().replace(/,/g, "&#44;");
@@ -27,9 +21,9 @@ var source = source.join(', ')
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 });*/
 function load() {
-  
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
+  source = document.getElementById("ctext").innerText
 }
 
 function clickc() {
@@ -146,7 +140,7 @@ function updateTimer() {
 var res = '';
 
 function compare() {
-  var c = document.getElementById("ctext").innerText
+  var c = document.getElementById("ctext").innerText;
   var arr = [];
   for (let i = 0; i < c.length; i++) {
     arr.push('')
