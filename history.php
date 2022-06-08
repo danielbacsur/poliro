@@ -25,7 +25,7 @@
             array_push($arr, $exercise_timestamp);
             array_push($arr, $exercise_id);
             array_push($arr, $paragraph_title);
-            array_push($arr, '<a href="inspect.php?exercise_uuid='.strval($exercise_id).'">Megtekintés</a>');
+            array_push($arr, '<a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a>');
             echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
         }
         ?>
