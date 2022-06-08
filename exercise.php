@@ -37,7 +37,8 @@
         </div>
     </div>
     <script type="text/javascript">
-        var almalol = <?php echo $paragraph_id; ?>;
+        var paragraph_id = <?php echo $paragraph_id; ?>;
+        var control_id = <?php echo $control_id; ?>;
     </script>
     <script src="exercise.js"></script>
     </body>
