@@ -16,6 +16,7 @@
         echo $insert_customer;
         #$run_customer = mysqli_query($db,$insert_customer);
         echo 'donewithone';
+/*
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
             $d = $data[$i];
             if(!$d) continue;
@@ -23,7 +24,7 @@
             $run_customer = mysqli_query($db,$insert_customer);
             header("Location: index.php");
             die();
-        }
+        }*/
         ?>
     </body>
 </html>
