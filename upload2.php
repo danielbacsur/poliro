@@ -27,12 +27,12 @@
         }
 */
 echo 'alma';
-        for($i = 0; $i < count($arr); $i++) {
-            $arri = $arr[$i];
+        for($i = 0; $i < count($data); $i++) {
+            $arri = $data[$i];
             $sum = '';
             echo '   ';
-            for($n = $i; $n < count($arr); $n++) {
-                $arrn = $arr[$n];
+            for($n = $i; $n < count($data); $n++) {
+                $arrn = $data[$n];
                 if($arrn == '') {
                     break;
                 }
