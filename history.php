@@ -21,13 +21,13 @@
                     $paragraph_title = $paragraph_row['title'];
                     $paragraph_text = $paragraph_row['text'];
                     $paragraph_length = strlen($paragraph_text);
-                    
+
                     $arr = array();
                     array_push($arr, $exercise_timestamp);
                     array_push($arr, $paragraph_id);
                     array_push($arr, $paragraph_title);
-                    array_push($arr, substr($paragraph_text, 0, 20), '..');
-                    array_push($arr, $exercise_length / $paragraph_length * 100, '%');
+                    array_push($arr, substr($paragraph_text, 0, 20).'..');
+                    array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
                     echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr);
 
 
