@@ -62,11 +62,31 @@
                 $grade = $i+1;
             }
 ?>
-    <b>IDŐPONT:</b> <?php echo $exercise_timestamp; ?> <br/>
-    <b>PARAGRAFUS CIME:</b> <?php echo $paragraph_title; ?> <br/>
-    <b>JAVITOTT PARAGRAFUS:</b> <?php echo $text; ?> <br/>
-    <b>MEGIRT HOSSZ:</b> <?php echo strval($exercise_length / $paragraph_length * 100).'%'; ?> <br/>
-    <b>HELYESSÉG:</b> <?php echo $error_percent; ?> <br/>
-    <b>ÉRDEMJEGY:</b> <?php echo $grade; ?> <br/>
+    <table style="width:100%">
+  <tr>
+    <td>IDŐPONT:</td>
+    <td><?php echo $exercise_timestamp; ?></td>
+  </tr>
+  <tr>
+    <td>PARAGRAFUS CIME:</td>
+    <td><?php echo $text; ?></td>
+  </tr>
+  <tr>
+    <td>JAVITOTT PARAGRAFUS:</td>
+    <td><?php echo $text; ?></td>
+  </tr>
+  <tr>
+    <td>MEGIRT HOSSZ:</td>
+    <td><?php echo strval($exercise_length / $paragraph_length * 100).'%'; ?></td>
+  </tr>
+  <tr>
+    <td>HELYESSÉG:</td>
+    <td><?php echo $error_percent; ?></td>
+  </tr>
+  <tr>
+    <td>ÉRDEMJEGY:</td>
+    <td><?php echo $grade; ?></td>
+  </tr>
+</table>
     </body>
 </html>
