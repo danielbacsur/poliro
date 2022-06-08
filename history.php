@@ -35,11 +35,19 @@
                     echo '6';
 
                     array_push($arr, $exercise_timestamp);
+                    echo 'A';
+
                     array_push($arr, $paragraph_id);
+                    echo 'B';
+
                     array_push($arr, $paragraph_title);
+                    echo 'C';
+
                     array_push($arr, substr($paragraph_length, 0, 20)+'..');
+                    echo 'D';
+
                     array_push($arr, $exercise_length / $paragraph_length);
-                    echo '7';
+                    echo 'E';
 
                     echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr);
 
