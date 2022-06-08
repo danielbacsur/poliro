@@ -20,7 +20,7 @@
         $get_email = "SELECT * FROM exercises WHERE id='$exercise_id'";
         $run_email = mysqli_query($db,$get_email);
         $row = mysqli_fetch_array($run_email);
-        $paragraph_uuid = $row["uuid"];
+        $exercise_uuid = $row["uuid"];
         
         for($i = 0; $i < count($data); $i++) {
             $sum = '';
