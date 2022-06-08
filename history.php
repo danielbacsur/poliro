@@ -12,6 +12,7 @@
                 $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
                 while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
+                    $exercise_id = $exercise_arr['id'];
                     $exercise_length = $exercise_arr['length'];
                     $exercise_timestamp = $exercise_arr['timestamp'];
                     $paragraph_id = $exercise_arr['paragraph_id'];
@@ -28,6 +29,7 @@
                     array_push($arr, $paragraph_title);
                     array_push($arr, substr($paragraph_text, 0, 20).'..');
                     array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
+                    array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
                     echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr);
 
 
