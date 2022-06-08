@@ -25,6 +25,7 @@ function load() {
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
   source = document.getElementById("atext").innerText;
   console.log(source);
+  console.log('-A-');
 }
 
 function clickc() {
