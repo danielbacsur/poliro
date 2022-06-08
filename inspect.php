@@ -15,6 +15,7 @@
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $pid = $row["paragraph_id"];
+                $exercise_length = $row["length"];
 
 
                 $get_email = "SELECT * FROM paragraphs WHERE id='$pid'";
@@ -22,7 +23,8 @@
                 $row = mysqli_fetch_array($run_email);
 
 
-                $text =  $row['text'] ;
+                $text =  $row['text'];
+                $text = substr($text, 0, $exercise_length);
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
                 $run_email = mysqli_query($db,$get_email);
