@@ -37,7 +37,7 @@
             array_push($grade_arr, 101);
             $grade = 0;
             for($i = 0; $i < 5; $i++) {
-                if ($error_percent >= $grade_arr[$i] && $error_percent <= $grade_arr[$i])
+                if ($error_percent >= $grade_arr[$i] && $error_percent < $grade_arr[$i+1])
                 $grade = $i;
             }
 
