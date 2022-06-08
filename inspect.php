@@ -61,19 +61,12 @@
                 if ($error_percent >= $grade_arr[$i] && $error_percent < $grade_arr[$i+1])
                 $grade = $i+1;
             }
-
-            $arr = array();
-            array_push($arr, ':'.$exercise_timestamp);
-            array_push($arr, $exercise_id);
-            array_push($arr, $paragraph_title);
-            array_push($arr, substr($paragraph_text, 0, 20).'..');
-            array_push($arr, strval($exercise_length / $paragraph_length * 100).'%');
-            array_push($arr, strval($error_percent).'%');
-            array_push($arr, $grade);
-            array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
-            echo join('<br>', $arr);
-
 ?>
-    <b>TIMESTAMP:</b> <?php echo $exercise_timestamp; ?> <br/>
+    <b>IDŐPONT:</b> <?php echo $exercise_timestamp; ?> <br/>
+    <b>PARAGRAFUS CIME:</b> <?php echo $paragraph_title; ?> <br/>
+    <b>JAVITOTT PARAGRAFUS:</b> <?php echo $text; ?> <br/>
+    <b>MEGIRT HOSSZ:</b> <?php echo strval($exercise_length / $paragraph_length * 100).'%'; ?> <br/>
+    <b>HELYESSÉG:</b> <?php echo $error_percent; ?> <br/>
+    <b>ÉRDEMJEGY:</b> <?php echo $grade; ?> <br/>
     </body>
 </html>
