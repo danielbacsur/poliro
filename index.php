@@ -14,7 +14,7 @@
 
             <a href="signout.php">signout</a>
             <a href="history.php">history</a>
-            <a href="exercise.php">exercise</a>
+            <a href="exercise.php?paragraph_id=1">exercise</a>
         <?php } ?>
     </body>
 </html>
