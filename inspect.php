@@ -24,10 +24,10 @@
 
 
                 $text =  $row['text'] ;
+                $ntext = '';
 
-                /*$get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
+                $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'index' DESC";
                 $run_email = mysqli_query($db,$get_email);
-                $loca = 0;
                 while ($row = mysqli_fetch_array($run_email))  
                 {
                     $error_index = $row["index"];
@@ -38,7 +38,7 @@
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
                     $loca += strlen($corr)-1;
-                }*/
+                }
                 echo $text;
 
 ?>
