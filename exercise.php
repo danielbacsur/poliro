@@ -12,10 +12,22 @@
     $paragraph_text = $row["text"];
     $assignment_id = $row["assignment_id"];
 
-    $get_email = "SELECT * FROM assignments WHERE id='$assignment_id' AND `open` < CURRENT_TIMESTAMP() AND `close` > CURRENT_TIMESTAMP()";
+    $get_email = "SELECT * FROM assignments WHERE id='$assignment_id'";
     $run_email = mysqli_query($db,$get_email);
-    $row = mysqli_fetch_array($run_email);
-    $assignment_name = $row["name"];
+    $row = mysqli_num_rows($run_email);
+    if($row > 0) {
+        $get_email = "SELECT * FROM assignments WHERE id='$assignment_id' AND `open` < CURRENT_TIMESTAMP() AND `close` > CURRENT_TIMESTAMP()";
+        $run_email = mysqli_query($db,$get_email);
+        $row = mysqli_num_rows($run_email);
+        if($row > 0) {
+            echo 'VAN ILZEN';
+        } else {
+            echo 'OUTDATED';
+        }
+        $assignment_name = $row["name"];
+    }
+    echo 'NOT EXIST';
+    
     echo $assignment_name;
     ?>
     <body>
