@@ -5,7 +5,7 @@
     <body>
         <h1>A feladat lezáródott</h1>
         <a href="index.php">Főoldal</a>
-        <a href="inspect.php?exercise_id=<?php echo $_GET['exercise_id']; ?>">Áttekintés</a>
+        <a href="inspect.php?exercise_uuid=<?php echo $_GET['exercise_uuid']; ?>">Áttekintés</a>
         
     </body>
 </html>

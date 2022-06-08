@@ -7,11 +7,20 @@
         echo 'redirecting..';
         $account_id = $_SESSION['account_id'];
         $data = $_GET["d"];
-        $paragraph_id = $_GET["p"];
         $length = $_GET["l"];
-        $insert_customer = "INSERT INTO exercises (`account_id`, `paragraph_id`, `length`) VALUES ('$account_id', '$paragraph_id', '$length')";
+        $paragraph_uuid = $_GET["p"];
+        $get_email = "SELECT * FROM paragraphs WHERE uuid='$paragraph_uuid'";
+                $run_email = mysqli_query($db,$get_email);
+                $row = mysqli_fetch_array($run_email);
+                $paragraph_id = $row["id"];
+
+        $insert_customer = "INSERT INTO exercises (`uuid`, `account_id`, `paragraph_id`, `length`) VALUES (UUID(), '$account_id', '$paragraph_id', '$length')";
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
+        $get_email = "SELECT * FROM exercises WHERE id='$exercise_id'";
+        $run_email = mysqli_query($db,$get_email);
+        $row = mysqli_fetch_array($run_email);
+        $paragraph_uuid = $row["uuid"];
         
         for($i = 0; $i < count($data); $i++) {
             $sum = '';
@@ -30,7 +39,7 @@
             $run_customer = mysqli_query($db,$insert_customer);
         }
 
-        header("Location: end.php?exercise_id=".strval($exercise_id));
+        header("Location: end.php?exercise_uuid=".strval($exercise_uuid));
         die();
         ?>
     </body>

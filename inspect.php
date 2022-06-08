@@ -7,8 +7,8 @@
 
         <?php
                 $account_id = $_SESSION['account_id'];
-                $exercise_id = $_GET['exercise_id'];
-                $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND id='$exercise_id'";
+                $exercise_uuid = $_GET['exercise_uuid'];
+                $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND uuid='$exercise_uuid'";
                 $run_email = mysqli_query($db,$get_email);
                 $exercise_arr = mysqli_fetch_array($run_email);
                 $exercise_length = $exercise_arr['length'];

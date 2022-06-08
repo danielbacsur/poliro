@@ -37,7 +37,7 @@
         </div>
     </div>
     <script type="text/javascript">
-        var paragraph_id = <?php echo $paragraph_id; ?>;
+        var paragraph_uuid = <?php echo $paragraph_uuid; ?>;
     </script>
     <script src="exercise.js"></script>
     </body>
