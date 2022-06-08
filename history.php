@@ -11,6 +11,7 @@
         $exercise_qry = mysqli_query($db,$exercise_sql);
         while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
             $exercise_id = $exercise_arr['id'];
+            $exercise_uuid = $exercise_arr['uuid'];
             $exercise_length = $exercise_arr['length'];
             $exercise_timestamp = $exercise_arr['timestamp'];
 
@@ -24,7 +25,7 @@
             array_push($arr, $exercise_timestamp);
             array_push($arr, $exercise_id);
             array_push($arr, $paragraph_title);
-            array_push($arr, '<a href="inspect.php?exercise_id='.strval($exercise_id).'">Megtekintés</a>');
+            array_push($arr, '<a href="inspect.php?exercise_uuid='.strval($exercise_id).'">Megtekintés</a>');
             echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
         }
         ?>
