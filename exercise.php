@@ -26,6 +26,7 @@
                 <?php
                 $account_id = $_SESSION['account_id'];
                 $paragraph_id = $_GET['paragraph_id'];
+                $control_id = $_GET['control_id'];
                 $get_email = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
