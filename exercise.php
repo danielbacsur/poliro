@@ -25,8 +25,8 @@
             <div id="atext" style="background-color:white;color:rgba(0,0,0,0.3);" contenteditable="true">
                 <?php
                 $account_id = $_SESSION['account_id'];
-                $paragraph_id = $_GET['paragraph_id'];
-                $get_email = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
+                $paragraph_uuid = $_GET['paragraph_uuid'];
+                $get_email = "SELECT * FROM paragraphs WHERE uuid='$paragraph_uuid'";
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $paragraph_title = $row["title"];
