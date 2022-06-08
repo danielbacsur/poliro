@@ -35,6 +35,7 @@
                     $error_char = $row["char"];
                     $error_char = 'X';
                     $corr = '<span style="color:blue">'.$error_char.'</span>';
+                    $corr = $error_char;
 
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
                     $loca += strlen($corr)-1;
