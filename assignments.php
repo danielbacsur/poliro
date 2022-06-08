@@ -3,7 +3,7 @@
 <html>
     <?php include("head.php"); ?>
     <body>
-        <h1>Előzmények</h1>
+        <h1>Kitűzött feladatok</h1>
 
         <?php
         $account_id = $_SESSION['account_id'];
