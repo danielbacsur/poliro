@@ -34,7 +34,7 @@
             $grade_arr = [ 50, 60, 70, 80];
             array_unshift($grade_arr, 0);
             array_push($grade_arr, 100);
-            $grade = 0
+            $grade = 0;
             for($i = 0; $i < 6; $i++) {
                 if ($average >= $grade_arr[$i] && $average < $grade_arr[$i+1])
                 $grade = $i;
