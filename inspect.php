@@ -54,7 +54,7 @@
             $grade_sql = "SELECT * FROM consols WHERE control_id='$control_id'";
             $grade_qry = mysqli_query($db,$grade_sql);
             $grade_row = mysqli_fetch_array($grade_qry);
-            $grade_limits = $grade_row['limits'];
+            $grade_limits = $grade_row['grading'];
             $grade_arr = unpack("c*", $grade_limits);
 
             array_unshift($grade_arr, 0);
