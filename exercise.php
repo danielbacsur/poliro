@@ -25,8 +25,9 @@
             echo 'OUTDATED';
         }
         $assignment_name = $row["name"];
+    } else {
+        echo 'NOT EXIST';
     }
-    echo 'NOT EXIST';
     
     echo $assignment_name;
     ?>
