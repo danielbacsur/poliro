@@ -9,6 +9,7 @@
 
         <?php
                 $account_id = $_SESSION['account_id'];
+                echo '0';
                 $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
                 while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
