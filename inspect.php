@@ -2,15 +2,14 @@
 <?php include("database.php"); ?>
 <html>
     <head>
-        <title>Hxdro</title>
         <meta charset="UTF-8">
+        <title>Hxdro</title>
     </head>
     <body>
         <h1>Hxdro Cloud</h1>
 
         <?php
                 $account_id = $_SESSION['account_id'];
-                echo $account_id;
                 $exercise_id = $_GET['exercise_id'];
                 $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND id='$exercise_id'";
                 $run_email = mysqli_query($db,$get_email);
@@ -36,7 +35,7 @@
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca);
                     $loca += strlen($corr)-1;
                 }
-                echo $text;
+                echo $text.'<br>LOL';
 
 ?>
                 
