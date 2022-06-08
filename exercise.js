@@ -2,6 +2,7 @@ document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
 
+
 function dblclickc() {
   document.getElementById("ctext").click();
 }
@@ -134,6 +135,7 @@ function compare() {
   }
   var link = 'upload.php?';
   link += '&l=' + c.length.toString();
+  link += '&p=' + paragraph_id.toString();
   for (let i = 0; i < arr.length; i++) {
     link += '&d[]=' + encodeURI(arr[i].toString());
   }
