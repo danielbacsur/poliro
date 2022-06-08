@@ -16,7 +16,7 @@
         $insert_customer = "INSERT INTO exercises (`account_id`, `paragraph_id`, `length`) VALUES ('$account_id', '$paragraph_id', '$length')";
         echo $insert_customer;
         $run_customer = mysqli_query($db,$insert_customer);
-        echo 'ketto'
+        echo 'ketto';
         $exercise_id = mysqli_insert_id($db);
 /*
         for($i = 0; $i < count($data); $i++) { // modif to smaller length
