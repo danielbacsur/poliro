@@ -26,7 +26,6 @@
                 <?php
                 $account_id = $_SESSION['account_id'];
                 $paragraph_id = $_GET['paragraph_id'];
-                $control_id = $_GET['control_id'];
                 $get_email = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
@@ -39,7 +38,6 @@
     </div>
     <script type="text/javascript">
         var paragraph_id = <?php echo $paragraph_id; ?>;
-        var control_id = <?php echo $control_id; ?>;
     </script>
     <script src="exercise.js"></script>
     </body>

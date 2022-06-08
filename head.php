@@ -1,5 +1,5 @@
 <head>
     <meta charset="UTF-8">
-    <title>Poliro - Gyakorlat</title>
+    <title>Poliro</title>
     <link rel="stylesheet" href="exercise.css">
 </head>
