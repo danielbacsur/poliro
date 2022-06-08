@@ -16,23 +16,13 @@
         echo $insert_customer;
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
-/*
-        for($i = 0; $i < count($data); $i++) { // modif to smaller length
-            $d = $data[$i];
-            if(!$d) continue;
-            $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$d')";
-            $run_customer = mysqli_query($db,$insert_customer);
-        }
-*/
+        
         for($i = 0; $i < count($data); $i++) {
-            $arri = $data[$i];
             $sum = '';
-            echo '   ';
             for($n = $i; $n < count($data); $n++) {
                 $arrn = $data[$n];
-                if($arrn == '') {
+                if($arrn == '')
                     break;
-                }
                 else {
                     $sum .= $arrn;
                     $i++;
