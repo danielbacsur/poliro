@@ -39,7 +39,8 @@
                 
             }
             $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
-            $run_customer = mysqli_query($db,$insert_customer);
+            echo $insert_customer;
+            //$run_customer = mysqli_query($db,$insert_customer);
         }
 
         header("Location: index.php");
