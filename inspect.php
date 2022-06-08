@@ -39,7 +39,7 @@
                     $loca += strlen($corr)-$err_len;
                 }
                 echo $loca;
-                $text .= '<span style="text-decoration:line-through"; color:rgba(rgba(255, 255, 255,0.2))">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
+                $text .= '<span style="text-decoration:line-through"; color:rgba(255, 255, 255,0.2)">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
 
                 $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
             $error_qry = mysqli_query($db,$error_sql);
