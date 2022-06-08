@@ -19,13 +19,12 @@ document.getElementById("ctext").addEventListener("focus", function() {
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 });*/
-function load() {
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
   var source = document.getElementById("atext").innerText;
   console.log(source);
   console.log('-A-');
-}
+
 
 function clickc() {
   var c = document.getElementById("ctext");
