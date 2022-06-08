@@ -13,6 +13,7 @@
                 $d = $data[$i];
                 if(!$d) continue;
                     #$d = urlencode($d);
+                    $d = utf8_encode($d);
                     $insert_customer = "INSERT INTO errors (`exercise_id`, `index`, `char`) VALUES ('1', '$i', '$d')";
                     echo $insert_customer.'<br>';
                     $run_customer = mysqli_query($db,$insert_customer);
