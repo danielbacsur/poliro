@@ -15,6 +15,7 @@
                 $exercise_length = $exercise_arr['length'];
                 $exercise_timestamp = $exercise_arr['timestamp'];
                 $paragraph_id = $exercise_arr['paragraph_id'];
+                $control_id = $exercise_arr['control_id'];
 
                 $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
                 $paragraph_qry = mysqli_query($db,$paragraph_sql);
@@ -50,7 +51,7 @@
 
             $error_percent = 100 - ($error_length / $exercise_length * 100);
 
-            $grade_sql = "SELECT * FROM grades";
+            $grade_sql = "SELECT * FROM consols WHERE control_id='$control_id'";
             $grade_qry = mysqli_query($db,$grade_sql);
             $grade_row = mysqli_fetch_array($grade_qry);
             $grade_limits = $grade_row['limits'];
