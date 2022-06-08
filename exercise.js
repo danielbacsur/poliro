@@ -24,6 +24,7 @@ function load() {
   document.getElementById("ctext").focus();
   document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
   source = document.getElementById("atext").innerText;
+  console.log(source);
 }
 
 function clickc() {
