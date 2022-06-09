@@ -69,7 +69,7 @@
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             else if (
                 ($paragraph_start != '2000-01-01 00:00:00' &&
-                $paragraph_start > $paragraph_time_now) ||
+                $paragraph_start > $paragraph_time_now) or
                 ($paragraph_deadline != '2000-01-01 00:00:00' &&
                 $paragraph_deadline < $paragraph_time_now)
             ) {
