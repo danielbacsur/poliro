@@ -54,7 +54,7 @@
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             echo $text;
-        }*/
+        }
         ?>
     </body>
 </html>
