@@ -15,14 +15,17 @@
             array_push($title_arr, "'".$paragraph_title."'");
         }
         $title_arr = join(', ', $title_arr);
-        echo $title_arr;
 
-        /*$get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
+        $get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
         $run_email = mysqli_query($db,$get_email);
-        $exercise_arr = mysqli_fetch_array($run_email);
-        $paragraph_subtitle = $exercise_arr['name'];
+        $subtitle_arr = array();
+        while( $exercise_arr = mysqli_fetch_array($run_email) ) {
+            $paragraph_title = $exercise_arr['name'];
+            array_push($subtitle_arr, "'".$paragraph_title."'");
+        }
+        $subtitle_arr = join(', ', $subtitle_arr);
 
-        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, $title_arr), subtitle";
+        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, $title_arr), FIELD(subtitle, $subtitle_arr)";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
