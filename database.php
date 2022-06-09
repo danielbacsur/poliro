@@ -1,5 +1,4 @@
 <?php
-echo 'database echo';
 session_start();
 $db = mysqli_connect("localhost","poliro","12345678","poliro");
 if ($db -> connect_errno) {
