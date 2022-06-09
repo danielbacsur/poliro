@@ -41,6 +41,7 @@
             $paragraph_title_row = mysqli_fetch_array($paragraph_title_qry);
             $paragraph_title = $paragraph_title_row['name'];
             $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$subtitle_id'";
+            echo $paragraph_subtitle_sql;
             $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
             $paragraph_subtitle_row = mysqli_fetch_array($paragraph_subtitle_qry);
             $paragraph_subtitle = $paragraph_subtitle_row['name'];
