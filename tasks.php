@@ -36,14 +36,14 @@
             echo $paragraph_subtitle_id;
             $paragraph_attempts = $row["attempts"];
 
-            $exercise_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
-            $exercise_qry = mysqli_query($db,$exercise_sql);
-            $exercise_num = mysqli_fetch_array($exercise_qry);
-            $paragraph_title = $exercise_num['name'];
-            $exercise_sql = "SELECT * FROM paragraph_subtitles WHERE id='$subtitle_id'";
-            $exercise_qry = mysqli_query($db,$exercise_sql);
-            $exercise_num = mysqli_fetch_array($exercise_qry);
-            $paragraph_subtitle = $exercise_num['name'];
+            $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
+            $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
+            $paragraph_title_row = mysqli_fetch_array($paragraph_title_qry);
+            $paragraph_title = $paragraph_title_row['name'];
+            $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$subtitle_id'";
+            $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
+            $paragraph_subtitle_row = mysqli_fetch_array($paragraph_subtitle_qry);
+            $paragraph_subtitle = $paragraph_subtitle_row['name'];
 
             if($paragraph_attempts) {
                 $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id'";
