@@ -35,7 +35,7 @@
                     $err_len = strlen($error_char);
                     $corr = '<span style="text-decoration:underline; color:red">'.$error_char.'</span>';
 
-                    $text = substr($text, 0, $error_index+$loca-$err_len).$corr.substr($text, -($tlen - $error_index-1 )+$loca-1);
+                    $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -($tlen - $error_index-1 )+$loca-1+$err_len);
                     $loca += strlen($corr)-$err_len;
                 }
                 $text .= '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
