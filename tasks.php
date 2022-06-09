@@ -12,7 +12,7 @@
         $title_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
             $paragraph_order = $exercise_arr['id'];
-            array_push($title_arr, "'".$paragraph_order."'");
+            array_push($title_arr, $paragraph_order);
         }
         $title_arr = join(', ', $title_arr);
 
@@ -21,7 +21,7 @@
         $subtitle_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
             $paragraph_order = $exercise_arr['id'];
-            array_push($subtitle_arr, "'".$paragraph_order."'");
+            array_push($subtitle_arr, $paragraph_order);
         }
         $subtitle_arr = join(', ', $subtitle_arr);
 
