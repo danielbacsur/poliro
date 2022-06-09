@@ -65,13 +65,16 @@
             array_push($arr, $paragraph_subtitle);
             array_push($arr, '');
             $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
+            $block = false;
+            if($paragraph_start != '2000-01-01 00:00:00' && $paragraph_start < $paragraph_time_now) {
+                $block = true;
+            }
+            if($paragraph_deadline != '2000-01-01 00:00:00' && $paragraph_deadline > $paragraph_time_now) {
+                $block = true;
+            }
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
-            else if (
-                ($paragraph_start != '2000-01-01 00:00:00' &&
-                $paragraph_start < $paragraph_time_now) &&
-                ($paragraph_deadline != '2000-01-01 00:00:00' &&
-                $paragraph_deadline > $paragraph_time_now)) {
+            else if ($block) {
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
             }
             else
