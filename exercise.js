@@ -106,7 +106,7 @@ function ku(e) {
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
 }
 
-timelength = 10;
+timelength = 30;
 var ttimer;
 function initCount() {
   document.getElementById("timefooter").innerHTML = "&nbsp;";
