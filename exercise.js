@@ -1,6 +1,7 @@
 document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
+console.log(paragraph_time);
 console.log(paragraph_uuid);
 
 
@@ -106,7 +107,6 @@ function ku(e) {
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
 }
 
-timelength = 30;
 var ttimer;
 function initCount() {
   document.getElementById("timefooter").innerHTML = "&nbsp;";

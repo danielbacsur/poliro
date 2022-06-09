@@ -40,6 +40,7 @@
     </div>
     <script type="text/javascript">
         var paragraph_uuid = '<?php echo $paragraph_uuid; ?>';
+        var timelength = '<?php echo $paragraph_time; ?>';
     </script>
     <script src="exercise.js"></script>
     </body>
