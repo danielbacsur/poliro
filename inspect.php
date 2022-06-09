@@ -45,7 +45,7 @@
             $error_length = 0;
             while ($error_arr = mysqli_fetch_array($error_qry)) {
                 $error_text = $error_arr['text'];
-                $error_length += ceil(strlen($error_text) / 10);
+                $error_length += strlen($error_text);
             }
 
             $error_percent = 100 - ($error_length / $exercise_length * 100);
