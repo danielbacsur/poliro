@@ -17,7 +17,7 @@
         $title_arr = join(', ', $title_arr);
         echo $title_arr;
 
-        $get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
+        /*$get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
         $run_email = mysqli_query($db,$get_email);
         $exercise_arr = mysqli_fetch_array($run_email);
         $paragraph_subtitle = $exercise_arr['name'];
@@ -51,7 +51,7 @@
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             echo $text;
-        }
+        }*/
         ?>
     </body>
 </html>
