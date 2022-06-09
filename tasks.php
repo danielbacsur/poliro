@@ -38,7 +38,7 @@
             $exercise_qry = mysqli_query($db,$exercise_sql);
             $exercise_num = mysqli_fetch_array($exercise_qry);
             $paragraph_title = $exercise_num['name'];
-            $exercise_sql = "SELECT * FROM paragraph_subtitles WHERE id='$title_id'";
+            $exercise_sql = "SELECT * FROM paragraph_subtitles WHERE id='$subtitle_id'";
             $exercise_qry = mysqli_query($db,$exercise_sql);
             $exercise_num = mysqli_fetch_array($exercise_qry);
             $paragraph_subtitle = $exercise_num['name'];
