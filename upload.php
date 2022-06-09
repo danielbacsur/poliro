@@ -22,23 +22,23 @@
         $row = mysqli_fetch_array($run_email);
         $exercise_uuid = $row["uuid"];
         echo $exercise_uuid;
-        echo count($data);
-        
-        for($i = 0; $i < count($data); $i++) {
-            $sum = '';
-            for($n = $i; $n < count($data); $n++) {
-                $arrn = $data[$n];
-                if($arrn == '')
-                    break;
-                else {
-                    $sum .= $arrn;
-                    $i++;
+        if(count($data)) {
+            for($i = 0; $i < count($data); $i++) {
+                $sum = '';
+                for($n = $i; $n < count($data); $n++) {
+                    $arrn = $data[$n];
+                    if($arrn == '')
+                        break;
+                    else {
+                        $sum .= $arrn;
+                        $i++;
+                    }
+                    
                 }
-                
+                if(!$sum) continue;
+                $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
+                $run_customer = mysqli_query($db,$insert_customer);
             }
-            if(!$sum) continue;
-            $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
-            $run_customer = mysqli_query($db,$insert_customer);
         }
         echo 'befheader';
 
