@@ -113,8 +113,9 @@ function initCount() {
   document.getElementById("time").innerHTML = timelength;
   ttimer = window.setInterval(updateTimer, 1000);
 }
-
+var timelength = paragraph_time;
 function updateTimer() {
+  if(!paragraph_time) return;
   timelength--;
   document.getElementById("time").innerHTML = timelength;
   if (timelength == 0) {

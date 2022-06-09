@@ -20,9 +20,11 @@
         <h1><?php echo $paragraph_title; ?></h1>
         <br>
         <div id="startdiv" class="w3-row" style="max-width:500px;margin:auto;">
-            TIME:<br>
-            <div class="bench" id="time" style="margin-bottom:-10px;"><?php echo $paragraph_time; ?></div>
-            <span id="timefooter">Az óra, az első billentyű lenyomásával együtt indul.</span>
+            <?php if($paragraph_time) { ?>
+                TIME:<br>
+                <div class="bench" id="time" style="margin-bottom:-10px;"><?php echo $paragraph_time; ?></div>
+                <span id="timefooter">Az óra, az első billentyű lenyomásával együtt indul.</span>
+            <?php } ?>
             <div id="phonebutton">
                 Telefonos / Tabletes felhasználók<br>Dupla klikk
             </div>
