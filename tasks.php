@@ -36,11 +36,11 @@
             echo $paragraph_subtitle_id;
             $paragraph_attempts = $row["attempts"];
 
-            $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
+            $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
             $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
             $paragraph_title_row = mysqli_fetch_array($paragraph_title_qry);
             $paragraph_title = $paragraph_title_row['name'];
-            $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$subtitle_id'";
+            $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$paragraph_subtitle_id'";
             echo $paragraph_subtitle_sql;
             $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
             $paragraph_subtitle_row = mysqli_fetch_array($paragraph_subtitle_qry);
