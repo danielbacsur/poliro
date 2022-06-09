@@ -31,7 +31,9 @@
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
             $paragraph_title_id = $row["title_id"];
+            echo $paragraph_title_id;
             $paragraph_subtitle_id = $row["subtitle_id"];
+            echo $paragraph_subtitle_id;
             $paragraph_attempts = $row["attempts"];
 
             $exercise_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
