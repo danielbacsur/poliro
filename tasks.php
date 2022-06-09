@@ -68,7 +68,7 @@
             $block = false;
             if($paragraph_start != '2000-01-01 00:00:00'){
                 echo 'a';
-                if($paragraph_start < $paragraph_time_now){
+                if($paragraph_start > $paragraph_time_now){
                 echo 'b';
 
                     $block = true;
@@ -76,7 +76,7 @@
             if($paragraph_deadline != '2000-01-01 00:00:00'){
             echo 'c';
 
-                if ($paragraph_deadline > $paragraph_time_now){
+                if ($paragraph_deadline < $paragraph_time_now){
                 echo 'd';
 
                     $block = true;
