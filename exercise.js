@@ -108,6 +108,7 @@ function ku(e) {
   if(c.length >= source.length) {
     console.log('finished');
   }
+  console.log(c.length - source.length);
 }
 
 timelength = paragraph_time;
