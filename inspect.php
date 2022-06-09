@@ -75,7 +75,7 @@
             </tr>
             <tr>
                 <td>JAVITOTT PARAGRAFUS:</td>
-                <td><?php echo $text; ?></td>
+                <td><?php echo $correction_text; ?></td>
             </tr>
             <tr>
                 <td>MEGIRT HOSSZ:</td>
