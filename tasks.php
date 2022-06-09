@@ -13,10 +13,9 @@
         $paragraph_uuid = $row["uuid"];
         $paragraph_title = $row["title"];
         $paragraph_subtitle = $row["subtitle"];
-        $paragraph_uuid = $row["uuid"];
-        $paragraph_uuid = $row["uuid"];
-        array_push($arr, $exercise_due);
-        array_push($arr, $exercise_type);
+        array_push($arr, $paragraph_id);
+        array_push($arr, $paragraph_title);
+        array_push($arr, $paragraph_subtitle);
         array_push($arr, '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>');
         echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
         ?>
