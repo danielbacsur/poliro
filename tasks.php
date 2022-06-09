@@ -30,9 +30,19 @@
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
-            $paragraph_title = $row["title"];
-            $paragraph_subtitle = $row["subtitle"];
+            $paragraph_title_id = $row["title_id"];
+            $paragraph_subtitle_id = $row["subtitle_id"];
             $paragraph_attempts = $row["attempts"];
+
+            $exercise_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
+            $exercise_qry = mysqli_query($db,$exercise_sql);
+            $exercise_num = mysqli_fetch_array($exercise_qry);
+            $paragraph_title = $exercise_num['name'];
+            $exercise_sql = "SELECT * FROM paragraph_subtitles WHERE id='$title_id'";
+            $exercise_qry = mysqli_query($db,$exercise_sql);
+            $exercise_num = mysqli_fetch_array($exercise_qry);
+            $paragraph_subtitle = $exercise_num['name'];
+
             if($paragraph_attempts) {
                 $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
