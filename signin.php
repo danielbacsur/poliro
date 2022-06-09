@@ -53,7 +53,7 @@
                 exit();
             }
 
-            $insert_customer = "INSERT INTO accounts (`name`, `username`, `email`, `password`, `role_id`) VALUES ('$account_name', '$account_username', '$account_email','$account_password', '1')";
+            $insert_customer = "INSERT INTO accounts (`name`, `username`, `email`, `password`) VALUES ('$account_name', '$account_username', '$account_email','$account_password')";
             $run_customer = mysqli_query($db,$insert_customer);
             $_SESSION['account_id'] = mysqli_insert_id($db);
 
