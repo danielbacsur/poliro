@@ -7,15 +7,16 @@
 
         <?php
                 $account_id = $_SESSION['account_id'];
+
                 $exercise_uuid = $_GET['exercise_uuid'];
-                $get_email = "SELECT * FROM exercises WHERE account_id='$account_id' AND uuid='$exercise_uuid'";
-                $run_email = mysqli_query($db,$get_email);
-                $exercise_arr = mysqli_fetch_array($run_email);
+                $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id' AND uuid='$exercise_uuid'";
+                $exercise_qry = mysqli_query($db,$exercise_sql);
+                $exercise_arr = mysqli_fetch_array($exercise_qry);
                 $exercise_id = $exercise_arr['id'];
                 $exercise_length = $exercise_arr['length'];
                 $exercise_timestamp = $exercise_arr['timestamp'];
+                
                 $paragraph_id = $exercise_arr['paragraph_id'];
-
                 $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
                 $paragraph_qry = mysqli_query($db,$paragraph_sql);
                 $paragraph_row = mysqli_fetch_array($paragraph_qry);
@@ -24,23 +25,24 @@
                 $paragraph_grading = $paragraph_row['grading'];
                 $paragraph_length = strlen($paragraph_text);
 
-                $text = substr($paragraph_text, 0, $exercise_length);
+                $correction_text = substr($paragraph_text, 0, $exercise_length);
 
                 $get_email = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'position' DESC";
                 $run_email = mysqli_query($db,$get_email);
-                $loca = 0;
+                $pointer = 0;
                 while ($row = mysqli_fetch_array($run_email))  
                 {
-                    $error_index = $row["position"];
-                    $error_char = $row["text"];
-                    $err_len = strlen($error_char);
-                    $corr = '<span style="text-decoration:underline; color:red">'.$error_char.'</span>';
+                    $error_position = $row["position"];
+                    $error_text = $row["text"];
+                    $error_length = strlen($error_text);
+                    $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
 
-                    $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -$tlen + $error_index+$loca+$err_len);
-                    $loca += strlen($corr)-$err_len;
+                    $correction_text = substr($correction_text, 0, $error_position+$pointer).$corr.substr($correction_text, $error_position+$pointer+$error_length);
+                    $pointer += strlen($corr)-$error_length;
                 }
-                if (-($paragraph_length + $loca-strlen($text)))
-                    $text .= '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
+                if (-($paragraph_length + $pointer-strlen($correction_text))) {
+                    $correction_text .= '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'.substr($paragraph_text, -($paragraph_length + $pointer-strlen($correction_text))).'</span>';
+                }
                 $writed_length = strval($exercise_length / $paragraph_length * 100).'%';
                 $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
             $error_qry = mysqli_query($db,$error_sql);
