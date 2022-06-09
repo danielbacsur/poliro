@@ -12,7 +12,7 @@
         $title_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
             $paragraph_title = $exercise_arr['name'];
-            array_push($arr, "'".$paragraph_title."'");
+            array_push($title_arr, "'".$paragraph_title."'");
         }
         $title_arr = join(', ', $title_arr);
         echo $title_arr;
