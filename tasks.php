@@ -46,7 +46,7 @@
             if($paragraph_attempts)
                 array_push($arr, strval($exercise_num).'/'.strval($paragraph_attempts));
             else
-                array_push($arr, '-/-');
+                array_push($arr, '#/#');
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
             $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
