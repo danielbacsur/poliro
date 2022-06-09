@@ -26,7 +26,8 @@
         $subtitle_arr = join(', ', $subtitle_arr);
 
         $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, $title_arr), FIELD(subtitle, $subtitle_arr)";
-        $run_email = mysqli_query($db,$get_email);
+        echo $get_email;
+        /*$run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
@@ -54,7 +55,7 @@
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             echo $text;
-        }
+        }*/
         ?>
     </body>
 </html>
