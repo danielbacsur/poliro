@@ -10,7 +10,7 @@
         $run_email = mysqli_query($db,$get_email);
         $row = mysqli_fetch_array($run_email);
         echo 'runned';
-        $paragraph_id = $row['paragraph_id'];
+        $paragraph_id = $row['id'];
         $paragraph_uuid = $row["uuid"];
         $paragraph_title = $row["title"];
         $paragraph_subtitle = $row["subtitle"];
