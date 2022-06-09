@@ -64,8 +64,10 @@
                 $grade = $i+1;
             }
 ?>
+<?php echo $error_length; echo '<br>'; ?>
     <table style="width:100%">
   <tr>
+      
     <td>IDŐPONT:</td>
     <td><?php echo $exercise_timestamp; ?></td>
   </tr>
