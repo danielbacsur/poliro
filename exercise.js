@@ -105,6 +105,9 @@ function ku(e) {
     }
   }
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
+  if(c.length >= source.length) {
+    console.log('finished');
+  }
 }
 
 timelength = paragraph_time;
