@@ -38,7 +38,7 @@
                     $text = substr($text, 0, $error_index+$loca).$corr.substr($text, -$tlen + $error_index+$loca+$err_len);
                     $loca += strlen($corr)-$err_len;
                 }
-                if (-($paragraph_length + $loca-strlen($text))
+                if (-($paragraph_length + $loca-strlen($text)))
                     $text .= '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'.substr($paragraph_text, -($paragraph_length + $loca-strlen($text))).'</span>';
                 $writed_length = strval($exercise_length / $paragraph_length * 100).'%';
                 $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id'";
