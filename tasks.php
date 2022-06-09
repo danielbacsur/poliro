@@ -72,6 +72,7 @@
             else
                 $text .= 'Már/még nem Aktiv';
             echo $text.'<br>';
+            echo (int) $paragraph_time_now;
         }
         ?>
     </body>
