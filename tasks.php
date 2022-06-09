@@ -62,6 +62,7 @@
                 array_push($arr, '#/#');
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
+            array_push($arr, '');
             $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
