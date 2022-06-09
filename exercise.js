@@ -92,7 +92,7 @@ function ku(e) {
       if (a[i] == " ") {c = c.substr(0, i) + "|" + c.substr(i+1);}
   }
   document.getElementById("btext").innerHTML = txt + a.substr(i);
-  document.getElementById("characters").innerHTML = charcount;
+  /*document.getElementById("characters").innerHTML = charcount;
   document.getElementById("errors").innerHTML = errcount;
   aARR = a.split(" ");
   cARR = c.split("|");
@@ -104,7 +104,7 @@ function ku(e) {
       wrongword++;
     }
   }
-  document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
+  document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);*/
   if(c.length >= source.length) {
     console.log('finished');
   }
