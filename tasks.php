@@ -6,7 +6,7 @@
         <h1>Kitűzött feladatok</h1>
 
         <?php
-        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, 'Dolgozat', 'Gyakorlás')";
+        $get_email = "SELECT * FROM paragraphs";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
