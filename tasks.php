@@ -65,25 +65,14 @@
             array_push($arr, $paragraph_subtitle);
             array_push($arr, '');
             $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
-            $block = false;
-            if($paragraph_start != '2000-01-01 00:00:00'){
-                echo 'a';
-                if($paragraph_start > $paragraph_time_now){
-                echo 'b';
-
-                    $block = true;
-        }}
-            if($paragraph_deadline != '2000-01-01 00:00:00'){
-            echo 'c';
-
-                if ($paragraph_deadline < $paragraph_time_now){
-                echo 'd';
-
-                    $block = true;
-        }}
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
-            else if (!$block) {
+            else if (
+                ($paragraph_start != '2000-01-01 00:00:00' &&
+                $paragraph_start > $paragraph_time_now) ||
+                ($paragraph_deadline != '2000-01-01 00:00:00' &&
+                $paragraph_deadline < $paragraph_time_now)
+            ) {
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
             }
             else
