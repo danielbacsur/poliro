@@ -33,7 +33,7 @@
             array_push($arr, '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>');
             $text = join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
             if($paragraph_attempts-$exercise_num==0)
-                $text .= '<span style="text-decoration:line-through">'.$text.'</span>';
+                $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             echo $text;
         }
         ?>
