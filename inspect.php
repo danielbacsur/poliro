@@ -64,10 +64,10 @@
                 .substr($paragraph_text, -($paragraph_length + $correction_pointer-strlen($correction_text))).
                 '</span>';
         }
-        $writed_length = strval($exercise_length / $paragraph_length * 100).'%';
+        $writed_length = $exercise_length / $paragraph_length * 100;
                 
-
-        $error_percent = 100 - ($error_length / $exercise_length * 100);
+        $correction_percent = $error_length / $exercise_length * 100;
+        $error_percent = 100 - $correction_percent;
 
         $grading_arr = unpack("c*", $paragraph_grading);
         $grading_value = 0;
@@ -94,14 +94,14 @@
             </tr>
             <tr>
                 <td>Megirt hossz:</td>
-                <td><?php echo $exercise_length; ?> / <?php echo $paragraph_length; ?> = <?php echo $writed_length; ?></td>
+                <td><?php echo $exercise_length; ?> / <?php echo $paragraph_length; ?> = <?php echo $writed_length; ?>%</td>
             </tr>
             <tr>
-                <td>HELYESSÉG:</td>
-                <td><?php echo $error_length; ?> / <?php echo $exercise_length; ?> = <?php echo $error_percent; ?></td>
+                <td>Helyesség :</td>
+                <td><?php echo $error_length; ?> / <?php echo $exercise_length; ?> = <?php echo $correction_percent; ?>%</td>
             </tr>
             <tr>
-                <td>ÉRDEMJEGY:</td>
+                <td>Érdemjegy:</td>
                 <td><?php echo $grading_value; ?></td>
             </tr>
         </table>
