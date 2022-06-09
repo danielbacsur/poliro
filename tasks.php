@@ -25,7 +25,7 @@
             $arr = array();
             array_push($arr, $paragraph_id);
             if($paragraph_attempts)
-                array_push($arr, strval($check_email).'/'.strval($paragraph_attempts));
+                array_push($arr, strval($exercise_num).'/'.strval($paragraph_attempts));
             else
                 array_push($arr, '-/-');
             array_push($arr, $paragraph_title);
