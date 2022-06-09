@@ -1,8 +1,8 @@
 document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
-console.log(paragraph_time);
 console.log(paragraph_uuid);
+console.log(paragraph_time);
 
 
 function dblclickc() {
@@ -107,15 +107,15 @@ function ku(e) {
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);
 }
 
+timelength = paragraph_time;
 var ttimer;
 function initCount() {
   document.getElementById("timefooter").innerHTML = "&nbsp;";
   document.getElementById("time").innerHTML = timelength;
   ttimer = window.setInterval(updateTimer, 1000);
 }
-var timelength = paragraph_time;
+
 function updateTimer() {
-  if(!paragraph_time) return;
   timelength--;
   document.getElementById("time").innerHTML = timelength;
   if (timelength == 0) {
