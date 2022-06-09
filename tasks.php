@@ -67,8 +67,10 @@
             $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
-            else
+            else if($paragraph_start < $paragraph_time_now && $paragraph_deadline > $paragraph_time_now)
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
+            else
+                $text .= 'Már/még nem Aktiv';
             echo $text.'<br>';
         }
         ?>
