@@ -71,6 +71,9 @@
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
             else
                 $text .= 'Már/még nem Aktiv';
+            if($paragraph_time_now == '2010-01-03 04:30:43') {
+                echo "ALMA";
+            }
             echo $text.'<br>';
             echo (int) $paragraph_time_now;
         }
