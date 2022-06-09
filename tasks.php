@@ -35,7 +35,7 @@
             $paragraph_subtitle_id = $row["subtitle_id"];
             echo $paragraph_subtitle_id;
             $paragraph_attempts = $row["attempts"];
-
+/*
             $exercise_sql = "SELECT * FROM paragraph_titles WHERE id='$title_id'";
             $exercise_qry = mysqli_query($db,$exercise_sql);
             $exercise_num = mysqli_fetch_array($exercise_qry);
@@ -66,7 +66,7 @@
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             else
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
-            echo $text.'<br>';
+            echo $text.'<br>';*/
         }
         ?>
     </body>
