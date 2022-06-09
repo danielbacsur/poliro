@@ -14,16 +14,20 @@
             $paragraph_title = $row["title"];
             $paragraph_subtitle = $row["subtitle"];
             $paragraph_attempts = $row["attempts"];
-
-            $get_email = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id'";
-            $run_email = mysqli_query($db,$get_email);
-            $check_email = mysqli_num_rows($run_email);
+            if($paragraph_attempts) {
+                $get_email = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id'";
+                $run_email = mysqli_query($db,$get_email);
+                $check_email = mysqli_num_rows($run_email);
+            }
 
 
 
             $arr = array();
             array_push($arr, $paragraph_id);
-            array_push($arr, strval($check_email).'/'.strval($paragraph_attempts));
+            if($paragraph_attempts)
+                array_push($arr, strval($check_email).'/'.strval($paragraph_attempts));
+            else
+                array_push($arr, '-/-');
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
             array_push($arr, '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>');
