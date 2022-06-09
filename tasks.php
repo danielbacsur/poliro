@@ -26,7 +26,6 @@
         $subtitle_arr = join(', ', $subtitle_arr);
 
         $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title_id, $title_arr), FIELD(subtitle_id, $subtitle_arr)";
-        echo $get_email;
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
