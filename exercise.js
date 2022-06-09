@@ -106,7 +106,7 @@ function ku(e) {
   }
   document.getElementById("words").innerHTML = Math.ceil((c.length/5) - wrongword);*/
   if(c.length >= source.length) {
-    console.log('finished');
+    end();
   }
   console.log(c.length - source.length);
 }
@@ -118,14 +118,17 @@ function initCount() {
   document.getElementById("time").innerHTML = timelength;
   ttimer = window.setInterval(updateTimer, 1000);
 }
+function end() {
+  window.clearInterval(ttimer);
+  stopTyping();
+  compare();
+}
 
 function updateTimer() {
   timelength--;
   document.getElementById("time").innerHTML = timelength;
   if (timelength == 0) {
-    window.clearInterval(ttimer);
-    stopTyping();
-    compare();
+    end();
   }
 }
 var res = '';
