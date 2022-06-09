@@ -11,8 +11,8 @@
         $run_email = mysqli_query($db,$get_email);
         $title_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
-            $paragraph_title = $exercise_arr['name'];
-            array_push($title_arr, "'".$paragraph_title."'");
+            $paragraph_order = $exercise_arr['id'];
+            array_push($title_arr, "'".$paragraph_order."'");
         }
         $title_arr = join(', ', $title_arr);
 
@@ -20,8 +20,8 @@
         $run_email = mysqli_query($db,$get_email);
         $subtitle_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
-            $paragraph_title = $exercise_arr['name'];
-            array_push($subtitle_arr, "'".$paragraph_title."'");
+            $paragraph_order = $exercise_arr['id'];
+            array_push($subtitle_arr, "'".$paragraph_order."'");
         }
         $subtitle_arr = join(', ', $subtitle_arr);
 
