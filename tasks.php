@@ -9,6 +9,7 @@
         $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, 'Dolgozat', 'Gyakorlás')";
         $run_email = mysqli_query($db,$get_email);
         $row = mysqli_fetch_array($run_email);
+        echo 'runned';
         $paragraph_id = $row['paragraph_id'];
         $paragraph_uuid = $row["uuid"];
         $paragraph_title = $row["title"];
