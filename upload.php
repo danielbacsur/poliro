@@ -22,7 +22,7 @@
         $row = mysqli_fetch_array($run_email);
         $exercise_uuid = $row["uuid"];
         echo $exercise_uuid;
-        if(count($data)) {
+        if(isset($data)) {
             for($i = 0; $i < count($data); $i++) {
                 $sum = '';
                 for($n = $i; $n < count($data); $n++) {
