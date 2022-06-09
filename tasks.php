@@ -6,8 +6,7 @@
         <h1>Kitűzött feladatok</h1>
 
         <?php
-
-        $get_email = "SELECT * FROM paragraph_titles ORDER BY id";
+        /*$get_email = "SELECT * FROM paragraph_titles ORDER BY id";
         $run_email = mysqli_query($db,$get_email);
         $title_arr = array();
         while( $exercise_arr = mysqli_fetch_array($run_email) ) {
@@ -15,7 +14,6 @@
             array_push($title_arr, $paragraph_order);
         }
         $title_arr = join(', ', $title_arr);
-
         $get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
         $run_email = mysqli_query($db,$get_email);
         $subtitle_arr = array();
@@ -23,11 +21,10 @@
             $paragraph_order = $exercise_arr['id'];
             array_push($subtitle_arr, $paragraph_order);
         }
-        $subtitle_arr = join(', ', $subtitle_arr);
+        $subtitle_arr = join(', ', $subtitle_arr);*/
 
-        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, $title_arr), FIELD(subtitle, $subtitle_arr)";
-        echo $get_email;
-        /*$run_email = mysqli_query($db,$get_email);
+        $get_email = "SELECT * FROM paragraphs";
+        $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
@@ -55,7 +52,7 @@
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             echo $text;
-        }*/
+        }
         ?>
     </body>
 </html>
