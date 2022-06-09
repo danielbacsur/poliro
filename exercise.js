@@ -65,7 +65,7 @@ function ku(e) {
   wcount = 0, charcount = 0, errcount = 0;
   keycount++;
   if (start == 0) {
-    if(paragraph_time) initCount();
+    if(paragraph_time != 0) initCount();
     start = 1;
   }
   var a, b, c, i, txt = "", aARR, cARR;
