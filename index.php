@@ -12,7 +12,7 @@
 
             <a href="signout.php">kijelentkezés</a>
             <a href="history.php">előzmények</a>
-            <a href="assignments.php">kitűzött feladatok</a>
+            <a href="tasks.php">feladatok</a>
             <a href="exercise.php?paragraph_uuid=f86079de-e767-11ec-9865-06f2f87c82bc">exercise</a>
         <?php } ?>
     </body>

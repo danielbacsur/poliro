@@ -10,6 +10,7 @@
     $row = mysqli_fetch_array($run_email);
     $paragraph_title = $row["title"];
     $paragraph_text = $row["text"];
+    $paragraph_time = $row["time"];
     
     ?>
     <body>
@@ -20,7 +21,7 @@
         <br>
         <div id="startdiv" class="w3-row" style="max-width:500px;margin:auto;">
             TIME:<br>
-            <div class="bench" id="time" style="margin-bottom:-10px;">60</div>
+            <div class="bench" id="time" style="margin-bottom:-10px;"><?php echo $paragraph_time; ?></div>
             <span id="timefooter">Az óra, az első billentyű lenyomásával együtt indul.</span>
             <div id="phonebutton">
                 Telefonos / Tabletes felhasználók<br>Dupla klikk
