@@ -64,34 +64,32 @@
                 if ($error_percent >= $grade_arr[$i] && $error_percent < $grade_arr[$i+1])
                 $grade = $i+1;
             }
-?>
-<?php echo $error_length; echo '<br>'; ?>
-    <table style="width:100%">
-  <tr>
-      
-    <td>IDŐPONT:</td>
-    <td><?php echo $exercise_timestamp; ?></td>
-  </tr>
-  <tr>
-    <td>PARAGRAFUS CIME:</td>
-    <td><?php echo $paragraph_title; ?></td>
-  </tr>
-  <tr>
-    <td>JAVITOTT PARAGRAFUS:</td>
-    <td><?php echo $text; ?></td>
-  </tr>
-  <tr>
-    <td>MEGIRT HOSSZ:</td>
-    <td><?php echo $writed_length; ?></td>
-  </tr>
-  <tr>
-    <td>HELYESSÉG:</td>
-    <td><?php echo $error_percent; ?></td>
-  </tr>
-  <tr>
-    <td>ÉRDEMJEGY:</td>
-    <td><?php echo $grade; ?></td>
-  </tr>
-</table>
+        ?>
+        <table style="width:100%">
+            <tr>
+                <td>IDŐPONT:</td>
+                <td><?php echo $exercise_timestamp; ?></td>
+            </tr>
+            <tr>
+                <td>PARAGRAFUS CIME:</td>
+                <td><?php echo $paragraph_title; ?></td>
+            </tr>
+            <tr>
+                <td>JAVITOTT PARAGRAFUS:</td>
+                <td><?php echo $text; ?></td>
+            </tr>
+            <tr>
+                <td>MEGIRT HOSSZ:</td>
+                <td><?php echo $writed_length; ?></td>
+            </tr>
+            <tr>
+                <td>HELYESSÉG:</td>
+                <td><?php echo $error_percent; ?></td>
+            </tr>
+            <tr>
+                <td>ÉRDEMJEGY:</td>
+                <td><?php echo $grade; ?></td>
+            </tr>
+        </table>
     </body>
 </html>
