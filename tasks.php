@@ -49,10 +49,11 @@
                 array_push($arr, '-/-');
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
-            array_push($arr, '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>');
             $text = join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
+            else
+                $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
             echo $text;
         }
         ?>
