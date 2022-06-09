@@ -31,7 +31,10 @@
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
             array_push($arr, '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>');
-            echo join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
+            $text = join('&nbsp&nbsp&nbsp&nbsp&nbsp', $arr).'<br>';
+            if($paragraph_attempts-$exercise_num==0)
+                $text .= '<span style="text-decoration:line-through">'.$text.'</span>';
+            echo $text;
         }
         ?>
     </body>
