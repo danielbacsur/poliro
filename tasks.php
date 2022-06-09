@@ -83,7 +83,7 @@
         }}
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
-            else if ($block) {
+            else if (!$block) {
                 $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
             }
             else
