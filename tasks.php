@@ -25,7 +25,7 @@
         }
         $subtitle_arr = join(', ', $subtitle_arr);
 
-        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title_id, $title_arr), FIELD(subtitle_id, $subtitle_arr)";
+        $get_email = "SELECT *, CURRENT_TIMESTAMP() AS time_now FROM paragraphs ORDER BY FIELD(title_id, $title_arr), FIELD(subtitle_id, $subtitle_arr)";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
@@ -33,6 +33,10 @@
             $paragraph_title_id = $row["title_id"];
             $paragraph_subtitle_id = $row["subtitle_id"];
             $paragraph_attempts = $row["attempts"];
+            $paragraph_start = $row["start"];
+            $paragraph_deadline = $row["deadline"];
+            $paragraph_time_now = $row["time_now"];
+            echo $paragraph_time_now;
 
             $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
             $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
