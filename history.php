@@ -14,14 +14,14 @@
             $exercise_uuid = $exercise_arr['uuid'];
             $exercise_length = $exercise_arr['length'];
             $exercise_time = $exercise_arr['time'];
-            $paragraph_title_id = $exercise_arr["title_id"];
-            $paragraph_subtitle_id = $exercise_arr["subtitle_id"];
-
+            
             $paragraph_id = $exercise_arr['paragraph_id'];
             $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
             $paragraph_qry = mysqli_query($db,$paragraph_sql);
             $paragraph_row = mysqli_fetch_array($paragraph_qry);
             $paragraph_title = $paragraph_row['title'];
+            $paragraph_title_id = $paragraph_row["title_id"];
+            $paragraph_subtitle_id = $paragraph_row["subtitle_id"];
 
             $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
             $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
