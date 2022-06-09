@@ -49,7 +49,7 @@
                 array_push($arr, '-/-');
             array_push($arr, $paragraph_title);
             array_push($arr, $paragraph_subtitle);
-            $text = implode('\t\t', $arr);
+            $text = join('&#9;&#9;&#9;', $arr);
             if($paragraph_attempts-$exercise_num==0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             else
