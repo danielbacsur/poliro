@@ -13,7 +13,7 @@
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $paragraph_id = $row["id"];
-
+        echo 'alma';
         $insert_customer = "INSERT INTO exercises (`uuid`, `account_id`, `paragraph_id`, `length`) VALUES (UUID(), '$account_id', '$paragraph_id', '$length')";
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
@@ -21,6 +21,7 @@
         $run_email = mysqli_query($db,$get_email);
         $row = mysqli_fetch_array($run_email);
         $exercise_uuid = $row["uuid"];
+        echo $exercise_uuid;
         
         for($i = 0; $i < count($data); $i++) {
             $sum = '';
@@ -38,6 +39,7 @@
             $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
             $run_customer = mysqli_query($db,$insert_customer);
         }
+        echo 'befheader';
 
         header("Location: end.php?exercise_uuid=".strval($exercise_uuid));
         die();
