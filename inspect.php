@@ -21,6 +21,7 @@
                 $paragraph_row = mysqli_fetch_array($paragraph_qry);
                 $paragraph_title = $paragraph_row['title'];
                 $paragraph_text = $paragraph_row['text'];
+                $paragraph_grading = $paragraph_row['grading'];
                 $paragraph_length = strlen($paragraph_text);
 
                 $text = substr($paragraph_text, 0, $exercise_length);
@@ -51,11 +52,7 @@
 
             $error_percent = 100 - ($error_length / $exercise_length * 100);
 
-            /*$grade_sql = "SELECT * FROM controls WHERE id='$control_id'";
-            $grade_qry = mysqli_query($db,$grade_sql);
-            $grade_row = mysqli_fetch_array($grade_qry);
-            $grade_limits = $grade_row['grading'];*/
-            $grade_arr = unpack("c*", '2<HU');
+            $grade_arr = unpack("c*", $paragraph_grading);
 
             array_unshift($grade_arr, 0);
             array_push($grade_arr, 101);
