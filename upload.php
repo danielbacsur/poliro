@@ -25,6 +25,7 @@
         if(isset($data)) {
             for($i = 0; $i < count($data); $i++) {
                 $sum = '';
+                $origi = $i;
                 for($n = $i; $n < count($data); $n++) {
                     $arrn = $data[$n];
                     if($arrn == '')
@@ -36,7 +37,7 @@
                     
                 }
                 if(!$sum) continue;
-                $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$i', '$sum')";
+                $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$origi', '$sum')";
                 $run_customer = mysqli_query($db,$insert_customer);
             }
         }
