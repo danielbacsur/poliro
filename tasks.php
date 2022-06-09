@@ -6,7 +6,23 @@
         <h1>Kitűzött feladatok</h1>
 
         <?php
-        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, 'Dolgozat', 'Gyakorlás'), subtitle";
+
+        $get_email = "SELECT * FROM paragraph_titles ORDER BY id";
+        $run_email = mysqli_query($db,$get_email);
+        $title_arr = array();
+        while( $exercise_arr = mysqli_fetch_array($run_email) ) {
+            $paragraph_title = $exercise_arr['name'];
+            array_push($arr, "'".$paragraph_title."'")
+        }
+        $title_arr = join(', ', $title_arr);
+        echo $title_arr;
+
+        $get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
+        $run_email = mysqli_query($db,$get_email);
+        $exercise_arr = mysqli_fetch_array($run_email);
+        $paragraph_subtitle = $exercise_arr['name'];
+
+        $get_email = "SELECT * FROM paragraphs ORDER BY FIELD(title, $title_arr), subtitle";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             $paragraph_id = $row['id'];
