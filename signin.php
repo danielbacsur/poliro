@@ -16,8 +16,8 @@
                 </td>
                 <td>
                     <form action="" method="post">
-                        <b>Bejelentkezés</b><br/>
-                        Neved: <Regisztráció type="text" name="name"/><br/>
+                        <b>Regisztráció</b><br/>
+                        Neved: <input type="text" name="name"/><br/>
                         Email Cimed: <input type="text" name="email"/><br/>
                         username: <input type="text" name="username"/><br/>
                         Jelszavad: <input type="password" name="password"/><br/>
