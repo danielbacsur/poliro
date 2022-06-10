@@ -21,6 +21,9 @@
                 <th style="text-align: left">
                     Próbálkozások
                 </th>
+                <th style="text-align: left">
+                    Beavatkozás
+                </th>
             </tr>
 
         <?php
