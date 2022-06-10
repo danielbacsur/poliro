@@ -1,0 +1,2247 @@
+# 1.1.1.# 
+# alapsor betűinek gyakorlása #
+# j k l é = jobb kéz mutató ujjától kezdve sorban egymás mellett #
+# f d s a = ball kéz mutató ujjától kezdve sorban egymás mellett #
+jjj jjj kkk kkk jjj jjj kkk kkk jjj jjj kkk kkk jjj jjj kkk 
+lll lll ééé ééé lll lll ééé ééé lll lll ééé ééé lll lll ééé 
+fff fff ddd ddd fff fff ddd ddd fff fff ddd ddd fff fff ddd 
+sss sss aaa aaa sss sss aaa aaa sss sss aaa aaa sss sss aaa 
+# 1.2.1.# 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+# 1.2.2.# 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+# 1.2.3.# 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+# 1.2.4.# 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 
+# 1.3.1.# 
+jljl jljl dada dada jljl jljl dada dada jljl jljl dada dada 
+jljl jljl dada dada jljl jljl dada dada jljl jljl dada dada 
+jljl jljl dada dada jljl jljl dada dada jljl jljl dada dada 
+# 1.3.2.# 
+jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda 
+jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda 
+jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda jlda 
+# 1.3.3.# 
+dal dal adj adj dal dal adj adj dal dal adj adj dal dal adj 
+dal dal adj adj dal dal adj adj dal dal adj adj dal dal adj 
+dal dal adj adj dal dal adj adj dal dal adj adj dal dal adj 
+# 1.3.4.# 
+al ad alja al ad alja al ad alja al ad alja al ad alja al a 
+al ad alja al ad alja al ad alja al ad alja al ad alja al a 
+al ad alja al ad alja al ad alja al ad alja al ad alja al a 
+# 1.4.1.# 
+jlda jlda kéfs kéfs jlda jlda kéfs kéfs jlda jlda kéfs kéfs 
+jlda jlda kéfs kéfs jlda jlda kéfs kéfs jlda jlda kéfs kéfs 
+jlda jlda kéfs kéfs jlda jlda kéfs kéfs jlda jlda kéfs kéfs 
+# 1.5.1.# 
+és és ad ad és és ad ad és és ad ad és és ad ad és és ad ad 
+és és ad ad és és ad ad és és ad ad és és ad ad és és ad ad 
+és és ad ad és és ad ad és és ad ad és és ad ad és és ad ad 
+# 1.5.2.# 
+fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék 
+fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék 
+fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék fa fa ék ék 
+# 1.5.3.# 
+kés kés alj alj kés kés alj alj kés kés alj alj kés kés alj 
+kés kés alj alj kés kés alj alj kés kés alj alj kés kés alj 
+kés kés alj alj kés kés alj alj kés kés alj alj kés kés alj 
+# 1.5.4.# 
+fal fal fék fék fal fal fék fék fal fal fék fék fal fal fék 
+fal fal fék fék fal fal fék fék fal fal fék fék fal fal fék 
+fal fal fék fék fal fal fék fék fal fal fék fék fal fal fék 
+# 1.5.5.# 
+sas sas fél fél sas sas fél fél sas sas fél fél sas sas fél 
+sas sas fél fél sas sas fél fél sas sas fél fél sas sas fél 
+sas sas fél fél sas sas fél fél sas sas fél fél sas sas fél 
+# 1.5.6.# 
+séf séf adj adj séf séf adj adj séf séf adj adj séf séf adj 
+séf séf adj adj séf séf adj adj séf séf adj adj séf séf adj 
+séf séf adj adj séf séf adj adj séf séf adj adj séf séf adj 
+# 1.5.7.# 
+élj élj jaj jaj élj élj jaj jaj élj élj jaj jaj élj élj jaj 
+élj élj jaj jaj élj élj jaj jaj élj élj jaj jaj élj élj jaj 
+élj élj jaj jaj élj élj jaj jaj élj élj jaj jaj élj élj jaj 
+# 1.5.8.# 
+akad akad félj félj akad akad félj félj akad akad félj félj 
+akad akad félj félj akad akad félj félj akad akad félj félj 
+akad akad félj félj akad akad félj félj akad akad félj félj 
+# 1.5.9.# 
+késés késés dajka dajka késés késés dajka dajka késés késés 
+késés késés dajka dajka késés késés dajka dajka késés késés 
+késés késés dajka dajka késés késés dajka dajka késés késés 
+# 1.5.10.# 
+éjfél éjfél alja alja éjfél éjfél alja alja éjfél éjfél alj 
+éjfél éjfél alja alja éjfél éjfél alja alja éjfél éjfél alj 
+éjfél éjfél alja alja éjfél éjfél alja alja éjfél éjfél alj 
+# 1.5.11.# 
+salakkal salakkal sasfélék sasfélék salakkal salakkal salak 
+salakkal salakkal sasfélék sasfélék salakkal salakkal salak 
+salakkal salakkal sasfélék sasfélék salakkal salakkal salak 
+# 1.6.1.# 
+ad add adj adass adassék adjad ad add adj adass adassék adja 
+fa fakk fakkal fa és faék félfa fa fakk fakkal fa és faék fa 
+alak alakja alakkal ék alak alja alak alakja alakkal ék alak 
+# 1.6.2.# 
+késés késs és félj féld késsél késés késs és félj féld késés 
+kajak kajakkal a kajaké a kajak alakja kajak kajakkal kajaké 
+dal dallal sakk sakkal sakkja dala dallal sakk sakkal sakkja 
+# 1.7.1.# 
+félj késés dajka sasfélék salakkal akad faék késs ad kajla 
+dal alja éj fakad add fajdkakas kajakkal kék adass alél és 
+lék falak félfa sas és a kakas alakja adassék ajkad adj él 
+# 2.1.1.# 
+# i = jobb kéz középső ujja fel# 
+kik kik kik kik kik kik kik kik kik kik kik kik kik kik kik 
+# 2.1.2.# 
+aik sik dik fik éik lik kik jik aik sik dik fik éik lik kik 
+aik sik dik fik éik lik kik jik aik sik dik fik éik lik kik 
+aik sik dik fik éik lik kik jik aik sik dik fik éik lik kik 
+# 2.2.1.# 
+akiké akiké lakik lakik akiké akiké lakik lakik akiké akiké 
+akiké akiké lakik lakik akiké akiké lakik lakik akiké akiké 
+akiké akiké lakik lakik akiké akiké lakik lakik akiké akiké 
+# 2.2.2.# 
+késik késik ladik ladik késik késik ladik ladik késik késik 
+késik késik ladik ladik késik késik ladik ladik késik késik 
+késik késik ladik ladik késik késik ladik ladik késik késik 
+# 2.2.3.# 
+sisak sisak kifli kifli sisak sisak kifli kifli sisak sisak 
+sisak sisak kifli kifli sisak sisak kifli kifli sisak sisak 
+sisak sisak kifli kifli sisak sisak kifli kifli sisak sisak 
+# 2.2.4.# 
+kissé kissé ifjak ifjak kissé kissé ifjak ifjak kissé kissé 
+kissé kissé ifjak ifjak kissé kissé ifjak ifjak kissé kissé 
+kissé kissé ifjak ifjak kissé kissé ifjak ifjak kissé kissé 
+# 2.2.5.# 
+fiaik fiaik dalai dalai fiaik fiaik dalai dalai fiaik fiaik 
+fiaik fiaik dalai dalai fiaik fiaik dalai dalai fiaik fiaik 
+fiaik fiaik dalai dalai fiaik fiaik dalai dalai fiaik fiaik 
+# 2.2.6.# 
+falai falai kiéli kiéli falai falai kiéli kiéli falai falai 
+falai falai kiéli kiéli falai falai kiéli kiéli falai falai 
+falai falai kiéli kiéli falai falai kiéli kiéli falai falai 
+# 2.2.7.# 
+illik illik dalia dalia illik illik dalia dalia illik illik 
+illik illik daila dalia illik illik dalia dalia illik illik 
+illik illik dalia dalia illik illik dalia dalia illik illik 
+# 2.3.1.# 
+kis ladik kis ladikja kis ladikkal és kajakjai kajakjaikkal 
+siklik kisiklik fiai fiaid fiaik fiaikkal ifjak ifjakkal is 
+ifi ifik ifjaik dalia alaki alakjai alakjaikkal illik sisak 
+sisakkal sisakjaikkal kis kissé akik akiké faji fajai félik 
+# 2.4.1.# 
+akiké lakik sisak kifli késik ladik illik dalia kissé ifjak 
+fiaik dalai kiéli falai éjféli déli kéklik kis ladikkal ifi 
+dalia alakjaikkal diadalaikkal akiké éjféli idilli idd ki a 
+# 3.1.1.# 
+# m = jobb kéz mutatóujja le, jobbra# 
+jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj jmj 
+# 3.1.2.# 
+amj smj dmj fmj jmj kmj lmj émj amj smj dmj fmj jmj kmj lmj 
+amj smj dmj fmj jmj kmj lmj émj amj smj dmj fmj jmj kmj lmj 
+amj smj dmj fmj jmj kmj lmj émj amj smj dmj fmj jmj kmj lmj 
+# 3.2.1.# 
+majma majma kémli kémli majma majma kémli kémli majma majma 
+majma majma kémli kémli majma majma kémli kémli majma majma 
+majma majma kémli kémli majma majma kémli kémli majma majma 
+# 3.2.2.# 
+fiamé fiamé maiak maiak fiamé fiamé maiak maiak fiamé fiamé 
+fiamé fiamé maiak maiak fiamé fiamé maiak maiak fiamé fiamé 
+fiamé fiamé maiak maiak fiamé fiamé maiak maiak fiamé fiamé 
+# 3.2.3.# 
+akadémia akadémia alkalma alkalma akadémia akadémia alkalma 
+akadémia akadémia alkalma alkalma akadémia akadémia alkalma 
+akadémia akadémia alkalma alkalma akadémia akadémia alkalma 
+# 3.2.4.# 
+falam falam damil damil falam falam damil damil falam falam 
+falam falam damil damil falam falam damil damil falam falam 
+falam falam damil damil falam falam damil damil falam falam 
+# 3.2.5.# 
+diafilm diafilm séma séma diafilm diafilm séma séma diafilm 
+diafilm diafilm séma séma diafilm diafilm séma séma diafilm 
+diafilm diafilm séma séma diafilm diafilm séma séma diafilm 
+# 3.2.6.# 
+majd a majd a maffia maffia majd a majd a maffia maffia majd 
+majd a majd a maffia maffia majd a majd a maffia maffia majd 
+majd a majd a maffia maffia majd a majd a maffia maffia majd 
+# 3.2.7.# 
+mi is mi is mifélék mifélék mi is mi is mifélék mifélék mi is 
+mi is mi is mifélék mifélék mi is mi is mifélék mifélék mi is 
+mi is mi is mifélék mifélék mi is mi is mifélék mifélék mi is 
+# 3.3.1.# 
+ma mama mai maiak mimika maiaké adj adjad ajkam ajkaddal fi 
+fiam fiaim fiamé fiaimé fiammal fiaimmal damil damillal mai 
+damilé damilja kiflim kiflim is ifjaimé ifjaimmal diadémmal 
+diadémja malma malmaim malmaid a malmaiddal maiaké maiakkal 
+mai dal kémli kémlik alma almalé dala dallamai dallamaiddal 
+# 3.4.1.# 
+adjam fiamé falam damil kémia maiak dallam mimika dal fémmé 
+kémli diadém almalé dia diafilm alkalmaim adjam fiamé falam 
+damil kémia maiak dallam mimika dal fémmé kémli diadém alma 
+dia diafilm alkalmaim adjam fiamé falam damil mimika almalé 
+# 4.1.1.# 
+# r = bal kéz mutatóujja fel #
+# vessző = jobb kéz középső ujja le #
+frf frf frf frf frf frf frf frf frf frf frf frf frf frf frf 
+# 4.1.2.# 
+arf srf drf frf jrf krf lrf érf arf srf drf frf jrf krf lrf 
+arf srf drf frf jrf krf lrf érf arf srf drf frf jrf krf lrf 
+arf srf drf frf jrf krf lrf érf arf srf drf frf jrf krf lrf 
+# 4.1.3.# 
+k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k k,k 
+# 4.1.4.# 
+a,k s,k d,k f,k j,k k,k l,k é,k a,k s,k d,k f,k d,k f,k j,k 
+a,k s,k d,k f,k j,k k,k l,k é,k a,k s,k d,k f,k d,k f,k j,k 
+a,k s,k d,k f,k j,k k,k l,k é,k a,k s,k d,k f,k d,k f,k j,k 
+# 4.2.1.# 
+érfal, érfal, férfi, férfi, érfal, érfal, férfi, férfi, ér, 
+érfal, érfal, férfi, férfi, érfal, érfal, férfi, férfi, ér, 
+érfal, érfal, férfi, férfi, érfal, érfal, férfi, férfi, ér, 
+# 4.2.2.# 
+karma, karma, firka, firka, karma, karma, firka, firka, kar 
+karma, karma, firka, firka, karma, karma, firka, firka, kar 
+karma, karma, firka, firka, karma, karma, firka, firka, kar 
+# 4.2.3.# 
+falra, falra, kérés, kérés, falra, falra, kérés, kérés, kér 
+falra, falra, kérés, kérés, falra, falra, kérés, kérés, kér 
+falra, falra, kérés, kérés, falra, falra, kérés, kérés, kér 
+# 4.2.4.# 
+marék, marék, firma, firma, marék, marék, firma, firma, mar 
+marék, marék, firma, firma, marék, marék, firma, firma, mar 
+marék, marék, firma, firma, marék, marék, firma, firma, mar 
+# 4.2.5.# 
+farkas, farkas, kérdés, kérdés, farkas, farkas, kérdés, kér 
+farkas, farkas, kérdés, kérdés, farkas, farkas, kérdés, kér 
+farkas, farkas, kérdés, kérdés, farkas, farkas, kérdés, kér 
+# 4.2.6.# 
+rémlik, rémlik, rakja, rakja, rémlik, rémlik, rakja, rakja, 
+rémlik, rémlik, rakja, rakja, rémlik, rémlik, rakja, rakja, 
+rémlik, rémlik, rakja, rakja, rémlik, rémlik, rakja, rakja, 
+# 4.2.7.# 
+karddal, karddal, akarja, akarja, karddal, karddal, akarja, 
+karddal, karddal, akarja, akarja, karddal, karddal, akarja, 
+karddal, karddal, akarja, akarja, karddal, karddal, akarja, 
+# 4.2.8.# 
+kimérés, kimérés, maradj, maradj, kimérés, kimérés, maradj, 
+kimérés, kimérés, maradj, maradj, kimérés, kimérés, maradj, 
+kimérés, kimérés, maradj, maradj, kimérés, kimérés, maradj, 
+# 4.3.1.# 
+férfi, férfiak, férfiakkal, férfiaké, férfias, férfialakja, 
+akar, akarja, akarjad, akard, kard, karddal, kardja, kardé, 
+kérdés, kérdéssé, alkérdés, kérdik, kérdjék, marad, maradj, 
+maradjék, kimaradj, maradj ki, maradéka, maradékkal, marék, 
+# 4.4.1.# 
+siralmas, makkra, maradj, afrik, irkafirka, rajaik, rémlik, 
+kifér, affér, sarkalja, sarkallja, a marsallal, fémkarddal, 
+kamarilla, a fél marék, afrikaiakra, éra, karral, a karika, 
+amarra iramlik, sikér, mérési, mérj, érmés, kérd, kérdéssé, 
+rakjad, rakasd ki, férfialakra, a maradékkal, arra, amarra, 
+# 5.1.1.# 
+# v = bal kéz mutatóujja jobbra, le #
+fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf fvf 
+# 5.1.2.# 
+avf svs dvf fvf jvf kvf lvf évf avf svf dvf fvf jvf kvf lvf 
+avf svf dvf fvf jvf kvf lvf évf avf svf dvf fvf jvf kvf lvf 
+avf svf dvf fvf kvf lvf évf évf avf svf dvf fvf jvf kvf lvf 
+# 5.2.1.# 
+javad javad kavar kavar javad javad kavar kavar javad javad 
+javad javad kavar kavar javad javad kavar kavar javad javad 
+javad javad kavar kavar javad javad kavar kavar javad javad 
+# 5.2.2.# 
+kévék kévék dévaj dévaj kévék kévék dévaj dévaj kévék kévék 
+kévék kévék dévaj dévaj kévék kévék dévaj dévaj kévék kévék 
+kévék kévék dévaj dévaj kévék kévék dévaj dévaj kévék kévék 
+# 5.2.3.# 
+savas savas falva falva savas savas falva falva savas savas 
+savas savas falva falva savas savas falva falva savas savas 
+savas savas falva falva savas savas falva falva savas savas 
+# 5.2.4.# 
+vésés vésés vidék vidék vésés vésés vidék vidék vésés vésés 
+vésés vésés vidék vidék vésés vésés vidék vidék vésés vésés 
+vésés vésés vidék vidék vésés vésés vidék vidék vésés vésés 
+# 5.2.5.# 
+vidra vidra vasra vasra vidra vidra vasra vasra vidra vidra 
+vidra vidra vasra vasra vidra vidra vasra vasra vidra vidra 
+vidra vidra vasra vasra vidra vidra vasra vasra vidra vidra 
+# 5.2.6.# 
+vajas vajas villa villa vajas vajas villa villa vajas vajas 
+vajas vajas villa villa vajas vajas villa villa vajas vajas 
+vajas vajas villa villa vajas vajas villa villa vajas vajas 
+# 5.2.7.# 
+viadal viadal délvidék délvidék viadal viadal délvidék déli 
+viadal viadal délvidék délvidék viadal viadal délvidék déli 
+viadal viadal délvidék délvidék viadal viadal délvidék déli 
+# 5.3.1.# 
+javad kavar kévék dévaj savas falva vésés vidék vidra vasra 
+javad kavar kévék dévaj savas falva vésés vidék vidra vasra 
+javad kavar kévék dévaj savas falva vésés vidék vidra vasra 
+# 5.4.1.# 
+vaj, vajas, vajjal is, vajad, vajaddal, a vajsav, vajsavas, 
+vasal, kivasal, vasald ki, vasalja, kivasalva, vasaljad ki, 
+véd, védés, kivéd, védd ki, kivédd, védjél ki ma, kivédjél, 
+vall, vallass, vallasd, vallassalak, vallj, valljad, valld, 
+vés, véss, vésés, vésd, véssél, kivésd, vésd ki, véss ki a, 
+varrj, varrjad, varrjam, varrd ki, varrasd ki, kivarrassad, 
+# 5.5.1.# 
+véd, varr, vés, rév, svéd, alva, félév, évad, vér, vél, év, 
+vad, avas, kévék, kivasalva, valakiké, javallja, ivadékaik, 
+vasakkal, vajsavas, kivésés, vallassa, valakik, a vasvilla, 
+vajda, valami, varrja, virsli, sava, avar, varrassa, alvad, 
+délvidéki, viadalaik, falvésés, vadas, valakiké, vas karfa, 
+alkalmaival, vallassad, kivédj, mamival, valaki, malmaival, 
+viadallal, kéksavas, vajalma, vajkrémmé, vaksi, vakarékkal, 
+virrad, véka, varsa, vadalmafa, vésd ki, javallja, a savas, 
+# 6.1.1.# 
+# á = jobb kéz kisujja jobbra, oldalt 
+éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé éáé 
+# 6.1.2.# 
+aáé sáé dáé fáé jáé káé láé éáé aáé sáé dáé fáé jáé káé láé 
+aáé sáé dáé fáé jáé káé láé éáé aáé sáé dáé fáé jáé káé láé 
+aáé sáé dáé fáé jáé káé láé éáé aáé sáé dáé fáé jáé káé láé 
+# 6.2.1.# 
+madár madár fákra fákra madár madár fákra fákra madár madár 
+madár madár fákra fákra madár madár fákra fákra madár madár 
+madár madár fákra fákra madár madár fákra fákra madár madár 
+# 6.2.2.# 
+várad várad dráma dráma várad várad dráma dráma várad várad 
+várad várad dráma dráma várad várad dráma dráma várad várad 
+várad várad dráma dráma várad várad dráma dráma várad várad 
+# 6.2.3.# 
+állás állás árva, árva, állás állás árva, árva, állás állás 
+állás állás árva, árva, állás állás árva, árva, állás állás 
+állás állás árva, árva, állás állás árva, árva, állás állás 
+# 6.2.4.# 
+állam állam állva állva állam állam állva állva állam állam 
+állam állam állva állva állam állam állva állva állam állam 
+állam állam állva állva álam állama állva állva állam állam 
+# 6.2.5.# 
+fárad fárad darál darál fárad fárad darál darál fárad fárad 
+fárad fárad daárl darál fárad fárad darál darál fárad fárad 
+fárad fárad darál darál fáard fárad darál darál fárad fárad 
+# 6.2.6.# 
+akárki, akárki, áldás, áldás, akárki, akárki, áldás, áldás, 
+akárki, akárki, áldás, áldás, akárki, akárki, áldás, áldás, 
+akárki, akárki, áldás, áldás, akárki, akárki, áldás, áldás, 
+# 6.2.7.# 
+fáj, fáj, álld, álld, fáj, fáj, álld, álld, fáj, fáj, álld, 
+fáj, fáj, álld, álld, fáj, fáj, álld, álld, fáj, fáj, álld, 
+fáj, fáj, álld, álld, fáj, fáj, álld, álld, fáj, fáj, álld, 
+# 6.3.1.# 
+jár járás járása járasai járásaik járásaikra, jár járás járd 
+vár várak várad várai váraim váraimra váraik, vár várad vára 
+váll vállam vállad vállára vállamra válladra, válása válásai 
+állam állami államira, állam állad álla államra álladra, áll 
+állva, állás állására állásai állásaik állásaikra, fák fákra 
+fái fáim fáid fája fás fára fáidra fáikra, más mására mássá, 
+dráma drámai drámái drámával drámámmal drámáival drámáimmal, 
+lak lakik lakás lakásával lakással lakássá lakáskérdés lakás 
+akár akárki akármi akármivé, diák diákkal diákká diákjaimmal 
+# 6.4.1.# 
+várlak, kávéval is, vállad, állad, láss már, álljad, lássad, 
+fáradás, állja, javára, rám, másik, daliás, kivárás, drámai, 
+akármi, drámai a diák kálváriája, várj, ráér, akárki vár is 
+rád, másvalaki, majális, sémája, fárad, kamillás, lásd, kár, 
+lárifári, madáré, alája, a villalakással, válfaja, alád, ám, 
+dráma, jár, vállal, vásári, sémája, irkafirkál, svádája, ár, 
+állva, akarás, skaláris, sámfája, sajkája, alkálifém, várak, 
+vád, vám, skálája, ária, filmdráma, milliárd, akár, fásláda, 
+radikális, államférfi, kiadásai, irkája, villás, kivárással, 
+kálváriajárás, áldassék, kaviár, kiállás, állj ki, álld, ál, 
+# 7.1.1.# 
+# g = bal kéz mutatóujja oldalt #
+fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf fgf 
+# 7.1.2.# 
+agf sgf dgf fgf jgf kgf lgf égf agf sgf dgf fgf jgf kgf lgf 
+agf sgf dgf fgf jgf kgf lgf égf agf sgf dgf fgf jgf kgf lgf 
+agf sgf dgf fgf jgf kgf lgf égf agf sgf dgf fgf jgf kgf lgf 
+# 7.1.3.# 
+asdfrfgfvf éáélkikjmj asdfrfgfvf éáélkikjmj asdfrfgfvf éáél 
+asdfrfgfvf éáélkikjmj asdfrfgfvf éáélkikjmj asdfrfgfvf éáél 
+asdfrfgfvf éáélkikjmj asdfrfgfvf éáélkikjmj asdfrfgfvf éáél 
+# 7.2.1.# 
+magas magas drága drága magas magas drága drága magas magas 
+magas magas drága drága magas magas drága drága magas magas 
+magas magas drága drága magas magas drága drága magas magas 
+# 7.2.2.# 
+ragad ragad sárga sárga ragad ragad sárga sárga ragad ragad 
+ragad ragad sárga sárga ragad ragad sárga sárga ragad ragad 
+ragad ragad sárga sárga ragad ragad sárga sárga ragad ragad 
+# 7.2.3.# 
+magad magad varga varga magad magad varga varga magad magad 
+magad magad varga varga magad magad varga varga magad magad 
+magad magad varga varga magad magad varga varga magad magad 
+# 7.2.4.# 
+világ világ virág virág világ világ virág virág világ világ 
+világ világ virág virág világ világ virág virág világ világ 
+világ világ virág virág világ világ virág virág világ világ 
+# 7.2.5.# 
+gramm gramm gála, gála, gramm gramm gála, gála, gramm gramm 
+gramm gramm gála, gála, gramm gramm gála, gála, gramm gramm 
+gramm gramm gála, gála, gramm gramm gála, gála, gramm gramm 
+# 7.2.6.# 
+galád galád gárda gárda galád galád gárda gárda galád galád 
+galád galád gárda gárda galád galád gárda gárda galád galád 
+galád galád gárda gárda galád galád gárda gárda galád galád 
+# 7.3.1.# 
+ragad, ragadásával, ráragad, ragadj rá, kiragad, ragadd ki, 
+mag, magvas, maggal, a magasság, magassággal, magas jégfal, 
+gramm, grammal mérd, diagram, a diagramjaid, diagrammal is, 
+fárad, fáradással, fáradság, fáradságával, kis fáradsággal, 
+farag, faragással, faragd ki, fafaragása, a fa faragásával, 
+adag, adaggal, adagjai, adagjaiddal, adagjaik, adagjaikkal, 
+válság, válsággá, a válsággal, a válságára, agrárválsággal, 
+világválság, más, mással, mássá válik, mássága, másságával, 
+mássággal, addig, addigi, addigiakra, addigra, addigiakkal, 
+# 7.4.1.# 
+magvak, virágmagvakkal, magaslik, magassággal, magammal is, 
+magmája, alig, agilis, vadság, vadvirágaimmal, égig, addig, 
+maggal, magaddal, magasságig, magával ragad, mágia, másság, 
+drágáim, a fáradsággal, irgalmas, agávé, ágas, addigiakkal, 
+magam, gallérja, drágáll, égig, égési, adag, grafika, régi, 
+világi, farag, jégfallal, smaragdja, faág, vágás, légi, kg, 
+gmk, ágál, jégkár, mássága, rágja, vég, agg, alga, grammja, 
+algériai, rag, végig, magára, agilis, agrárkérdés, agárral, 
+iga, galádság, vagdal, farag, adagjával, mássá, agrárállam, 
+addig, kiviláglik, a diagramra, világválság, agrárkérdéssé, 
+# 8.1.1.# 
+# e = bal kéz középső ujja fel #
+ded ded ded ded ded ded ded ded ded ded ded ded ded ded ded 
+# 8.1.2.# 
+aed sed ded fed jed ked led éed aed sed ded fed jed ked led 
+aed sed ded fed jed ked led éed aed sed ded fed jed ked led 
+aed sed ded fed jed ked led éed aed sed ded fed jed ked led 
+# 8.1.3.# 
+asdedfrfgfvf éáélkik,kjmj asdedfrfgfvf éáélkik,kjmj asdedfrf 
+asdedfrfgfvf éáélkik,kjmj asdedfrfgfvf éáélkik,kjmj asdedfrf 
+asdedfrfgfvf éáélkik,kjmj asdedfrfgfvf éáélkik,kjmj asdedfrf 
+# 8.2.1.# 
+érdek érdek ideig ideig érdek érdek ideig ideig érdek érdek 
+érdek érdek ideig ideig érdek érdek ideig ideig érdek érdek 
+érdek érdek ideig ideig érdek érdek ideig ideig érdek érdek 
+# 8.2.2.# 
+kerék kerék felel felel kerék kerék felel felel kerék kerék 
+kerék kerék felel felel kerék kerék felel felel kerék kerék 
+kerék kerék felel felel kerék kerék felel felel kerék kerék 
+# 8.2.3.# 
+remél remél fedél fedél remél remél fedél fedél remél remél 
+remél remél fedél fedél remél remél fedél fedél remél remél 
+remél remél fedél fedél remél remél fedél fedél remél remél 
+# 8.2.4.# 
+semmi semmi erre, erre, semmi semmi erre, erre, semmi semmi 
+semmi semmi erre, erre, semmi semmi erre, erre, semmi semmi 
+semmi semmi erre, erre, semmi semmi erre, erre, semmi semmi 
+# 8.2.5.# 
+elve, elve, merem merem elve, elve, merem merem elve, elve, 
+elve, elve, merem merem elve, elve, merem merem elve, elve, 
+elve, elve, merem merem elve, elve, merem merem elve, elve, 
+# 8.2.6.# 
+felesleges felesleges eme eme felesleges felesleges eme eme 
+felesleges felesleges eme eme felesleges felesleges eme eme 
+felesleges felesleges eme eme felesleges felesleges eme eme 
+# 8.2.7.# 
+mellesleg mellesleg elég elég mellesleg mellesleg elég elég 
+mellesleg mellesleg elég elég mellesleg mellesleg elég elég 
+mellesleg mellesleg elég elég mellesleg mellesleg elég elég 
+# 8.2.8.# 
+veled, veled, kedves, kedves, veled, veled, kedves, kedves, 
+veled, veled, kedves, kedves, veled, veled, kedves, kedves, 
+veled, veled, kedves, kedves, veled, veled, kedves, kedves, 
+# 8.2.9.# 
+lelkes lelkes érdemes érdemes lelkes lelkes érdemes érdemes 
+lelkes lelkes érdemes érdemes lelkes lelkes érdemes érdemes 
+lelkes lelkes érdemes érdemes lelkes lelkes érdemes érdemes 
+# 8.2.10.# 
+kérése, kérése, emlék, emlék, kérése, kérése, emlék, emlék, 
+kérése, kérése, emlék, emlék, kérése, kérése, emlék, emlék, 
+kérése, kérése, emlék, emlék, kérése, kérése, emlék, emlék, 
+# 8.2.11.# 
+reggel, reggel, eledel eledel reggel, reggel, eledel eledel 
+reggel, reggel, eledel eledel reggel, reggel, eledel eledel 
+reggel, reggel, eledel eledel reggel, reggel, eledel eledel 
+# 8.3.1.# 
+vers, versel, verssel, mer, merés, emel, emelés, emelésekkel, 
+elad, eladással, kel, kelés, felkel, felkelés, meséd, meséid, 
+lemarad, lemaradás, fed, elfed, lefed, feddés, feled, feledd, 
+feledés, feledj, emel, emelj, kelés, kelj fel, kell, kelljék, 
+kedves, kedvesség, kedvességeddel, lélek, lelked, lelkesedés, 
+lelkesedéssel, elmélkedés, elmélkedéssel, les, elles, lessed, 
+lesd el, semmiféle, semerre, felé, efelé, feléje, akármeddig, 
+emerre, akármerre, semmi, semmis, semmiség, semmisség, érdek, 
+lelkes lelkessé lelkesség lelkessége lelkességre lelkességed 
+emel emelem emeled emeli emelik emelése emelkedik emelkedése 
+emelkedéssel felemelkedése, elég eléggé elegem elégedjél meg, 
+megad, megadják, megadással, felkérés, felkéréssel, eljárása, 
+eljárással, elem, eleme, elemek, elemmel, elemeikkel, keresd, 
+# 8.4.1.# 
+érdekes, lelkesedem, édes mesék, megállj, felesleges, emlék, 
+feledéseddel, éjjel, kékes, félelem, véglegesség, elégséges, 
+a kedvesem mesél, kellemes, mellesleg, megkérem, véglegessé, 
+mellém, lelkesedem, leselkedem, kedvére, velem, kéréseimmel, 
+felém, remélem, édes érvelések, elvégre is, délfelé jár már, 
+mellékelem a leveled, keressed meg, kérdésessé válik majd a 
+kérelmed, keresve sem akad érdekes emlékre, rakd le mellém, 
+felfelé is emeld, semerre sem, akármeddig is, mégis eladja, 
+majd a reggelivel, kellemes meleg, érdekesség, vedd meg ma, 
+még, kérlek, keresd is meg, ideje lejár, mára elég, és vége, 
+# 9.1.1.# 
+# h = jobb kéz mutatóujja oldalt, balra #
+jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj jhj 
+# 9.1.2.# 
+ahj shj dhj fhj jhj khj lhj éhj ahj shj dhj fhj jhj khj lhj 
+ahj shj dhj fhj jhj khj lhj éhj ahj shj dhj fhj jhj khj lhj 
+ahj shj dhj fhj jhj khj lhj éhj ahj shj dhj fhj jhj khj lhj 
+# 9.1.3.# 
+asdedf jhjklé asdedf jhjklé asdedf jhjklé asdedf jhjklé asd 
+asdedf jhjklé asdedf jhjklé asdedf jhjklé asdedf jhjklé asd 
+asdedf jhjklé asdedf jhjklé asdedf jhjklé asdedf jhjklé asd 
+# 9.2.1.# 
+fehér fehér elhamvad elhamvad fehér fehér elhamvad elhamvad 
+fehér fehér elhamvad elhamvad fehér fehér elhamvad elhamvad 
+fehér fehér elhamvad elhamvad fehér fehér elhamvad elhamvad 
+# 9.2.2.# 
+iharfa, iharfa, havas, havas, iharfa, iharfa, havas, havas, 
+iharfa, iharfa, havas, havas, iharfa, iharfa, havas, havas, 
+iharfa, iharfa, havas, havas, iharfa, iharfa, havas, havas, 
+# 9.2.3.# 
+hallás, hallás, hárfa, hárfa, hallás, hallás, hárfa, hárfa, 
+hallás, hallás, hárfa, hárfa, hallás, hallás, hárfa, hárfa, 
+hallás, hallás, hárfa, hárfa, hallás, hallás, hárfa, hárfa, 
+# 9.2.4.# 
+hajlam, hajlam, hálás, hálás, hajlam, hajlam, hálás, hálás, 
+hajlam, hajlam, hálás, hálás, hajlam, hajlam, hálás, hálás, 
+hajlam, hajlam, hálás, hálás, hajlam, hajlam, hálás, hálás, 
+# 9.2.5.# 
+higgad, higgad, hever, hever, higgad, higgad, hever, hever, 
+higgad, higgad, hever, hever, higgad, higgad, hever, hever, 
+higgad, higgad, hever, hever, higgad, higgad, hever, hever, 
+# 9.2.6.# 
+hamar, hamar, hajlik, hajlik, hamar, hamar, hajlik, hajlik, 
+hamar, hamar, hajlik, hajlik, hamar, hamar, hajlik, hajlik, 
+hamar, hamar, hajlik, hajlik, hamar, hamar, hajlik, hajlik, 
+# 9.3.1.# 
+almahéj, almahéja, harmadik, harmadiké, harmadikkal, halad, 
+haladás, haladásra, haladásé, haladássá, haladj, haladj el, 
+hall, halld, halljad, hallják meg, hallja, hallás, hallása, 
+hallással, hallására, harmad, harmadéves, harmadévesek már, 
+harmadévesekkel, hervadás, hervadással, haj, hajas, hajjal, 
+# 9.3.2.# 
+hajlék, hajléka, hajlékai, hajlékaival, hajlékaikkal, éhes, 
+éhség, éhségem, éhséggel, éhségével, fehérje, fehérjefélék, 
+fehérjefélékkel, hamm, fehérlik, fehéres, fehérré, fehérek, 
+hidegség, jéghideg, hidegvérrel, hessegesd el, hessegessed, 
+derékhad, hadviselés, hadiakadémia, de ha, haladás, hamvad, 
+# 9.4.1.# 
+v é g r e   v a l a h á r a,   h a l a d á s s a l 
+v é g r e   v a l a h á r a,   h a l a d á s s a l 
+v é g r e   v a l a h á r a,   h a l a d á s s a l 
+# 9.5.1.# 
+hidd el, hamis vád, haladék, hamisságra, harmada, harmadfél, 
+halld meg, hadarásra, hamar, haladj, hallgasd meg, hajlik a 
+haladékadásra, a virága elhervad ma, lehajlik, se hideg, se 
+meleg, a haja fehéres már, hármasával adják, hamar elfárad, 
+kevéssé halad, már a derékhajlása is fájdalmas, kell valaha, 
+hamar megkérem, semmiféle hálával, érdekes hiedelem, hallei, 
+a harlemi, a harvardi, derékhada, hadállása, a hardverekkel, 
+régi hajlama, fáradsággal halad, haddelhadd, hadd lám, léha, 
+# 10.1.1.# 
+# t = bal kéz mutatóujja oldalt, fel #
+ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf ftf 
+# 10.1.2.# 
+atf stf dtf ftf jtf ktf ltf étf atf stf dtf ftf jtf ktf ltf 
+atf stf dtf ftf jtf ktf ltf étf atf stf dtf ftf jtf ktf ltf 
+atf stf dtf ftf jtf ktf ltf étf atf stf dtf ftf jtf ktf ltf 
+# 10.1.3.# 
+asdfrftfgfvf éáélkjhjmj asdfrftfgfvf éáélkjhjmj asdfrftfgfv 
+asdfrftfgfvf éáélkjhjmj asdfrftfgfvf éáélkjhjmj asdfrftfgfv 
+asdfrftfgfvf éáélkjhjmj asdfrftfgfvf éáélkjhjmj asdfrftfgfv 
+# 10.2.1.# 
+átadás átadás átvétel átvétel átadás átadás átvétel átvétel 
+átadás átadás átvétel átvétel átadás átadás átvétel átvétel 
+átadás átadás átvétel átvétel átadás átadás átvétel átvétel 
+# 10.2.2.# 
+érték érték hitel hitel érték érték hitel hitel érték érték 
+érték érték hitel hitel érték érték hitel hitel érték érték 
+érték érték hitel hitel érték érték hitel hitel érték érték 
+# 10.2.3.# 
+kamat kamat limit limit kamat kamat limit limit kamat kamat 
+kamat kamat limit limit kamat kamat limit limit kamat kamat 
+kamat kamat limit limit kamat kamat limit limit kamat kamat 
+# 10.2.4.# 
+kereslet kereslet draft draft kereslet kereslet draft draft 
+kereslet kereslet draft draft kereslet kereslet draft draft 
+kereslet kereslet draft draft kereslet kereslet draft draft 
+# 10.2.5.# 
+teljes, teljes, tétel, tétel, teljes, teljes, tétel, tétel, 
+teljes, teljes, tétel, tétel, teljes, teljes, tétel, tétel, 
+teljes, teljes, tétel, tétel, teljes, teljes, tétel, tétel, 
+# 10.2.6.# 
+talált talált tettes, tettes, talált talált tettes, tettes, 
+talált talált tettes, tettes, talált talált tettes, tettes, 
+talált talált tettes, tettes, talált talált tettes, tettes, 
+# 10.2.7.# 
+felett felett mellett mellett felett felett mellett mellett 
+felett felett mellett mellett felett felett mellett mellett 
+felett felett mellett mellett felett felett mellett mellett 
+# 10.3.1.# 
+tehetséges, tehetséggel, kreativitás, kreativitással, értés, 
+értelem, értelmes, értelmesség, értelmiség, értékeket, élet, 
+életkedv, életfeltétele, tartalmas, tartalmassá, tartásával, 
+elterjed, terjedjék, tietek, tiétek, tieitek, diáktársaidat, 
+# 10.3.2.# 
+teljessé tétel, teljes mértékkel, teljes siker, te magad is, 
+emleget, emlegetett, emitt, divat, a divattal, társaságával, 
+agitál, átértékelik, a társadalmi érdek, társadalmi jellege, 
+a társadalmi termék, a termeléssel, termelteti, termésátlag, 
+# 10.4.1.# 
+miattad, tetteti, takargatják, találgatás, taktikák, tekeri, 
+amiért, amellett lehetséges, a mellett a fa mellett, alá is 
+tettem, találja, tettetésed, teveled, tejtestvér, akarattal, 
+teátrális, a tételekkel, mértékletességgel értékel, tévedés, 
+térdet hajt, tetteti, kitervelte, drágállta, hársfavirágtea, 
+világtájak, terét, térség, térfél, táskákkal, tatai, két év 
+alatt, véglete, ritka, stratégia, mert ha, láthatár, kétlem, 
+sajátság, statika, mert hát, hivatali, miért is, kétméteres, 
+két és félméteres, mérsékelt, méltat, létkérdés, kritikával, 
+stratégia és taktika, létkérdés, a kiváltságaikkal, kritika, 
+véglete, hivatali, játék, játékfilm, játékterem, játék kard, 
+végtére is, karakter, kiterjedtség, ismét, hardvertermékkel, 
+értékhatár, fatális, e heti, hatheti, hirdesse, hálát adtak, 
+hass, hát még ha majd meg is látja, ismételje meg, hitegeti, 
+kamillatea, tejes étel, tejeskávé, tejfeles rétes, teavajjal 
+# 11.1.1.# 
+# pont = jobb kéz gyűrűsujja le #
+# u = jobb kéz mutatóujja fel #
+# kötőjel = jobb kéz kisujja le #
+juj juj juj juj juj juj juj juj juj juj juj juj juj juj juj 
+# 11.1.2.# 
+auj suj duj fuj juj kuj luj éuj auj suj duj fuj juj kuj luj 
+auj suj duj fuj juj kuj luj éuj auj suj duj fuj juj kuj luj 
+auj suj duj fuj juj kuj luj éuj auj suj duj fuj juj kuj luj 
+# 11.1.3.# 
+sdedfvfrftfgf él.lk,kikjmjuj sdedfvfrftfgf él.lk,kikjmjhjuj 
+sdedfvfrftfgf él.lk,kikjmjuj sdedfvfrftfgf él.lk,kikjmjhjuj 
+sdedfvfrftfgf él.lk,kikjmjuj sdedfvfrftfgf él.lk,kikjmjhjuj 
+# 11.1.4.# 
+é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é é-é 
+# 11.1.5.# 
+a-é s-é d-é f-é j-é k-é l-é é-é a-é s-é d-é f-é j-é k-é l-é 
+a-é s-é d-é f-é j-é k-é l-é é-é a-é s-é d-é f-é j-é k-é l-é 
+a-é s-é d-é f-é j-é k-é l-é é-é a-é s-é d-é f-é j-é k-é l-é 
+# 11.2.1.# 
+futás futás futam futam futás futás futam futam futás futás 
+futás futás futam futam futás futás futam futam futás futás 
+futás futás futam futam futás futás futam futam futás futás 
+# 11.2.2.# 
+árut, árut, fuvar fuvar árut, árut, fuvar fuvar árut, árut, 
+árut, árut, fuvar fuvar árut, árut, fuvar fuvar árut, árut, 
+árut, árut, fuvar fuvar árut, árut, fuvar fuvar árut, árut, 
+tudás tudás tudat tudat tudás tudás tudat tudat tudás tudás 
+tudás tudás tudat tudat tudás tudás tudat tudat tudás tudás 
+tudás tudás tudat tudat tudás tudás tudat tudat tudás tudás 
+# 11.2.4.# 
+fura, fura, ámul, ámul, fura, fura, ámul, ámul, fura, fura, 
+fura, fura, ámul, ámul, fura, fura, ámul, ámul, fura, fura, 
+fura, fura, ámul, ámul, fura, fura, ámul, ámul, fura, fura, 
+# 11.2.5.# 
+alakul, alakul, summa, summa, alakul, alakul, summa, summa, 
+alakul, alakul, summa, summa, alakul, alakul, summa, summa, 
+alakul, alakul, summa, summa, alakul, alakul, summa, summa, 
+# 11.2.6.# 
+jár-kel jár-kel tessék-lássék tessék-lássék jár-kel jár-kel 
+jár-kel jár-kel tessék-lássék tessék-lássék jár-kel jár-kel 
+jár-kel jár-kel tessék-lássék tessék-lássék jár-kel jár-kel 
+# 11.2.7.# 
+erre-arra erre-arra, kiféle-miféle kiféle-miféle, erre-arra 
+erre-arra erre-arra, kiféle-miféle kiféle-miféle, erre-arra 
+erre-arra erre-arra, kiféle-miféle kiféle-miféle, erre-arra 
+# 11.3.1.# 
+kulturált kulturális, kulturális javak, ritkul megritkultak, 
+akadémikus akadémikust akadémikussá akadémikussal akadémiát, 
+kutat kutatás kutatással kutatva kutatásaiért kutatási téma, 
+kalkulál kalkulálja kalkuláljuk, kalkulálhat kalkulálhattak, 
+tudat tudása tudással tudásával, tudtul adta, tudatalattija, 
+# 11.3.2.# 
+alul aluli alulra alulmarad, alulmaradhat alulmaradás aluli, 
+utas, utassal, utastér, utat talál, utat mutat, utalásaidra, 
+jut, juttat, juttass, juttatással, juttatja, jutalmat, juss, 
+alakul alakult alakulással átalakulása alakulj alakulhattak, 
+mutat mutatja mutatás mutassad mutasd meg, mutatják kimutat, 
+# 11.3.3.# 
+a-lul, u-tas, jut-tat, a-la-kul, mu-tat, tu-dat, kal-ku-lál, 
+ku-tat, a-ka-dé-mi-kust, kul-tu-rá-lis, ki-mu-ta-tá-sa-i-ra, 
+ru-gal-mas, ár-hul-lám, ku-ta-tá-sát, ju-ta-lék, jut-ta-tás, 
+struk-tu-ra-lis-ta, mu-lat-tat-ta, meg-ja-vul, du-a-lis-ták, 
+ju-tal-ma-id-dal, á-ru-lás, kul-ti-kus, át-a-la-ku-lá-sa-it, 
+# 11.4.1.# 
+rulettjáték, mulattat, jutalma, mulatság, hurrá, altruista, 
+figurális, kugli, fura, áru, árukereslet, akkurátus, dátum, 
+árul, faktum, tusa, tudtul adta, sugallta, aktuális, dukál, 
+rakjuk fel, ritmusra, ugrásra vár, futás, alakul, rugalmas, 
+eldugtuk, tudjuk már meg, sugallták, redukáljuk, határfalu, 
+kalkulált árak, alkudja, árulj, stuttgarti, mustár, javulj, 
+megittasul, de jure, akut, rugalmasság, áruraktár, hátulja, 
+vulgáris, rumlit, redukál, summa, mulattat is, kifutásával, 
+hullik, kuvaiti, karlsruhei, kalkuttai, áruraktára, átutal, 
+árukivitelét, árul, akkumulálja, hidraulika, hullámelmélet, 
+# 12.1.1.# 
+# z = jobb kéz mutató oldalt, fel #
+# pont = jobb kéz gyűrűsujja le #
+# Nagybetű esetén először a SHIFT feliratú billentyűk egyikét kell megnyomni. #
+# Bal kezes betű esetén a jobb oldalit, jobb kezes betű esetén a bal oldalit. #
+# Addig tartjuk lenyomva, míg a kívánt betűt le nem nyomtuk. #
+# A váltók (SHIFT billentyűk) kezelését tehát 3 ütemben végezzük: #
+#    1. A váltóbillentyű lenyomása és lenyomva tartása. #
+#    2. A kívánt betű leütése. #
+#    3. A váltóbillentyű elengedése és a kisujj visszahelyezése az alapsorra. #
+# A váltórögzítő a CAPS LOCK feliratú billentyű. #
+# Ennek lenyomásával érhetjük el, hogy ezentúl csupa nagybetűt írhassunk. #
+# Kikapcsolni a váltórögzítő újbóli megnyomásával lehet. #
+l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l l.l 
+# 12.1.2.# 
+a.l s.l d.l f.l j.l k.l l.l é.l a.l s.l d.l f.l j.l k.l l.l 
+a.l s.l d.l f.l j.l k.l l.l é.l a.l s.l d.l f.l j.l k.l l.l 
+a.l s.l d.l f.l j.l k.l l.l é.l a.l s.l d.l f.l j.l k.l l.l 
+# 12.1.3.# 
+asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfg 
+asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfg 
+asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfgf éáél.lkjhj asdfg 
+# 12.1.4.# 
+Jj Kk Ll Éé Jj Kk Ll Éé Jj Kk Ll Éé Jj Kk Ll Éé Jj Kk Ll Éé 
+Ff Dd Ss Aa Ff Dd Ss Aa Ff Dd Ss Aa Ff Dd Ss Aa Ff Dd Ss Aa 
+Aé Sé Dé Fé Gé Té Ré Eé Vé Aé Sé Dé Fé Gé Té Ré Eé Vé Aé Sé 
+Áa Éa La Ka Ia Ja Ha Ma Áa Éa La Ka Ia Ja Ha Ma Áa Éa La Ka 
+# 12.2.1.# 
+Adél. Adél. Adél. Adél. Adél. Adél. Adél. Adél. Adél. Adélé. 
+Ági. Máté. Ági. Máté. Ági. Máté. Ági. Máté. Ági. Máté. Ágit. 
+Mária. Éva. Mária. Éva. Mária. Éva. Mária. Éva. Mária. Évát. 
+# 12.2.2.# 
+Ádám. Kati. Ádám. Kati. Ádám. Kati. Ádám. Kati. Ádám. Katit. 
+Feri. Sári. Feri. Sári. Feri. Sári. Feri. Sári. Feri. Sárit. 
+Tivadar. Tamás. Tivadar. Tamás. Tivadar. Tamás. Tivadaréval. 
+# 12.2.3.# 
+Eszter. Etel. Etelka. Eszter. Etel. Etelka. Eszter. Etellel. 
+Farkas. Fatime. Fidél. Farkas. Fatime. Fidél. Farkas. Fidél. 
+Friderika. Gellért. Géza. Friderika. Gellért. Géza. Gellért. 
+# 12.2.4.# 
+Gizella. Hedvig. Helga. Gizella. Hedvig. Helga. Gizelláéval. 
+Hella. Hermész. Hilda. Hella. Hermész. Hilda. Hella. Hildát. 
+Ida. Ilka. Illés. Ida. Ilka. Illés. Ida. Ilka. Illés. Idáék. 
+# 12.2.5.# 
+Ivett. Izsák. Kamill. Ivett. Izsák. Kamill. Ivett. Izsákkal. 
+Kamilla. Kázmér. Klára. Kamilla. Kázmér. Klára. Kamilláéval. 
+Lázár. Lilla. Lili. Lázár. Lilla. Lili. Lázár. Lilla. Lilit. 
+# 12.2.6.# 
+Marietta. Márk. Márta. Marietta. Márk. Márta. Mariettáékkal. 
+Miksa. Rafael. Ráhel. Miksa. Rafael. Ráhel. Miksa. Rafaelét. 
+Réka. Rita. Szeráf. Réka. Rita. Szeráf. Réka. Rita. Szeráfé. 
+# 12.2.7.# 
+Szigfrid. Szilárd. Szilveszter. Szigfrid. Szilárd. Szigfrid. 
+Szilvia. Tamara. Tekla. Szilvia. Tamara. Tekla. Szilviáékat. 
+Teréz. Tihamér. Tilda. Teréz. Tihamér. Tilda. Teréz. Tildáé. 
+# 12.2.8.# 
+Virgil. Vali. Zakariás. Virgil. Vali. Zakariás. Virgilékkel. 
+Vera. Vilma. Virág. Vera. Vilma. Virág. Vera. Vilma. Virágé. 
+Zelma. Zita. Zelma. Zita. Zelma. Zita. Zelma. Zita. Zelmáék. 
+# 12.3.1.# 
+Adél, Aliz, Alma, Amália, Edit, Eliza, Ella, Elvira, Emese, 
+Elza, Emma, Erika, Eszter, Hedvig, Helga, Hilda, Ida, Kata, 
+Kamilla, Klára, Lili, Liza, Magda, Margit, Matilda, Mária, 
+# 12.3.2.# 
+Réka, Rita, Sára, Tamara, Tamás, Terézia, Valéria, Vera, Ede, 
+Elemér, Elek, Emil, Erik, Etele, Farkas, Gellért, Géza, Imre, 
+Kamill, Lehel, Máté, Márk, Szilárd, Szilveszter, Tamás, Vajk, 
+# 12.4.1.# 
+Adams, Darvas, David, Davis, Erdei, Farkas, Fekete, Feleki, 
+Gaál, Gáll, Garai, Fehér, Rátkai, Végh, Hers, Harag, Heller, 
+Hill, Karsai, Kass, Kiss, Mailer, Márai, Mezei, Miller, Sass, 
+Savalas, Seghers, Segal, Graves, Vitéz, Teller, Dsida, Dés, 
+Gellért, Gergei, Heltai, Illés, Kaffka, Kassák, Kézai, Kiss, 
+Makkai, Mikszáth, Ráskai Lea, Révai, Szigligeti Ede, Tamási, 
+# 13.1.1.# 
+# z = jobb kéz mutató oldalt, fel 
+jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj jzj 
+# 13.1.2.# 
+azj szj dzj fzj jzj kzj lzj ézj azj szj dzj fzj jzj kzj lzj 
+azj szj dzj fzj jzj kzj lzj ézj azj szj dzj fzj jzj kzj lzj 
+azj szj dzj fzj jzj kzj lzj ézj azj szj dzj fzj jzj kzj lzj 
+# 13.1.3.# 
+asdftf élkjzj asdftf élkjzj asdftf élkjzj asdftf élkjzj asd 
+asdftf élkjzj asdftf élkjzj asdftf élkjzj asdftf élkjzj asd 
+asdftf élkjzj asdftf élkjzj asdftf élkjzj asdftf élkjzj asd 
+# 13.2.1.# 
+idézet, idézet, hazája hazája idézet, idézet, hazája hazája 
+idézet, idézet, hazája hazája idézet, idézet, hazája hazája 
+idézet, idézet, hazája hazája idézet, idézet, hazája hazája 
+# 13.2.2.# 
+kezei, kezei, készség készség kezei, kezei, készség készség 
+kezei, kezei, készség készség kezei, kezei, készség készség 
+kezei, kezei, készség készség kezei, kezei, készség készség 
+# 13.2.3.# 
+szavad szavad sziget, sziget, szavad szavad sziget, sziget, 
+szavad szavad sziget, sziget, szavad szavad sziget, sziget, 
+szavad szavad sziget, sziget, szavad szavad sziget, sziget, 
+# 13.2.4.# 
+felez, felez, száraz, száraz, felez, felez, száraz, száraz, 
+felez, felez, száraz, száraz, felez, felez, száraz, száraz, 
+felez, felez, száraz, száraz, felez, felez, száraz, száraz, 
+# 13.2.5.# 
+zsivaj, zsivaj, zavar, zavar, zsivaj, zsivaj, zavar, zavar, 
+zsivaj, zsivaj, zavar, zavar, zsivaj, zsivaj, zavar, zavar, 
+zsivaj, zsivaj, zavar, zavar, zsivaj, zsivaj, zavar, zavar, 
+# 13.2.6.# 
+zivatar zivatar zárlat zárlat zivatar zivatar zárlat zárlat 
+zivatar zivatar zárlat zárlat zivatar zivatar zárlat zárlat 
+zivatar zivatar zárlat zárlat zivatar zivatar zárlat zárlat 
+# 13.2.7.# 
+záradék záradék zajlik zajlik záradék záradék zajlik zajlik 
+záradék záradék zajlik zajlik záradék záradék zajlik zajlik 
+záradék záradék zajlik zajlik záradék záradék zajlik zajlik 
+# 13.3.1.# 
+zaj zajra zajt zajjal zaját zajjá, zajlás zajlása zajlásával, 
+kéz, kezek kézzel kezeit kezeik kezeiket kezeikhez kezeikkel, 
+ész eszes ésszel, észhez tért, észjárás észjárása észjárását, 
+kész készség készséges készségessége, késztet késztetésekkel, 
+idéz idézetek idézett idéztet idézhette megidéz megidézhetik, 
+# 13.3.2.# 
+haza hazám hazád hazája hazát hazai hazait hazaiak hazaiakat, 
+ház házad házam házad házát, házával házára házait házaikkal, 
+igazság igazsággal igazságával igazságára igazságért igazzal, 
+szeret szeretem szerettem szeretitek szerettétek szeressétek, 
+szerelem szerelmek szerelmes szerelmi szerelmetekkel, szakad, 
+# 13.4.1.# 
+keres keresek, keresés kereséssel, megkeresése megkeresésére, 
+keresd, kereskedik kereskedelem kereskedelmi kereskedelemmel, 
+kiskereskedelem kiskereskedelemmé kiskereskedelmiek, jelezze, 
+jelezzétek jelzéseket, érdemleges érdemlegesség, száz százas, 
+százzal százak százakkal százakra százszámra, százalékaikkal, 
+százalékát százalékára százalékszámmal, tévedés tévedésekkel, 
+szerte, szerteszéjjel, szert tesz valamire, szakma szakmáját, 
+szakmájával szakmákkal, szakmaszeretet szakmaszeretete, száz, 
+százszámra, század, a század eleje, a század vége, századvég, 
+szervezet, szervezettek, szervezésével, a szakmai szervezetek 
+# 13.5.1.# 
+zajjal, zaklat, zavar, zajvédelem, ezrek, idézi, zavarkeltés, 
+éreztetik, megfékezése, halaszt, jelzése, védekezés, szemmel 
+tart, szert tesz valamire, alkalmazása, ez alá az asztal alá, 
+kézhez vesz, kézfelemeléssel is, szavazás, szavak, kezet ráz, 
+átszervezéssel, gazdasági szerkezetváltással, szakszervezeti, 
+a gazdasági fejlettség, ezért meg ezért, igazgatása, számláz, 
+ezzel is, szerfelett, szája szélét, számlaszám, kézhez veszi, 
+ez alatt száz százalékkal emelkedett az áram ára, emitt mégis 
+várhatsz a vásárlással, gazdasági javak, gazdasági válsággal, 
+halasztás, fékezéssel, záradék, évadzárás, ezzel, emez, azzá, 
+# 14.1.1.# 
+# o = jobb kéz gyűrűsujja fel 
+lol lol lol lol lol lol lol lol lol lol lol lol lol lol lol 
+# 14.1.2.# 
+aol sol dol fol jol kol lol éol aol sol dol fol jol kol lol 
+aol sol dol fol jol kol lol éol aol sol dol fol jol kol lol 
+aol sol dol fol jol kol lol éol aol sol dol fol jol kol lol 
+# 14.1.3.# 
+asdfrftf élolkjuj asdfrftf élolkjuj asdfrftf élolkjuj asdfr 
+asdfrftf élolkjuj asdfrftf élolkjuj asdfrftf élolkjuj asdfr 
+asdfrftf élolkjuj asdfrftf élolkjuj asdfrftf élolkjuj asdfr 
+# 14.2.1.# 
+forog, forog, formáz, formáz, forog, forog, formáz, formáz, 
+forog, forog, formáz, formáz, forog, forog, formáz, formáz, 
+forog, forog, formáz, formáz, forog, forog, formáz, formáz, 
+# 14.2.2.# 
+korszak korszak formál formál korszak korszak formál formál 
+korszak korszak formál formál korszak korszak formál formál 
+korszak korszak formál formál korszak korszak formál formál 
+# 14.2.3.# 
+ahova ahova ahol, ahol, ahova ahova ahol, ahol, ahova ahova 
+ahova ahova ahol, ahol, ahova ahova ahol, ahol, ahova ahova 
+ahova ahova ahol, ahol, ahova ahova ahol, ahol, ahova ahova 
+# 14.2.4.# 
+amott amott odaát odaát amott amott odaát odaát amott amott 
+amott amott odaát odaát amott amott odaát odaát amott amott 
+amott amott odaát odaát amott amott odaát odaát amott amott 
+# 14.2.5.# 
+akkor akkor sorol sorol akkor akkor sorol sorol akkor akkor 
+akkor akkor sorol sorol akkor akkor sorol sorol akkor akkor 
+akkor akkor sorol sorol akkor akkor sorol sorol akkor akkor 
+# 14.2.6.# 
+okoz, okoz, dolog dolog okoz, okoz, dolog dolog okoz, okoz, 
+okoz, okoz, dolog dolog okoz, okoz, dolog dolog okoz, okoz, 
+okoz, okoz, dolog dolog okoz, okoz, dolog dolog okoz, okoz, 
+# 14.3.1.# 
+sok sokat, sokaság, sokakkal sokall sokallja, sokszor, sokk, 
+ok oka ok okkal, okozza okozzák, okozata, okfejtése, oksági, 
+okol okolja, okos okoskodik okoskodással okosság okossággal, 
+oktat oktatás oktatással, kioktatás, kioktatással, oktrojál, 
+moralizál, moralizálás, morális, amorális, demoralizálással, 
+# 14.3.2.# 
+ott, ott tart, ottfelejt, itt is és ott is, oda, odaát majd, 
+oldal oldalt oldalas, oldalág, érkezési oldal, oldaltáskája, 
+foglalkozás foglalkoztatottság, foglalkoztatottsággal fogad, 
+fogadás fogadással, elfogad, fogalom, fogalmak, fogalmakkal, 
+határozott, határozottság, meghatározottság, meghatározások, 
+# 14.3.3.# 
+kor kora korral, korszakot, korszakkal, kortársai, korhatár, 
+jog jogos, jogorvoslat, jogvégzett, jogot formál, jogásszal, 
+jut jutott eljutott, odáig jutott, eljuttatott, juttatottak, 
+mozgás, mozgással, mozgásokkal, testmozgással, kosarazással, 
+mozdulat, mozdulattal, mozdulással, kézmozdulattal, mozgasd, 
+# 14.4.1.# 
+károsult, jogvédelem, rosszallás, dorgálással, korlátozásig, 
+megoldással, okiratilleték, osztozkodás, orvoslás, áldozata, 
+okoskodik, elhivatottság, mikori, háromszáz éves, kolostori, 
+katolikusok, reformátusok, morál, megszokottság, fogadalmak, 
+Golgota, Kolozsvár, Háromszék, Giotto, Rousseau, rousseau-i, 
+jutalom, futással, sok-sok mozgással, uszoda, Komjádi, golf, 
+lovaglással, oda-vissza, változtatásokkal, és máshol, mozik, 
+sokall, eloszt, forgalmaz, dollár, hotel, ahova, távolságok, 
+Azori-szigetek, Odera, Odessza, Oroszország, szovjet, Gogol, 
+Gorkij, gorkiji, Golf-árammal, Goethe, goetheit, voltaire-i, 
+# 15.1.1.# 
+# p = jobb kéz kisujja fel, balra #
+épé épé épé épé épé épé épé épé épé épé épé épé épé épé épé 
+# 15.1.2.# 
+apé spé dpé fpé jpé kpé lpé épé apé spé dpé fpé jpé kpé kpé 
+apé spé dpé fpé jpé kpé lpé épé apé spé dpé fpé jpé kpé kpé 
+apé spé dpé fpé jpé kpé lpé épé apé spé dpé fpé jpé kpé kpé 
+# 15.1.3.# 
+asdedfrftf épélolkikjuj asdedfrftf épélolkikjuj asdedfrftf 
+asdedfrftf épélolkikjuj asdedfrftf épélolkikjuj asdedfrftf 
+asdedfrftf épélolkikjuj asdedfrftf épélolkikjuj asdedfrftf 
+# 15.2.1.# 
+képzés képzés diploma diploma képzés képzés diploma diploma 
+képzés képzés diploma diploma képzés képzés diploma diploma 
+képzés képzés diploma diploma képzés képzés diploma diploma 
+# 15.2.2.# 
+szépség szépség sport, sport, szépség szépség sport, sport, 
+szépség szépség sport, sport, szépség szépség sport, sport, 
+szépség szépség sport, sport, szépség szépség sport, sport, 
+# 15.2.3.# 
+kapu, kapu, kopog kopog kapu, kapu, kopog kopog kapu, kapu, 
+kapu, kapu, kopog kopog kapu, kapu, kopog kopog kapu, kapu, 
+kapu, kapu, kopog kopog kapu, kapu, kopog kopog kapu, kapu, 
+# 15.2.4.# 
+kép, kép, lap, lap, kép, kép, lap, lap, kép, kép, lap, lap, 
+kép, kép, lap, lap, kép, kép, lap, lap, kép, kép, lap, lap, 
+kép, kép, lap, lap, kép, kép, lap, lap, kép, kép, lap, lap, 
+# 15.2.5.# 
+lép, lép, tipp tipp lép, lép, tipp tipp lép, lép, tipp tipp 
+lép, lép, tipp tipp lép, lép, tipp tipp lép, lép, tipp tipp 
+lép, lép, tipp tipp lép, lép, tipp tipp lép, lép, tipp tipp 
+# 15.2.6.# 
+piros, piros, paprika paprika piros, piros, paprika paprika 
+piros, piros, paprika paprika piros, piros, paprika paprika 
+piros, piros, paprika paprika piros, piros, paprika paprika 
+# 15.2.7.# 
+park, park, pázsitja pázsitja park, park, pázsitja pázsitja 
+park, park, pázsitja pázsitja park, park, pázsitja pázsitja 
+park, park, pázsitja pázsitja park, park, pázsitja pázsitja 
+# 15.3.1.# 
+tapasztal tapasztaljátok tapasztalatokkal, tapasztalatádadás, 
+képzés képzéssel, szakképzés, szakmai képzés, képzettségedet, 
+példa például példája példákkal, példázatául, példamutatását, 
+képvisel képviselje képviselte képviseljétek képviseltessétek 
+képviseld képviseljed, alap alapja alappal, alapos, alaprajz, 
+# 15.3.2.# 
+alapállás, alapár, alapelv, alapfeltétel, alapfizetés, alapul 
+vesz, alapul vett, alapszik, alapszervezet, alapszervezettel, 
+párt pártja párttal, pártállás, pártszervezés, pártapparátus, 
+pártérdek, pártprogram, reformpárt, demokrata párti, pártokra 
+szakad, plurális, pluralizmus, pluralisztikus, pluralitással, 
+# 15.3.3.# 
+polgár polgári, állampolgár, polgárosodás, polgárjog, polgár- 
+mester, állampolgársága, kispolgárság, városi polgár, polgári 
+forradalom, ipar, ipari forradalom, iparfejlesztés, iparpoli- 
+tika, atomipar, hadiipar, kisipari, ipari ágazat, iparkamara, 
+politika, politikai program, politikai képviselet, politizál, 
+# 15.3.4.# 
+sport sportol sporttal, sportágak, sportvezetés, sportorvosa, 
+élsport, sportfogadás, sportélet, sporthorgászat, sportruhák, 
+sportszellem, sportszervek, sportterápia, sportuszoda, sport- 
+vezetés, sportszeretet, jégsport, sporthorgászat, szép, szép- 
+séged, szépséggel, szépérzék, szép tiszta, széplélek, széppé. 
+# 15.4.1.# 
+képmás, a part mellett, életkép, piros, pálfordulás, jelképe, 
+példás, pajzs, áprilisi, akármiképp, pro forma, paralel, lap, 
+padozat, kupola, padlás, képtár, ép lélek, ápolás, szépséged, 
+példázata, párhuzamosság, szépirodalom, opera, tapasztaltság, 
+alapfogalmak, akármiképp, dolgozata, ekképp, paralelogrammák 
+természetvédelmi park, pusztulás, ápolásra szorul, szép vidék 
+volt, parázs vita, jelképes, párját, hetilapokkal, Képes Hét, 
+Kapu, lapzárta, riporttal, tippje, sportszeretete, visszalép, 
+sápadtság, ápoltság, április vége, ápolásra szorul, operálás- 
+sal, lépdel már, a sportterápiát, az elképzelésével, például, 
+# 16.1.1.# 
+# n = jobb kéz mutatóujja le, balra #
+jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj jnj 
+# 16.1.2.# 
+anj snj dnj fnj jnj knj lnj énj anj snj dnj fnj jnj knj lnj 
+anj snj dnj fnj jnj knj lnj énj anj snj dnj fnj jnj knj lnj 
+anj snj dnj fnj jnj knj lnj énj anj snj dnj fnj jnj knj lnj 
+# 16.1.3.# 
+asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj 
+asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj 
+asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj asdfvfgf épélkjnjmj 
+# 16.2.1.# 
+zene, zene, ének, ének, zene, zene, ének, ének, zene, zene, 
+zene, zene, ének, ének, zene, zene, ének, ének, zene, zene, 
+zene, zene, ének, ének, zene, zene, ének, ének, zene, zene, 
+# 16.2.2.# 
+vándor, vándor, vendég vendég vándor, vándor, vendég vendég 
+vándor, vándor, vendég vendég vándor, vándor, vendég vendég 
+vándor, vándor, vendég vendég vándor, vándor, vendég vendég 
+# 16.2.3.# 
+hang, hang, mond, mond, hang, hang, mond, mond, hang, hang, 
+hang, hang, mond, mond, hang, hang, mond, mond, hang, hang, 
+hang, hang, mond, mond, hang, hang, mond, mond, hang, hang, 
+# 16.2.4.# 
+minden, minden, jelen, jelen, minden, minden, jelen, jelen, 
+minden, minden, jelen, jelen, minden, minden, jelen, jelen, 
+minden, minden, jelen, jelen, minden, minden, jelen, jelen, 
+# 16.2.5.# 
+innen-onnan, innen-onnan, ne, ne, innen-onnan, innen-onnan, 
+innen-onnan, innen-onnan, ne, ne, innen-onnan, innen-onnan, 
+innen-onnan, innen-onnan, ne, ne, innen-onnan, innen-onnan, 
+# 16.2.6.# 
+nemzet, nemzet, német, német, nemzet, nemzet, német, német, 
+nemzet, nemzet, német, német, nemzet, nemzet, német, német, 
+nemzet, nemzet, német, német, nemzet, nemzet, német, német, 
+# 16.2.7.# 
+noha, noha, nála, nála, noha, noha, nála, nála, noha, noha, 
+noha, noha, nála, nála, noha, noha, nála, nála, noha, noha, 
+noha, noha, nála, nála, noha, noha, nála, nála, noha, noha, 
+# 16.3.1.# 
+mind, mindjárt, mindaddig, mindahhoz, minduntalan, mindazt, 
+mindamellett, mindeddig, mindenfelé, mindenáron, mindeddig, 
+mindenképp, mindennapos, mindmostanáig, minél, mint, minta, 
+mintha, mond, mondta, mondotta, mondd, mondjad, ellentmond, 
+mondat, mondás, mondatja, mondassa, mondatelemzése, mondat- 
+# 16.3.2.# 
+rész, mondattan, munka, munkája, munkaképtelen, házi munka, 
+szellemi munka, munkaalkalom, munkamegosztás, munkaprogram, 
+munkálkodik, munkarend, munkaképtelenség, munkaruha, pénze, 
+pénzzé pénzzel, pénzátutalás, pénzjutalom, pénzzavar, pénz- 
+forgalom, pénzforrás, pénzgazdálkodás, pénzintézet, pénzzé 
+# 16.3.3.# 
+tesz, pénzkérdés, pénzkezelés, pénzreformmal, pénzrendszer, 
+energia, energiafelhasználás, energiaforrás, energiamérleg, 
+energiagazdálkodás, energiatartalék, atomenergia, energia- 
+válság, napenergia, energiatakarékosság, energiaipar, fenn, 
+fennáll, fenntartással, fennen, fennforog, fennhangon, fent. 
+# 16.3.4.# 
+nemzet, nemzetgazdaság, nemzetek feletti, nemzeti, nemzeti 
+dal, Nemzeti dal, nemzeti érdek, nemzeti érték, nemzetiség, 
+nemzetiségek, nemzetiségi kérdés, nemzeti tudat, nemzetség, 
+nép, népi demokratikus, népképviselet, népszavazás, népura- 
+lom, népmozgalom, népi kollégium, népszokás, néphit, népies. 
+# 16.4.1.# 
+non plus ultra, no mármost, senki, annál, akként, minél, on- 
+nan, mintha, valahonnan, jelentéktelen, azonképpen, nemsoká, 
+nappal, nekirugaszkodik, noha, nevetséges, nézetazonosságuk, 
+normalizáltság, rendellenesség, nemes versengés, pontossága, 
+nehézség, nem egészen, tanulság, tanultság, nem ritka, nála, 
+nullszéria, nonstop, nemigen, elégtelen, nem elégséges, lent 
+áll, odalenn, Duna-part, Duna-Tisza, tenger, naplemente, Ani 
+és András, valamint Anna, Andor, Angéla és Dénes, János-napi, 
+gimnazisták, zenetanulás, dzsesszzene, fantasztikus, hangkép- 
+zés, éppenséggel, ennélfogva, azonosul, eleinte, hangtalanul. 
+# 17.1.1.# 
+# c = bal kéz középső ujja le #
+dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd dcd 
+# 17.1.2.# 
+acd scd dcd fcd jcd kcd lcd écd acd scd dcd fcd jcd kcd lcd 
+acd scd dcd fcd jcd kcd lcd écd acd scd dcd fcd jcd kcd lcd 
+acd scd dcd fcd jcd kcd lcd écd acd scd dcd fcd jcd kcd lcd 
+# 17.1.3.# 
+asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asd 
+asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asd 
+asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asdcdf élkjnj asd 
+# 17.2.1.# 
+kuncog, kuncog, kacag, kacag, kuncog, kuncog, kacag, kacag, 
+kuncog, kuncog, kacag, kacag, kuncog, kuncog, kacag, kacag, 
+kuncog, kuncog, kacag, kacag, kuncog, kuncog, kacag, kacag, 
+# 17.2.2.# 
+kulcs, kulcs, moccan, moccan, kulcs, kulcs, moccan, moccan, 
+kulcs, kulcs, moccan, moccan, kulcs, kulcs, moccan, moccan, 
+kulcs, kulcs, moccan, moccan, kulcs, kulcs, moccan, moccan, 
+# 17.2.3.# 
+árucsere árucsere piac, piac, árucsere árucsere piac, piac, 
+árucsere árucsere piac, piac, árucsere árucsere piac, piac, 
+árucsere árucsere piac, piac, árucsere árucsere piac, piac, 
+# 17.2.4.# 
+sánc sánc léc, léc, sánc sánc léc, léc, sánc sánc léc, léc, 
+sánc sánc léc, léc, sánc sánc léc, léc, sánc sánc léc, léc, 
+sánc sánc léc, léc, sánc sánc léc, léc, sánc sánc léc, léc, 
+# 17.2.5.# 
+csillag csillag csodál csodál csillag csillag csodál csodál 
+csillag csillag csodál csodál csillag csillag csodál csodál 
+csillag csillag csodál csodál csillag csillag csodál csodál 
+# 17.2.6.# 
+csokoládé, csokoládé, csésze, csésze, csokoládé, csokoládé, 
+csokoládé, csokoládé, csésze, csésze, csokoládé, csokoládé, 
+csokoládé, csokoládé, csésze, csésze, csokoládé, csokoládé, 
+# 17.3.1.# 
+arc, arcjáték, arckép, arcvonás, álarc, arckifejezés, arcul 
+csap, arculcsapás, kerek arc, arcképcsarnok, család, család- 
+fa, családvédelem, családi név, családi vonás, csak azért is, 
+cselekedet, cselekvés, cselekszik, cselekszenek, cselekedje- 
+nek, cselekvésképtelen, psziché, pszichologikus, pszichikai, 
+# 17.3.2.# 
+szocializál, szociográfia, szociális, szociáldemokrácia, cél, 
+céltalan, célt téveszt, céltévesztés, céltudatos cselekvések, 
+célzatos, életcél, végcél, centrum, centrumpárt, csatlakozik, 
+csatlakozással, cég, cégér, cégjelzés, cégtárs, cégtulajdonos 
+névcédulái, árcédula, cédularendezés, csekkszámla-tulajdonos, 
+# 17.3.3.# 
+Julius Caesar, Caesarral, caesari, Colosseum, corpus delicti, 
+corpus juris, corvina, Corvina, Collegium Hungaricum, Chagall 
+Chagall-lal, chagalli, Corneille, Corneille-jel, corneille-i, 
+Anatole France, France-szal, france-i, Michelangelo, Picasso, 
+Puccini, Schiller, Schumann, Chopin, Casals, concerto grosso, 
+# 17.4.1.# 
+Achilles-sarka, archaizmus, categorikus imperativus, Carnegie 
+Hall, Cannes, cannes-i filmfesztivál, csodálatos, civilizált, 
+Duna-medence, koncertezik, koncentrálás, csendesség, csillag- 
+csoport, csodát tett, csak akkor, mecénás, pacifista, Medici, 
+csillagos ég, csodák csodája, csengjenek, kapcsolat, csordul, 
+a computerekkel, Commodore, szoftvercsomaggal, command file, 
+hardverkapcsolat, szerencsés, precizitás, peches, speciális, 
+mechanikus, másodperccel, kockázat, csoport, decimális szám, 
+kilencedfél, kHz-cel, kockáztat, koncentrikusan, garanciális, 
+csomagterv, prekoncepcionális, specializált, Cogito ergo sum. 
+# 18.1.1.# 
+# ő = jobb kéz kisujja oldalt, fel #
+éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé éőé 
+# 18.1.2.# 
+aőé sőé dőé főé jőé kőé lőé éőé aőé sőé dőé főé jőé kőé lőé 
+aőé sőé dőé főé jőé kőé lőé éőé aőé sőé dőé főé jőé kőé lőé 
+aőé sőé dőé főé jőé kőé lőé éőé aőé sőé dőé főé jőé kőé lőé 
+# 18.1.3.# 
+asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asd 
+asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asd 
+asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asdcdf jkléőé asd 
+# 18.2.1.# 
+előad előad tőle, tőle, előad előad tőle, tőle, előad előad 
+előad előad tőle, tőle, előad előad tőle, tőle, előad előad 
+előad előad tőle, tőle, előad előad tőle, tőle, előad előad 
+# 18.2.2.# 
+előtt előtt felől felől előtt előtt felől felől előtt előtt 
+előtt előtt felől felől előtt előtt felől felől előtt előtt 
+előtt előtt felől felől előtt előtt felől felől előtt előtt 
+# 18.2.3.# 
+ettől ettől erről erről ettől ettől erről erről ettől ettől 
+ettől ettől erről erről ettől ettől erről erről ettől ettől 
+ettől ettől erről erről ettől ettől erről erről ettől ettől 
+# 18.2.4.# 
+mező mező eső, eső, mező mező eső, eső, mező mező eső, eső, 
+mező mező eső, eső, mező mező eső, eső, mező mező eső, eső, 
+mező mező eső, eső, mező mező eső, eső, mező mező eső, eső, 
+# 18.2.5.# 
+első, első, kettő kettő első, első, kettő kettő első, első, 
+első, első, kettő kettő első, első, kettő kettő első, első, 
+első, első, kettő kettő első, első, kettő kettő első, első, 
+# 18.2.6.# 
+tető tető fedő fedő tető tető fedő fedő tető tető fedő fedő 
+tető tető fedő fedő tető tető fedő fedő tető tető fedő fedő 
+tető tető fedő fedő tető tető fedő fedő tető tető fedő fedő 
+# 18.3.1.# 
+ő, ők, őt, őérte, őhozzájuk, őmellé, őmiatta, őnála, őhozzá, 
+idő, időmérés, időpont, időszak, időtartam, időveszteséggel, 
+menetidő, munkaidő, pihenőidő, rekordidő, vizsgaidő, időről 
+időre, jelen idő, időnap előtt, időpazarlással, időváltozás, 
+ősz, ősszel, ősz végi, késő ősz, őszelő, őszi, őszi vásáron, 
+# 18.3.2.# 
+előle, előlem, előled, előlegezte, előlegezzétek, előléptet, 
+cselekvő, cselekvően, cselekvőleg, cselekvőképesség, cselek- 
+vőképtelenség, előad, előadás-sorozat, diákelőadás, előadás- 
+sal, előle, előled, előlegezte, előlegezzék, előrenéz, előre 
+gondoskodik, előre jelez, előrelátás, előre-hátra, előre is, 
+# 18.3.3.# 
+fő, asztalfő, családfő, nemzetségfő, oszlopfő, főfoglalkozás, 
+főétkezés, főszereplő, fő érv, fő feltétele, fő gond, főképp, 
+fő kifogás, főrendező, fő szempont, főszerkesztő, főszereplő, 
+fő szempontja, fő mozzanat, főposta, főnévi igenév, főmondat, 
+felső, felsőoktatás, Felső-Tisza-vidék, Felső Duna sor, első, 
+# 18.4.1.# 
+szőlővesszőt, mezőgazdaság-fejlesztés, értéktőzsdét, tőzsde- 
+játékos, tőkéssé, mezőgazdasági gépek, tőkés import, termőre 
+fordul, mazsolaszőlő, tető alá hoz, szép idő, sző, előcsarnok 
+előtt, előlegezze, kettős kereszt, legfőképpen, lehetőséggel, 
+ellenőrzéssel, elsődlegesség, védővám, szerződéssel, ezekről, 
+levelezői kapcsolat, kereskedőházak, tőzsde, ismertetőjeleit, 
+őmellette, jelentőségét, vevőkkel, ellenőrzéssel, évről évre, 
+előrehaladást, államfői, főleg, előttiek, erősen, ismertető- 
+jel, rendezősége, Mezőkovácsháza, félreérhető, mindenekelőtt, 
+főszerkesztőségek, értelmező jelző, főnévi igenév, főmondat. 
+# 19.1.1.# 
+# b = bal kéz mutatóujja oldalt, le #
+fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf fbf 
+# 19.1.2.# 
+abf sbf dbf fbf jbf kbf lbf ébf abf sbf dbf fbf jbf kbf lbf 
+abf sbf dbf fbf jbf kbf lbf ébf abf sbf dbf fbf jbf kbf lbf 
+abf sbf dbf fbf jbf kbf lbf ébf abf sbf dbf fbf jbf kbf lbf 
+# 19.1.3.# 
+asdfrftfgfbfvf épéőéáélkjhj asdfrftfgfbfvf épéőéáélkjhj asd 
+asdfrftfgfbfvf épéőéáélkjhj asdfrftfgfbfvf épéőéáélkjhj asd 
+asdfrftfgfbfvf épéőéáélkjhj asdfrftfgfbfvf épéőéáélkjhj asd 
+# 19.2.1.# 
+ember, ember, szabad, szabad, ember, ember, szabad, szabad, 
+ember, ember, szabad, szabad, ember, ember, szabad, szabad, 
+ember, ember, szabad, szabad, ember, ember, szabad, szabad, 
+# 19.2.2.# 
+hiba, hiba, hebeg hebeg hiba, hiba, hebeg hebeg hiba, hiba, 
+hiba, hiba, hebeg hebeg hiba, hiba, hebeg hebeg hiba, hiba, 
+hiba, hiba, hebeg hebeg hiba, hiba, hebeg hebeg hiba, hiba, 
+# 19.2.3.# 
+libeg-lobog, libeg-lobog, libeg-lobog, libeg-lobog, libegő, 
+libeg-lobog, libeg-lobog, libeg-lobog, libeg-lobog, libegő, 
+libeg-lobog, libeg-lobog, libeg-lobog, libeg-lobog, libegő, 
+# 19.2.4.# 
+jobb, jobb, zseb, zseb, jobb, jobb, zseb, zseb, jobb, jobb, 
+jobb, jobb, zseb, zseb, jobb, jobb, zseb, zseb, jobb, jobb, 
+jobb, jobb, zseb, zseb, jobb, jobb, zseb, zseb, jobb, jobb, 
+# 19.2.5.# 
+barát, barát, beszél, beszél, barát, barát, beszél, beszél, 
+barát, barát, beszél, beszél, barát, barát, beszél, beszél, 
+barát, barát, beszél, beszél, barát, barát, beszél, beszél, 
+# 19.2.6.# 
+biblia, biblia, bocsát bocsát biblia, biblia, bocsát bocsát 
+biblia, biblia, bocsát bocsát biblia, biblia, bocsát bocsát 
+biblia, biblia, bocsát bocsát biblia, biblia, bocsát bocsát 
+# 19.2.7.# 
+benn, benn, bent, bent, benn, benn, bent, bent, benn, benn, 
+benn, benn, bent, bent, benn, benn, bent, bent, benn, benn, 
+benn, benn, bent, bent, benn, benn, bent, bent, benn, benn, 
+# 19.3.1.# 
+szabadság, szabadsággá, szabadságmozgalom, gondolatszabadság, 
+szabadságeszme, Szabadság-szobor Szabadság tér, szobor, szob- 
+ra, szoborcsoport, szobortalapzat, szobrász, Kossuth-szobor, 
+szobrásszal, szebb, szebben, szebbnél szebb, miben, mibenlét, 
+bár, bárki, bármeddig, bármikor, bármekkorra, bármiféleképp, 
+# 19.3.2.# 
+békeállapot, békemozgalom, világbéke, békeajánlat, békebeli, 
+békeév, békepolitika, békekongresszus, trianoni béke, Béke- 
+barlang, béke-barlangi, beszéd, beszédfordulat, példabeszéd, 
+beszédmodor, beszédzavar, jelbeszéd, mesebeszéd, beszédelem- 
+zés, beszél, beszéljen, beszélgessen, rábeszél, mellébeszél, 
+# 19.3.3.# 
+hazabeszél, félrebeszél, magánbeszélgetése, távolsági beszél- 
+getések, bábeli, Babilon, Bach, Bachhal, Bach-muzsika, Balas- 
+si Bálinttal, balassias, Balassi Bálint-i, Bocskai Istvánnal, 
+Bocskai-féle, Bocskaival, Bethlen Gábor, Bethlennel, Bethlen 
+Gábor-féle bethleni, Bethlent, Habsburg, Habsburg-ház, Habs- 
+# 19.3.4.# 
+burg Birodalmat, habsburgi, Bach-korszak, Bach-huszárt, Bour- 
+bon, Bourbon-nal, Bourbon-ház, ember, emberbarát, átlagember, 
+emberélet, emberfeletti, emberies, emberiesség, emberi jogok, 
+embertelenség, emberszeretete, emberábrázolás, emberi szabad- 
+ságjogok, Babits, Babitscsal, babitsi, Babitsot, Ba-bi-tsot. 
+# 19.4.1.# 
+lobban, lebegteti, kabaré, jobbfajta, hibátlan, bajnok, ma- 
+gában, publikusság, Budapest, táborozás, zsebtérkép, birto- 
+kol, balfogás, baloldali, bal oldali ablak, természetbarát, 
+Balkán-félsziget, Baltikum, Gibraltári-szoros, Balaton-part, 
+Debrecen, Csillebérc, Budavár, Kis-Balaton, Bács-Kiskunban, 
+Robespierre-rel, Brahmsszal, babérág, Rubicon, ballada, el- 
+lenben, előbbre lépéssel, barátsággal, MDF-barát politikus, 
+jobboldaliság, jobbfajta, jobb felé, tőkeberuházás, beruhá- 
+zási program, szabad birtok, kamatláb, agrárbank, bankkamat, 
+hobbikert, bérleti szerződés, gabonakereskedelem, balfogás. 
+# 20.1.1.# 
+# y = bal kéz kisujja le 
+aya aya aya aya aya aya aya aya aya aya aya aya aya aya aya 
+# 20.1.2.# 
+aya sya dya fya jya kya lya éya aya sya dya fya jya kya lya 
+aya sya dya fya jya kya lya éya aya sya dya fya jya kya lya 
+aya sya dya fya jya kya lya éya aya sya dya fya jya kya lya 
+# 20.1.3.# 
+ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasd 
+ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasd 
+ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasdfbf éőéáélkj ayasd 
+# 20.2.1.# 
+anyag anyag agyag agyag anyag anyag agyag agyag anyag agyag 
+anyag anyag agyag agyag anyag anyag agyag agyag anyag agyag 
+anyag anyag agyag agyag anyag anyag agyag agyag anyag agyag 
+# 20.2.2.# 
+pálya, pálya, kanyar, kanyar, pálya, pálya, kanyar, kanyar, 
+pálya, pálya, kanyar, kanyar, pálya, pálya, kanyar, kanyar, 
+pálya, pálya, kanyar, kanyar, pálya, pálya, kanyar, kanyar, 
+# 20.2.3.# 
+olyan olyan annyi annyi olyan olyan annyi annyi olyan olyan 
+olyan olyan annyi annyi olyan olyan annyi annyi olyan olyan 
+olyan olyan annyi annyi olyan olyan annyi annyi olyan olyan 
+# 20.2.4.# 
+arány arány egy-egy, egy-egy, arány arány egy-egy, egy-egy, 
+arány arány egy-egy, egy-egy, arány arány egy-egy, egy-egy, 
+arány arány egy-egy, egy-egy, arány arány egy-egy, egy-egy, 
+# 20.2.5.# 
+székely, székely, hely, hely, székely, székely, hely, hely, 
+székely, székely, hely, hely, székely, székely, hely, hely, 
+székely, székely, hely, hely, székely, székely, hely, hely, 
+# 20.2.6.# 
+yes, you are young, yes, you are young, yes, you are young, 
+yes, you are young, yes, you are young, yes, you are young, 
+yes, you are young, yes, you are young, yes, you are young, 
+# 20.2.7.# 
+yesterday, yesterday, not yet not yet yesterday, yesterday, 
+yesterday, yesterday, not yet not yet yesterday, yesterday, 
+yesterday, yesterday, not yet not yet yesterday, yesterday, 
+# 20.3.1.# 
+alkotmány, alkotmánnyal, alkotmányjog, alkotmányreform, al- 
+kotmánytervezet, reformalkotmány, alkotmányellenes, cikkely, 
+cikkelyt, cikkellyel, magyar, magyarul, magyar himnusz, ma- 
+gyar nemzet, Magyar Nemzet, magyar nyelv, magyarság, magyar- 
+lakta, nyelv, nyelvvel, nyelvcsalád, nyelvemlék, nyelvjárás, 
+# 20.3.2.# 
+nyelvtudomány, nyelvvizsga, államnyelv, holt nyelvek, angol 
+nyelv, diáknyelv, virágnyelv, nyelvatlaszban, nyelvfejlődés, 
+nyelvhelyességi, nyelvhasználata, helyes, helyes beszéd, he- 
+lyesel, szabály, szabályosan, szabályosság, szabályzat, jog- 
+szabály, általános szabállyal, Tisza-szabályozás, Széchenyi, 
+# 20.3.3.# 
+Széchenyi István-i, Széchenyi-hegyen, Széchenyi térre, Szé- 
+chenyi-féle, Arany János, aranyi, Arany János-i, Arany-vers, 
+Arany-szobor, Batthyány Lajos Batthyány Lajos-i Bat-thyá-ny, 
+Batsányi János, Batsányival, batsányias, Batsányi-féle, Ba- 
+tsá-nyi, anyanyelv, anyanyelvi, székely, székelység, Erdély, 
+# 20.3.4.# 
+kényszer, kényszeregyezség, kényszeregyezséggel, magyarázat, 
+magyarázattal, meggyőző magyarázat, annyi-amennyi, annyiban 
+hogy, annyija sincs, annyira, olyannyira, ugyanannyira, any- 
+nyiszor, Károlyi, Károlyi Mihály, Károlyi Mihály-i, Károlyi- 
+féle kormány, polgári szociáldemokrata kormányt, kormánnyal. 
+# 20.4.1.# 
+Erdélyben, erdélyi helység, Marosvásárhely, Székelyudvarhely, 
+Nagyszalonta, Nagyvárad, Szilágyság, Király-erdő, Gyulafehér- 
+vár, Nagyszeben, Fehéregyháza, Nagyenyed, Vajdahunyad, Gyalu, 
+Bánffyhunyad, Gyulafehérvár, Hunyadi János, Szapolyai János, 
+Bolyai János, Bolyai Farkas, Kányádi Sándor, Remenyik Sándor, 
+veszélyhelyzet, folyton, egyszer, egymás, ennyi, eszményeket, 
+egység, egyfajta, egyetlen, egyetértéssel, akárhogyan, ugyan- 
+is, bárhogyan, gyakorlattal, hagyományosan, egyetlenegy, egy 
+alkalommal, bizony, egyéniség, kedély, irány, ilyenképpen is, 
+Bessenyei Ferenc, helyzetfelismerés, Ady Endre, Illyés Gyula. 
+# 21.1.1.# 
+# q = bal kéz kisujja fel #
+# x = bal kéz gyűrűsujja le #
+# w = bal kéz gyűrűsujja fel #
+aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa aqa 
+# 21.1.2.# 
+aqa sqa dqa fqa jqa kqa lqa éqa aqa sqa dqa fqa jqa kqa lqa 
+aqa sqa dqa fqa jqa kqa lqa éqa aqa sqa dqa fqa jqa kqa lqa 
+aqa sqa dqa fqa jqa kqa lqa éqa aqa sqa dqa fqa jqa kqa lqa 
+# 21.1.3.# 
+aqaya aqaya épéáé épéáé aqaya aqaya épéáé épéáé aqaya aqaya 
+aqaya aqaya épéáé épéáé aqaya aqaya épéáé épéáé aqaya aqaya 
+aqaya aqaya épéáé épéáé aqaya aqaya épéáé épéáé aqaya aqaya 
+# 21.2.1.# 
+cinquecento, cinquecento, quattrocento, quattrocento, 
+cinquecento, cinquecento, quattrocento, quattrocento, 
+cinquecento, cinquecento, quattrocento, quattrocento, 
+# 21.2.2.# 
+queen queen Queen Queen queen queen Queen Queen queen queen 
+queen queen Queen Queen queen queen Queen Queen queen queen 
+queen queen Queen Queen queen queen Queen Queen queen queen 
+# 21.2.3.# 
+quo jure - milyen jogon, milyen alapon... quo jure quo jure 
+quo jure - milyen jogon, milyen alapon... quo jure quo jure 
+quo jure - milyen jogon, milyen alapon... quo jure quo jure 
+# 21.2.4.# 
+quidproquo - mulatságos tévedés... quidproquo, quidproquo, 
+quidproquo - mulatságos tévedés... quidproquo, quidproquo, 
+quidproquo - mulatságos tévedés... quidproquo, quidproquo, 
+# 21.2.5.# 
+quantum, quantum, quotiens, quotiens, quantum, quantum, 
+quantum, quantum, quotiens, quotiens, quantum, quantum, 
+quantum, quantum, quotiens, quotiens, quantum, quantum, 
+# 21.2.6.# 
+Quartier Latin - Párizs diáknegyede... Quartier Latin, 
+Quartier Latin - Párizs diáknegyede... Quartier Latin, 
+Quartier Latin - Párizs diáknegyede... Quartier Latin, 
+# 21.2.7.# 
+Qualis vir, talis oratio. Qualis vir, talis oratio. 
+Amilyen az ember, olyan a beszéde is. Amilyen az ember,... 
+Qualis vir, talis oratio. Qualis vir, talis oratio. 
+Amilyen az ember, olyan a beszéde is. Amilyen az ember,... 
+Qualis vir, talis oratio. Qualis vir, talis oratio. 
+# 21.2.8.# 
+Alium silere quod voles, primus sile... 
+Amiről azt akarod, hogy más hallgasson, előbb magad hallgass.. 
+Alium silere quod voles, primus sile... 
+Amiről azt akarod, hogy más hallgasson, előbb magad hallgass.. 
+Alium silere quod voles, primus sile... 
+Amiről azt akarod, hogy más hallgasson, előbb magad hallgass.. 
+# 21.3.1.# 
+sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs sxs 
+# 21.3.2.# 
+axs sxs dxs fxs jxs kxs lxs éxs axs sxs dxs fxs jxs kxs lxs 
+axs sxs dxs fxs jxs kxs lxs éxs axs sxs dxs fxs jxs kxs lxs 
+axs sxs dxs fxs jxs kxs lxs éxs axs sxs dxs fxs jxs kxs lxs 
+# 21.3.3.# 
+asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsd 
+asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsd 
+asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsdfgf éáélkjhj asxsd 
+# 21.4.1.# 
+taxi, taxi, index index taxi, taxi, index index taxi, taxi, 
+taxi, taxi, index index taxi, taxi, index index taxi, taxi, 
+taxi, taxi, index index taxi, taxi, index index taxi, taxi, 
+# 21.4.2.# 
+maximum, maximum, extra extra maximum, maximum, extra extra 
+maximum, maximum, extra extra maximum, maximum, extra extra 
+maximum, maximum, extra extra maximum, maximum, extra extra 
+# 21.4.3.# 
+export export fix fix export export fix fix export, export, 
+export export fix fix export export fix fix export, export, 
+export export fix fix export export fix fix export, export, 
+# 21.4.4.# 
+textus textus xénia xénia textus textus xénia xénia textus 
+textus textus xénia xénia textus textus xénia xénia textus 
+textus textus xénia xénia textus textus xénia xénia textus 
+# 21.4.5.# 
+xerox xerox index index xerox xerox index index xerox xerox 
+xerox xerox index index xerox xerox index index xerox xerox 
+xerox xerox index index xerox xerox index index xerox xerox 
+# 21.5.1.# 
+taxi, taxisofőr, iránytaxi, magántaxi, tehertaxi, vonaltaxi, 
+taxiállomás, taxis, taxizik, taxiztak, taxizzanak, ta-xi-ba, 
+reflex, reflexe, reflexszel, reflexidő, reflexmozdulat, ref- 
+lexmasszázs, reflexmozgás, feltételes reflex, reflexivitása, 
+maximál, maximálja, maximálisan, maximalista, maximalizmusa, 
+# 21.5.2.# 
+ma-xi-ma-liz-mus, maximális terhelés, expressz, expresszáru, 
+expresszvonat, Borsod expressz, expresszel, export, ex-port, 
+exportárualap, export-import tevékenység, exportkorlátozást, 
+expozé, exponál, exponált, expresszivitása, expresszionista, 
+expresszionizmus, Bordeaux, Bor-deaux-ban, bourdeaux-i taxi. 
+# 21.6.1.# 
+sws sws sws sws sws sws sws sws sws sws sws sws sws sws sws 
+# 21.6.2.# 
+aws sws dws fws jws kws lws éws aws sws dws fws jws kws lws 
+aws sws dws fws jws kws lws éws aws sws dws fws jws kws lws 
+aws sws dws fws jws kws lws éws aws sws dws fws jws kws lws 
+# 21.6.3.# 
+swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs 
+swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs 
+swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs swsxs 
+# 21.7.1.# 
+walesi, walesi, steward, steward, walesi, walesi, steward, 
+walesi, walesi, steward, steward, walesi, walesi, steward, 
+walesi, walesi, steward, steward, walesi, walesi, steward, 
+# 21.7.2.# 
+welcome, welcome, well, well, welcome, welcome, well, well, 
+welcome, welcome, well, well, welcome, welcome, well, well, 
+welcome, welcome, well, well, welcome, welcome, well, well, 
+# 21.7.3.# 
+hardware, hardware, software, software, hardware, hardware, 
+hardware, hardware, software, software, hardware, hardware, 
+hardware, hardware, software, software, hardware, hardware, 
+# 21.7.4.# 
+watt, watt, wolfram, wolfram, watt, watt, wolfram, wolfram, 
+watt, watt, wolfram, wolfram, watt, watt, wolfram, wolfram, 
+watt, watt, wolfram, wolfram, watt, watt, wolfram, wolfram, 
+# 21.7.5.# 
+New York, New York, New Orleans-i, New Orleans-i, New York, 
+New York, New York, New Orleans-i, New Orleans-i, New York, 
+New York, New York, New Orleans-i, New Orleans-i, New York, 
+# 21.7.6.# 
+Hemingway, Hemingway, G. B. Shaw, G. B. Shaw, Hemingway, 
+Hemingway, Hemingway, G. B. Shaw, G. B. Shaw, Hemingway, 
+Hemingway, Hemingway, G. B. Shaw, G. B. Shaw, Hemingway, 
+# 21.7.7.# 
+Dessewffy Arisztid, Dessewffy Arisztid, Dessewffy Arisztid, 
+Dessewffy Arisztid, Dessewffy Arisztid, Dessewffy Arisztid, 
+Dessewffy Arisztid, Dessewffy Arisztid, Dessewffy Arisztid, 
+# 21.8.1.# 
+Xantus, 
+Xenophanész, Xerxész, 
+xilofon, xilográfia, xerox, 
+xenon, Xanthippé, xenomorf, quaestor, 
+quantum, Quasimodo, Quebec, quattrocento, Quintilianus, 
+Quirinal, Quisling, Wagner, Wakayama, Wells, Walkhala, 
+Wallace, Wall Street, Walpurgis-éj, Washington, Wartburg, 
+Waterloo, Watson, WHO, George Washingon, watt, Watteau, 
+Watt Tyler, Wawel, Weber, Weimar, Weiner, 
+Weiss, Wellington, Wembley, Wesselényi, 
+Wien, Wilde, Williams, Wimledon, 
+Windischgraetz, Windsor, 
+Wolff, wolfram, 
+Wolverhampton, 
+Wroclaw, 
+Worms. 
+# 22.1.1.# 
+# ú = jobb kéz kisujja jobbra, félig nyújtva, fel 
+éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé éúé 
+# 22.1.2.# 
+aúé súé dúé fúé júé kúé lúé éúé aúé súé dúé fúé júé kúé lúé 
+aúé súé dúé fúé júé kúé lúé éúé aúé súé dúé fúé júé kúé lúé 
+aúé súé dúé fúé júé kúé lúé éúé aúé súé dúé fúé júé kúé lúé 
+# 22.1.3.# 
+épéőéáéúé épéőéáéúé aqayasws, aqayasws, épéőéáéúé épéőéáéúé 
+épéőéáéúé épéőéáéúé aqayasws, aqayasws, épéőéáéúé épéőéáéúé 
+épéőéáéúé épéőéáéúé aqayasws, aqayasws, épéőéáéúé épéőéáéúé 
+# 22.2.1.# 
+június, június, túra túra június, június, túra túra június, 
+június, június, túra túra június, június, túra túra június, 
+június, június, túra túra június, június, túra túra június, 
+# 22.2.2.# 
+múzeum múzeum kultúra kultúra múzeum múzeum kultúra kultúra, 
+múzeum múzeum kultúra kultúra múzeum múzeum kultúra kultúra, 
+múzeum múzeum kultúra kultúra múzeum múzeum kultúra kultúra, 
+# 22.2.3.# 
+bús, bús, búcsú búcsú bús, bús, búcsú búcsú bús, bús, búcsú 
+bús, bús, búcsú búcsú bús, bús, búcsú búcsú bús, bús, búcsú 
+bús, bús, búcsú búcsú bús, bús, búcsú búcsú bús, bús, búcsú 
+# 22.2.4.# 
+ifjú ifjú korú korú ifjú ifjú korú korú ifjú ifjú korú korú 
+ifjú ifjú korú korú ifjú ifjú korú korú ifjú ifjú korú korú 
+ifjú ifjú korú korú ifjú ifjú korú korú ifjú ifjú korú korú 
+# 22.2.5.# 
+karcsú, karcsú, alakú, alakú, karcsú, karcsú, alakú, alakú, 
+karcsú, karcsú, alakú, alakú, karcsú, karcsú, alakú, alakú, 
+karcsú, karcsú, alakú, alakú, karcsú, karcsú, alakú, alakú, 
+# 22.2.6.# 
+útitárs útitárs újság, újság, útitárs útitárs újság, újság, 
+útitárs útitárs újság, újság, útitárs útitárs újság, újság, 
+útitárs útitárs újság, újság, útitárs útitárs újság, újság, 
+# 22.2.7.# 
+újra, újra, úton, úton, újra, újra, úton, úton, újra, újra, 
+újra, újra, úton, úton, újra, újra, úton, úton, újra, újra, 
+újra, újra, úton, úton, újra, újra, úton, úton, újra, újra, 
+# 22.3.1.# 
+kultúra, kultúráját, lakáskultúra, zenekultúrát, anyanyelvi 
+kultúra, kultúregyezmény, úgy, csakúgy, szintúgy, ugyanúgy, 
+úgy-úgy, úgy-ahogy, úgyhogy, úgymint, úgymond, úgynevezett, 
+# 22.3.2.# 
+Újpest, Új-Dél-Wales, Új-Zéland, út, útja, útba ejt, útban 
+van, úton-útfélen, útfenntartás, útlevél, útjában áll, út- 
+vonal, útvonal-engedély, útkanyarulat, útviszonyok, útkere- 
+sés, húsz, húszunk, húszat, hússzal, hússzor, húszemeletes, 
+húszlakásos, húszforintos, húszas, múlt, múltja, múltjával, 
+# 22.3.3.# 
+múlttal, régmúlt, múlt évi, idejétmúlt, múltával, múlt idő, 
+múltkutatás, múlt századi, újság, újságja, újságcikkjeiben, 
+újságpéldánya, faliújság, villanyújság, újsághirdetésekkel, 
+sújt, sújtja, sújtsa, sújtott, aszály sújtotta vidék, súly, 
+súllyal, súlyos, súlyú, súlytalan, súlycsoport, súlyemelés. 
+# 22.4.1.# 
+zsúfoltság, nyújtással, kis idő múltán, legújabban, júliusi, 
+csúcsforgalom, Szolnok-Debrecen útvonala, bosszúsággal, húz- 
+za-vonja, fújtatják, dúl-fúl, búzatáblákon át, elbúsul, csú- 
+fos, csúcseredmény, csúszás-mászás, benzinkút, újult erővel, 
+útvonaltérkép, gúnymosoly, útiterv-változtatás, kalandos út, 
+súlypontáthelyezéssel, labdarúgás, úszásoktatás, sakkhúzás, 
+ifjúságiak, csúcstartás, vitamindús étkezés, világcsúccsal, 
+gyorsúszását, elújságolták már, fiatalúr, úriember is, úgy- 
+annyira, a múltkor, súgták-búgták, búcsúzkodás, ezúton, ez- 
+úttal is, csúcseredménnyel, a fiútestvér is ifjúsági bajnok. 
+# 23.1.1.# 
+# í = bal kéz kisujja balra, kinyújtva, fel 
+aía aía aía aía aía aía aía aía aía aía aía aía aía aía aía 
+# 23.1.2.# 
+aía sía día fía jía kía lía éía aía sía día fía jía kía lía 
+aía sía día fía jía kía lía éía aía sía día fía jía kía lía 
+aía sía día fía jía kía lía éía aía sía día fía jía kía lía 
+# 23.1.3.# 
+aqaíayas aqaíayas épéáéőél épéáéőél aqaíayas aqaíayas aqaía 
+aqaíayas aqaíayas épéáéőél épéáéőél aqaíayas aqaíayas aqaía 
+aqaíayas aqaíayas épéáéőél épéáéőél aqaíayas aqaíayas aqaía 
+# 23.2.1.# 
+híres, híres, színész színész híres, híres, színész színész 
+híres, híres, színész színész híres, híres, színész színész 
+híres, híres, színész színész híres, híres, színész színész 
+# 23.2.2.# 
+utasít, utasít, típus, típus, utasít, utasít, típus, típus, 
+utasít, utasít, típus, típus, utasít, utasít, típus, típus, 
+utasít, utasít, típus, típus, utasít, utasít, típus, típus, 
+# 23.2.3.# 
+színez, színez, kékít, kékít, színez, színez, kékít, kékít, 
+színez, színez, kékít, kékít, színez, színez, kékít, kékít, 
+színez, színez, kékít, kékít, színez, színez, kékít, kékít, 
+# 23.2.4.# 
+indít, indít, szállít szállít indít, indít, szállít szállít 
+indít, indít, szállít szállít indít, indít, szállít szállít 
+indít, indít, szállít szállít indít, indít, szállít szállít 
+# 23.2.5.# 
+írás, írás, ígér, ígér, írás, írás, ígér, ígér, írás, írás, 
+írás, írás, ígér, ígér, írás, írás, ígér, ígér, írás, írás, 
+írás, írás, ígér, ígér, írás, írás, ígér, ígér, írás, írás, 
+# 23.2.6.# 
+ítél, ítél, íly íly ítél, ítél, íly íly ítél, ítél, íly íly 
+ítél, ítél, íly íly ítél, ítél, íly íly ítél, ítél, íly íly 
+ítél, ítél, íly íly ítél, ítél, íly íly ítél, ítél, íly íly 
+# 23.3.1.# 
+igazít, igazítja, igazítsa, így, csak így, éppen így, ugyan- 
+így, írás, íráselemzés, íráshiba, írásjel, írásminták, írás- 
+kép, írásrendszer, írásszakértő, gépírás, gyorsírás, képírás, 
+morzeírás, vakírás, Braille-írás, rovásírás, helyesírás - de 
+ez a helyes írás, a gyorsírás nem gyors írás, íratja, írassa, 
+# 23.3.2.# 
+írassék, íratik, írásos bizonyíték, írásszakértői vélemények, 
+írásba foglalt megállapítás, írásos meghagyás, papír, papírt, 
+papírja, papíráru, értékpapír, levélpapír, rajzpapír, selyem- 
+papír, papírmásolat, papír zsebkendő, sír, sír-rí, sírt-rítt, 
+díj, fájdalomdíj, tiszteletdíj, díjkedvezmény, díjtételekkel, 
+# 23.3.3.# 
+alternatív, alternatívája, alternatívái, alternatív megoldás, 
+alternatív iskolák, stílus, stílussal, stílusos, életstílusa, 
+korstílus, színházi, kamaraszínház, operettszínházi, színház- 
+terem, Madách Színház, Vígszínház, Várszínház, színiakadémia, 
+színibírálat, színikritika, színjáték, színvonal, színvonalú, 
+# 23.4.1.# 
+megállapítása, tettre bír, szívvel-lélekkel, stílusosan, bí- 
+rálattal, biztosít, nem írott malaszt, így nem íratik, éppen 
+így, írásbelisége, biztosíték, nincs más alternatíva, aktív, 
+szíveskedjetek, irányítással, számításba venni, nyílt titok, 
+megtestesítik, kívánságodra megjeleníti, tetszésnyilvánítás, 
+kísérletező kedve, kíváncsiskodjatok csak, csillapíthatatlan 
+tudásszomjjal, helyesbítésekkel, hírveréssel, indítványokkal, 
+kiállítást rendezők, megkívántatik az, kreatív, kísérletsoro- 
+zattal, kreatív, kiegészítés, képesítéssel, kívánatos mérték- 
+ben, alternatívájával, Írott-kő, Észak-Írországba, Ír-sziget. 
+# 24.1.1.# 
+# ö = jobb kéz gyűrűsujja fel, kinyújtva 
+löl löl löl löl löl löl löl löl löl löl löl löl löl löl löl 
+# 24.1.2.# 
+aöl söl döl föl jöl köl löl éöl aöl söl döl föl jöl köl löl 
+aöl söl döl föl jöl köl löl éöl aöl söl döl föl jöl köl löl 
+aöl söl döl föl jöl köl löl éöl aöl söl döl föl jöl köl löl 
+# 24.1.3.# 
+élolöl élolöl élolöl élolöl élolöl élolöl élolöl élolöl löl 
+élolöl élolöl élolöl élolöl élolöl élolöl élolöl élolöl löl 
+élolöl élolöl élolöl élolöl élolöl élolöl élolöl élolöl löl 
+# 24.2.1.# 
+fölé, fölé, elöl, elöl, fölé, fölé, elöl, elöl, fölé, fölé, 
+fölé, fölé, elöl, elöl, fölé, fölé, elöl, elöl, fölé, fölé, 
+fölé, fölé, elöl, elöl, fölé, fölé, elöl, elöl, fölé, fölé, 
+# 24.2.2.# 
+jelöl jelöl közös közös jelöl jelöl közös közös jelöl jelöl 
+jelöl jelöl közös közös jelöl jelöl közös közös jelöl jelöl 
+jelöl jelöl közös közös jelöl jelöl közös közös jelöl jelöl 
+# 24.2.3.# 
+kölcsön kölcsön döntés döntés kölcsön kölcsön döntés döntés 
+kölcsön kölcsön döntés döntés kölcsön kölcsön döntés döntés 
+kölcsön kölcsön döntés döntés kölcsön kölcsön döntés döntés 
+# 24.2.4.# 
+göröngyös, göröngyös, földön, földön, göröngyös, göröngyös, 
+göröngyös, göröngyös, földön, földön, göröngyös, göröngyös, 
+göröngyös, göröngyös, földön, földön, göröngyös, göröngyös, 
+# 24.2.5.# 
+mögött mögött környék környék mögött mögött környék környék 
+mögött mögött környék környék mögött mögött környék környék 
+mögött mögött környék környék mögött mögött környék környék 
+# 24.2.6.# 
+összes összes költség költség összes összes költség költség 
+összes összes költség költség összes összes költség költség 
+összes összes költség költség összes összes költség költség 
+# 24.3.1.# 
+jelöl, jelölt, jelöletlenné, jelöltje, jelölttel, jelöltesse, 
+jön, jössz, jöttök, jöjj el, jöjjön, jön-megy, jöttek-mentek, 
+jöttment, jövés-menés, jövetel, jövedelem, készpénzjövedelem, 
+mellékjövedelem, reáljövedelem, többletjövedelem, jövedelmez, 
+jövedelemmegoszlásuk, jövedelemtöbblettel, tiszta jövedelmek, 
+# 24.3.2.# 
+könyv, könyvvel, könyvbarát, könyvismertetés, könyvszekrénye, 
+könyvvizsgálat, emlékkönyv, munkakönyv, panaszkönyv, ajándék 
+könyv, csekk-könyve, könyvelése, Könyves Kálmán, könyvtárban, 
+könyvtárlátogatás, kézikönyvtári, kölcsönkönyvtár, könyvtári, 
+Országos Széchényi Könyvtár, könyvtártudomány, kölcsönzéssel, 
+# 24.3.3.# 
+kölcsönösen, kölcsönjegyzés, kölcsönkötvény, kölcsönkap, köl- 
+csönösszeg, kölcsön- és hitelpolitika, törvények, törvénnyel, 
+törvényhozás, törvényjavaslattal, törvénykönyv, törvényszéki, 
+ipartörvény, vámtörvény, törvényalkotás, törvénytár, törvény- 
+kezik, föld, földdel, földreform, földreformtervezet, föl-le, 
+# 24.4.1.# 
+önigazgatás, közösség, önkormányzat, között, kötelék, örömed, 
+szövetség, történelemszemlélet, közérdek, Magyar Köztársaság, 
+Körös-part, Hegyköz, Gyöngyös, Kölcsey Ferenc, kötelezettség, 
+Vörösmarty Mihály, bölcsesség, történet, tökéletesen, rögzít, 
+történelmi személyiség, Görgey, földrajzinév-írás, Szamosköz, 
+Nagy-Ausztráliai-öböl, Földközi-tenger, Székelyföld, erkölcsi 
+törvény, véd- és dacszövetség, elkötelezett ember, csöndesen, 
+kötelességtudás, kötöttség, jogkör, közérdek, nem közömbösen, 
+kormánykörökben, környezetvédelem, költségvetési viták, kört, 
+fölhatalmaz, leköszönő kormány, választási szövetség, jelölt. 
+# 25.1.1.# 
+# ü = jobb kéz kisujja nyújtva, fel 
+éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé éüé 
+# 25.1.2.# 
+aüé süé düé füé jüé küé lüé éüé aüé süé düé füé jüé küé lüé 
+aüé süé düé füé jüé küé lüé éüé aüé süé düé füé jüé küé lüé 
+aüé süé düé füé jüé küé lüé éüé aüé süé düé füé jüé küé lüé 
+# 25.1.3.# 
+éáéúéőéüé éáéúéőéüé aqaíayasl aqaíayasl éáéúéőéüé éáéúéőéüé 
+éáéúéőéüé éáéúéőéüé aqaíayasl aqaíayasl éáéúéőéüé éáéúéőéüé 
+éáéúéőéüé éáéúéőéüé aqaíayasl aqaíayasl éáéúéőéüé éáéúéőéüé 
+# 25.2.1.# 
+belül belül kívül kívül belül belül kívül kívül belül belül 
+belül belül kívül kívül belül belül kívül kívül belül belül 
+belül belül kívül kívül belül belül kívül kívül belül belül 
+# 25.2.2.# 
+külső külső kerül kerül külső külső kerül kerül külső külső 
+külső külső kerül kerül külső külső kerül kerül külső külső 
+külső külső kerül kerül külső külső kerül kerül külső külső 
+# 25.2.3.# 
+kerül kerül repül repül kerül kerül repül repül kerül kerül 
+kerül kerül repül repül kerül kerül repül repül kerül kerül 
+kerül kerül repül repül kerül kerül repül repül kerül kerül 
+# 25.2.4.# 
+testület testület küld, küld, testület testület küld, küld, 
+testület testület küld, küld, testület testület küld, küld, 
+testület testület küld, küld, testület testület küld, küld, 
+# 25.2.5.# 
+üdül, üdül, üldögél, üldögél, üdül, üdül, üldögél, üldögél, 
+üdül, üdül, üldögél, üldögél, üdül, üdül, üldögél, üldögél, 
+üdül, üdül, üldögél, üldögél, üdül, üdül, üldögél, üldögél, 
+# 25.2.6.# 
+ürügy ürügy üröm, üröm, ürügy ürügy üröm, üröm, ürügy ürügy 
+ürügy ürügy üröm, üröm, ürügy ürügy üröm, üröm, ürügy ürügy 
+ürügy ürügy üröm, üröm, ürügy ürügy üröm, üröm, ürügy ürügy 
+# 25.3.1.# 
+becsül, becsüd gem, alábecs, üli kevésre becsül, felbecsülik, 
+becsület, becsületsértés, becsületbeli ügy, a becsületessége, 
+becsületrend, becsületére válik, csügg, csüéd, csüggédtségéü, 
+csüggesztőleg hatott, csüggedjetek, csüggedj, csüggedütlüné , 
+külön, különben, különbözik, különböztet, különbség, különül, 
+# 25.3.2.# 
+egyedül, egyedüllét, egyedül ővel, egyedüli, egyesület, diák- 
+egyesület, sportegyesület, gyermekvédő egyesület, önsegélyező 
+egyesületbe, tudományos egyesület, Egyesült komallÁ, egyesült 
+államokbeli, tlüseygE Királyság, kül, külföld, külföldi ekőt, 
+külföldi hírek, körülményei, körülményekkel, életkörülmények, 
+# 25.3.3.# 
+küldött, küldöttjei, küldötte, küldöttértekezlet, küldöttség, 
+kormányküldöttség, üzlet, üzletág, üzletnyitás, üzletemberek, 
+üzlethelyiség, üzleti itelzü forgalom, kapcsolat, üzletkötés, 
+üzletközpont, üzleti szokások, üzüzti levelezés, üzleti élet, 
+türelem, türelmesen, türelmetlenül, türelmi időt, türelemmel, 
+# 25.4.1.# 
+pünkösdi királyság, tündököl, születésnap, sürgöny, szüksége, 
+dísztelenül, büntetlenül, azonfelül, lüröka, üzenete, ünnepi, 
+üdvözöl, emlékünnepségekkel, ezüstfenyőőüőü, büszkélkedjenek, 
+ünnepélyesség, helyükre ültették, tündököl, ünneplő közönség, 
+eskütétel, tüntetés, nyüzsgés, lüktetés, yümmögés, csütörtök, 
+államügyész, bürokrácia, büntetőeljárás, dühödtség, büntetés- 
+végrehajtás, szünetel, türelmi idő, felfüggesztés, esküdtszék 
+előtt, függetlenül, együtt jár, testületek, terület, nélküle, 
+munkanélküliség, igásadzaglük kapcsolat, kapcsolt ügyleteket, 
+Külkereskedelmi Minisztérium, közoktatásügy, elkülönültségük. 
+# 26.1.1.# 
+# ó = jobb kéz kisujja, nyújtva, jobbra föl 
+éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé éóé 
+# 26.1.2.# 
+aóé sóé dóé fóé jóé kóé lóé éóé aóé sóé dóé fóé jóé kóé lóé 
+aóé sóé dóé fóé jóé kóé lóé éóé aóé sóé dóé fóé jóé kóé lóé 
+aóé sóé dóé fóé jóé kóé lóé éóé aóé sóé dóé fóé jóé kóé lóé 
+# 26.1.3.# 
+épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé 
+épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé 
+épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé épéőéáé-éóé 
+# 26.2.1.# 
+adóért adóért váltóért váltóért adóért adóért váltóért váltó, 
+adóért adóért váltóért váltóért adóért adóért váltóért váltó, 
+adóért adóért váltóért váltóért adóért adóért váltóért váltó, 
+# 26.2.2.# 
+kórus kórus próba próba kórus kórus próba próba kórus kórus 
+kórus kórus próba próba kórus kórus próba próba kórus kórus 
+kórus kórus próba próba kórus kórus próba próba kórus kórus 
+# 26.2.3.# 
+október, október, hónap hónap október, október, hónap hónap 
+október, október, hónap hónap október, október, hónap hónap 
+október, október, hónap hónap október, október, hónap hónap 
+# 26.2.4.# 
+kódex, kódex, krónika krónika kódex, kódex, krónika krónika 
+kódex, kódex, krónika krónika kódex, kódex, krónika krónika 
+kódex, kódex, krónika krónika kódex, kódex, krónika krónika 
+# 26.2.5.# 
+információ, információ, rádió rádió információ, információ, 
+információ, információ, rádió rádió információ, információ, 
+információ, információ, rádió rádió információ, információ, 
+# 26.2.6.# 
+nyitó, nyitó, induló, induló, nyitó, nyitó, induló, induló, 
+nyitó, nyitó, induló, induló, nyitó, nyitó, induló, induló, 
+nyitó, nyitó, induló, induló, nyitó, nyitó, induló, induló, 
+# 26.2.7.# 
+óceán óceán óriás óriás óceán óceán óriás óriás óceán óceán 
+óceán óceán óriás óriás óceán óceán óriás óriás óceán óceán 
+óceán óceán óriás óriás óceán óceán óriás óriás óceán óceán 
+# 26.2.8.# 
+óév, óév, ókor ókor óév, óév, ókor ókor óév, óév, ókor ókor 
+óév, óév, ókor ókor óév, óév, ókor ókor óév, óév, ókor ókor 
+óév, óév, ókor ókor óév, óév, ókor ókor óév, óév, ókor ókor 
+# 26.3.1.# 
+gyógy, gyógyforrások, gyógyfürdő, gyógymód, gyógynövényekkel, 
+gyógyász, gyógyhatás, gyógyszer, gyógyszerellátás, gyógyszer- 
+könyv, gyógyszertár, gyógytorna, gyógyul, gyógyszeres kezelés 
+záró, zárójel, záróbeszéd, záródik, zárófejezet, zárójelentés 
+záróközlemény, zárónyilatkozat, záróokmány, záróülés, záróra, 
+# 26.3.2.# 
+adó, adója, adóellenőr, adóalany, adófizető, adóhivatalokkal, 
+adókulcsa, adópolitika, adótörlesztés, adóügy, adóvégrehajtó, 
+gépkocsiadó, jövedelemadó, különadó, lakbéradó, luxusadót is, 
+forgalmi adó, személyi adó, adóalap, adókedvezmény, adószedő, 
+adósság, adóztat, adózóképesség, óvás, óvatlan, óvintézkedés, 
+# 26.3.3.# 
+óra, órája, órái, órakor, munkaóra, gyakorlóóra, bemutatóóra, 
+ismétlőóra, óraadó tanár, órakezdés, órákig tartó, óránkénti, 
+óráról órára, órányi, három óra, óceán, óceánja, óceánjárója, 
+Indiai-óceán, indiai-óceáni, óceáni éghajlat, Óceánia, túl az 
+óceánon, óceánon túli, járó, óceánjárót, tengeralattjárókkal, 
+# 26.3.4.# 
+természetjárókat, világjáró, elöljáró, felüljáró, járó beteg, 
+járóbeteg-ellátás, járóképes, jó, jól, jómódúak, jóakaratúak, 
+jóban-rosszban, jó barátságban, jó egészsége, jó éjszakát, jó 
+érzés, jó estét, jóformán, jó hatású, jóindulatú, jókívánság, 
+jótett, jómagam, jótállás, jó tanáccsal, jó szívvel, jólesik, 
+# 26.3.5.# 
+jóvá, jóvátétel, József Attila, József Attilá-s, jóslat, jós- 
+lattal, haladó, haladó erőket, haladó értelmiségieket, haladó 
+hagyományokkal, pedagógia, pedagógiai főiskolákkal, pedagógus 
+nemzedék, pedagóguscsalád, pedagógus ellátottság, pedagógiai, 
+mód, módja, életmód, módfelett, módosít, módszer, módozattal, 
+# 26.4.1.# 
+iamóR Birodalom, próbatétel, életmódkutatások, módszeressége, 
+igazoló, krónika, kódexszel, ,ynáhén ój hódító háború, folyó, 
+hajóközlekedése, híradóü hóakadály, úgyszólván, hasonlóságuk, 
+folyóirat, olvasószerkesztő, szórakoztató, varázsszó, millió, 
+módosításokkal, munkamódszer, rádióriporterek, a hallgatóság, 
+próbafelvétel, sátísóduttrops, Európa-bajnokságról, vízipóló, 
+hálót ér, kapufáról lepattanó labda, szurkolóknak, a sportnak 
+hódoló, a legjobb góülóül, a nyilatkozó müstór, edzésmódszer, 
+néha kínzó, óriási győzelem, sajtótájékoztató, filmhíradások, 
+módszerismertetésekkel, kommunikáció, információ, kalkuláció, 
+# 27.1.1.# 
+# A páratlan számok írási szabályai: #
+#   1 = bal kéz kisujja nyújtva fel, balra #
+#   3 = bal kéz gyűrűsujja nyújtva fel #
+#   5 = bal kéz mutatóujja nyújtva, fel #
+#   7 = jobb kéz mutatóujja nyújtva fel, balra #
+#   9 = jobb kéz középső ujja, nyújtva fel #
+aq1a aq1a aq1a aq1a aq1a aq1a aq1a aq1a aq1a aq1a aq1a aq1a 
+sw3s sw3s sw3s sw3s sw3s sw3s sw3s sw3s sw3s sw3s sw3s sw3s 
+fr5f fr5f fr5f fr5f fr5f fr5f fr5f fr5f fr5f fr5f fr5f fr5f 
+ju7j ju7j ju7j ju7j ju7j ju7j ju7j ju7j ju7j ju7j ju7j ju7j 
+ki9k ki9k ki9k ki9k ki9k ki9k ki9k ki9k ki9k ki9k ki9k ki9k 
+# 27.1.2.# 
+aq1a sw3s fr5r ju7j ki9k aq1a sw3s fr5f ju7j ki9k aq1a sw3s 
+aq1a sw3s fr5f ju7j ki9k aq1a sw3s fr5f ju7j ki9k aq1a sw3s 
+aq1a sw3s fr5f ju7j ki9k aq1a sw3s fr5f ju7j ki9k aq1a sw3s 
+# 27.1.3.# 
+a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k 
+a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k 
+a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k a1a s3s f5f j7j k9k 
+# 27.2.1.# 
+1351, 1517, 1711, 1777, 1915, 1351, 1517, 1711, 1777, 1915, 
+1351, 1517, 1711, 1777, 1915, 1351, 1517, 1711, 1777, 1915, 
+1351, 1517, 1711, 1777, 1915, 1351, 1517, 1711, 1777, 1915, 
+# 27.2.2.# 
+1917, 1919, 1933, 1935, 1939, 1917, 1919, 1933, 1935, 1939, 
+1917, 1919, 1933, 1935, 1939, 1917, 1919, 1933, 1935, 1939, 
+1917, 1919, 1933, 1935, 1939, 1917, 1919, 1933, 1935, 1939, 
+# 27.3.1.# 
+1351-ben Nagy Lajos király megújította az Anyabulllát, s ki 
+is egészítette az ősiség és a kilenced törvényüvól. 
+1351-ben Nagy Lajos király megújította az Aranybullát, s ki 
+is egészítette az ősiség és a kilenced törvényóvül. 
+1531-ben Nagy Lajos király megújította az Aranybullát, s ki 
+is egészítette az ősiség és a kilenced törvényével. 
+# 27.3.2.# 
+1517. október 31-én Luther Márton kifüggesztette a reformáció 
+95 pontját a wittenbergi vértemplom kapujára. 
+1715. október 31-én Luther Márton kifüggesztette a reformáció 
+95 pontját a wittenbergi vártemplom kapüjára. 
+7151. október 13-án Lüther Márton kifüggesztette a reformáció 
+95 pontját a wittenbergi vártemplom kapujára. 
+# 27.3.3.# 
+1711-ben a nagymajtényi fegyverletétellel majd a szatmári bé- 
+kével lezárult a Rákóczi-szabadságharc. 
+1711-ben a nagymajtényi fegyverletétellel majd a szatmári bé- 
+kével lezárult a Rákócci-sabadságharcz. 
+1711-ben a nagymajtényi fegyverletétellel majd a szatmári bé- 
+kével lézárült a Rákóczi-szabadságharc. 
+# 27.3.4.# 
+1777-ben Mária Terézia kiadta oktatásügyi rendeletét, a Ratio 
+educationist. 
+1777-ben Mária Terézia kiadta oktatásügyi rendeletét, a Ratio 
+educationist. 
+1777-ben Mária Terézia kiadta oktatásügyi rendeletét, a Ratio 
+educationist. 
+# 27.3.5.# 
+1915 már a második év az első világháború történetében. 
+1915 már a második év az első világháború történetében. 
+1915 már a második év az első világháború történetében. 
+# 27.3.6.# 
+A korlátlan tengeralattjáró-háború eredménye, hogy az USA 
+1917-ben belépett a háborúba. 
+A korlátlan tengeralattjáró-háború eredménye, hogy az USA 
+1917-ben belépett a háborúba. 
+A korlátlan tengeralattjáró-háború eredménye, hogy az USA 
+1917-ben belépett a háborúba. 
+# 27.3.7.# 
+Németországban Hitlert kinevezték kancellárnak, ezzel 
+1933-ban uralomra jutott a fasizmus. 
+Németországban Hitlert kinevezték kancellárnak, ezzel 
+1933-ban uralomra jutott a fasizmus. 
+Németországban Hitlert kinevezték kancellárnak, ezzel 
+1933-ban uralomra jutott a fasizmus. 
+# 27.3.8.# 
+1937. március 15-én jelent meg a Márciusi Front kiáltványa. 
+1937. március 15-én jelent meg a Márciusi Front kiáltványa. 
+1937. március 15-én jelent meg a Márciusi Front kiáltványa. 
+# 27.3.9.# 
+1939. szeptember 1. a második világháború kirobbanásának idő- 
+pontja. 
+1939. szeptember 1. a második világháború kirobbanásának idő- 
+pontja. 
+1939. szeptember 1. a második világháború kirobbanásának idő- 
+pontja. 
+# 27.4.1.# 
+1351-ben Nagy Lajos király megújította az Aranybullát, s ki 
+is egészítette az ősiség és a kilenced törvényével. 
+1517. október 31-én Luther Márton kifüggesztette a reformáció 
+95 pontját a wittenbergi vártemplom kapujára. 
+1711-ben a nagymajtényi fegyverletétellel majd a szatmári bé- 
+kével lezárult a Rákóczi-szabadságharc. 
+1777-ben Mária Terézia kiadta oktatásügyi rendeletét, a Ratio 
+educationist. 
+1915 már a második év az első világháború történetében. 
+A korlátlan tengeralattjáró-háború eredménye, hogy az USA 
+1917-ben belépett a háborúba. 
+Németországban Hitlert kinevezték kancellárnak. 1933-ban u- 
+ralomra jutott a fasizmus. 1937. március 15-én jelent meg a 
+Márciusi Front kiáltványa. 
+
+1996. szeptember 1-e óta tanuljátok az iskolában a gépírást 
+
+# 28.1.1.# 
+# A római számok írási szabályai: (mindig váltóval) #
+#        V       5       v betű váltóval #
+#        X       10      x betű váltóval #
+#        L       50      l betű váltóval #
+#        C       100     c betű váltóval #
+#        D       500     d betű váltóval #
+#        M       1000    m betű váltóval #
+# A páros számok írási szabályai: #
+#        2 = bal kéz kisujja nyújtva fel #
+#        4 = bal kéz középső ujja nyújtva, fel #
+#        6 = bal kéz mutatóujja, jobbra, nyújtva, fel #
+#        8 = jobb kéz mutatóujja nyújtva, fel #
+#        0 = a bal kéz kisujja nyújtva fel, balra #
+aq2a aq2a aq2a aq2a aq2a aq2a aq2a aq2a aq2a aq2a aq2a aq2a 
+de4d de4d de4d de4d de4d de4d de4d de4d de4d de4d de4d de4d 
+ft6f ft6f ft6f ft6f ft6f ft6f ft6f ft6f ft6f ft6f ft6f ft6f 
+ju8j ju8j ju8j ju8j ju8j ju8j ju8j ju8j ju8j ju8j ju8j ju8j 
+aq0a aq0a aq0a aq0a aq0a aq0a aq0a aq0a aq0a aq0a aq0a aq0a 
+# 28.1.2.# 
+aq2a de4d ft6f ju8j aq0a aq2a de4d ft6f ju8j aq0a aq2a de4d 
+aq2a de4d ft6f ju8j aq0a aq2a de4d ft6f ju8j aq0a aq2a de4d 
+aq2a de4d ft6f ju8j aq0a aq2a de4d ft6f ju8j aq0a aq2a de4d 
+# 28.2.1.# 
+1000, 1222, 1242, 1444, 1448, 1000, 1222, 1242, 1444, 1448, 
+1000, 1222, 1242, 1444, 1448, 1000, 1222, 1242, 1444, 1448, 
+1000, 1222, 1242, 1444, 1448, 1000, 1222, 1242, 1444, 1448, 
+# 28.2.2.# 
+1486, 1606, 1844, 1848, 1868, 1486, 1606, 1844, 1848, 1868, 
+1486, 1606, 1844, 1848, 1868, 1486, 1606, 1844, 1848, 1868, 
+1486, 1606, 1844, 1848, 1868, 1486, 1606, 1844, 1848, 1868, 
+# 28.3.1.# 
+A feltételezések szerint 1000-ben koronázták meg Szent István 
+királyunkat. 
+A feltételezések szerint 1000-ben koronázták meg Szent István 
+királyunkat. 
+A feltételezések szerint 1000-ben koronázták meg Szent István 
+királyunkat. 
+# 28.3.2.# 
+II. András korában, 1222-ben adták ki az Aranybulla törvé- 
+nyét. 
+II. András korában, 1222-ben adták ki az Aranybulla törvé- 
+nyét. 
+II. András korában, 1222-ben adták ki az Aranybulla törvé- 
+nyét. 
+# 28.3.3.# 
+1242-ben vonultak ki a tatár seregek Magyarországról. 
+1242-ben vonultak ki a tatár seregek Magyarországról. 
+1242-ben vonultak ki a tatár seregek Magyarországról. 
+# 28.3.4.# 
+I. Jagelló Ulászló 1444-ben halt meg a várnai csatában. 
+I. Jagelló Ulászló 1444-ben halt meg a várnai csatában. 
+I. Jagelló Ulászló 1444-ben halt meg a várnai csatában. 
+# 28.3.5.# 
+1448-ban Hunyadi János kormányzó a szerbiai Rigómezőn elve- 
+szítette az ütközetet a törökkel szemben. 
+1448-ban Hunyadi János kormányzó a szerbiai Rigómezőn elve- 
+szítette az ütközetet a törökkel szemben. 
+1448-ban Hunyadi János kormányzó a szerbiai Rigómezőn elve- 
+szítette az ütközetet a törökkel szemben. 
+Hunyadi Mátyás 1486-ban adta ki egyik törvényét. 
+Hunyadi Mátyás 1486-ban adta ki egyik törvényét. 
+Hunyadi Mátyás 1486-ban adta ki egyik törvényét. 
+# 28.3.6.# 
+A Bocskai István vezette felkelés az 1606-os bécsi békével 
+zárult. 
+A Bocskai István vezette felkelés az 1606-os bécsi békével 
+zárult. 
+A Bocskai István vezette felkelés az 1606-os bécsi békével 
+zárult. 
+# 28.3.7.# 
+Erdély Bethlen Gábor idejében élte aranykorát, akit 
+I. Rákóczi György követett a fejedelmi trónon 1630 és 
+1648 között. 
+Erdély Bethlen Gábor idejében élte aranykorát, akit 
+I. Rákóczi György követett a fejedelmi trónon 1630 és 
+1648 között. 
+Erdély Bethlen Gábor idejében élte aranykorát, akit 
+I. Rákóczi György követett a fejedelmi trónon 1630 és 
+1648 között. 
+# 28.3.8.# 
+A reformkori küzdelmek eredményeként 1844-től lett hivatalos 
+hazánkban a magyar nyelv. 
+A reformkori küzdelmek eredményeként 1844-től lett hivatalos 
+hazánkban a magyar nyelv. 
+A reformkori küzdelmek eredményeként 1844-től lett hivatalos 
+hazánkban a magyar nyelv. 
+# 28.3.9.# 
+Az 1848-as áprilisi törvények a polgárosodás lehetőségét 
+biztosították Magyarországon. 
+Az 1848-as áprilisi törvények a polgárosodás lehetőségét 
+biztosították Magyarországon. 
+Az 1848-as áprilisi törvények a polgárosodás lehetőségét 
+biztosították Magyarországon. 
+# 28.3.10.# 
+1868-ban jelentette meg báró Eötvös József a népoktatási 
+törvényt. 
+1868-ban jelentette meg báró Eötvös József a népoktatási 
+törvényt. 
+1868-ban jelentette meg báró Eötvös József a népoktatási 
+törvényt. 
+# 28.4.1.# 
+A feltételezések szerint 1000-ben koronázták meg Szent István 
+királyunkat. 
+II. András korában, 1222-ben adták ki az Aranybulla törvé- 
+nyét. 
+1242-ben vonultak ki a tatár seregek Magyarországról. 
+I. Jagelló Ulászló 1444-ben halt meg a várnai csatában. 
+1448-ban Hunyadi János kormányzó a szerbiai Rigómezőn elve- 
+szítette az ütközetet a törökkel szemben. 
+Hunyadi Mátyás 1486-ban adta ki egyik törvényét. 
+A Bocskai István vezette felkelés az 1606-os bécsi békével 
+zárult. 
+Erdély Bethlen Gábor idejében élte aranykorát, akit 
+I. Rákóczi György követett a fejedelmi trónon 1630 és 
+1648 között. 
+Az 1848-as áprilisi törvények a polgárosodás lehetőségét 
+biztosították Magyarországon. 
+1868-ban jelentette meg báró Eötvös József a népoktatási 
+törvényt. 
+# 29.1.1.# 
+#  ű = jobb kéz kisujja nyújtva, jobbra, távol, le #
+#     (Lehet máshol is! Ez attól függ, hogy milyen a #
+#      billentyűzeted. Viszont az angol billentyűze- #
+#      teknél mindig a \ jeleket tartalmazó billen- #
+#      tyűn keresd.) #
+éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé éűé 
+# 29.1.2.# 
+aűé sűé dűé fűé jűé kűé lűé éűé aűé sűé dűé fűé jűé kűé lűé 
+aűé sűé dűé fűé jűé kűé lűé éűé aűé sűé dűé fűé jűé kűé lűé 
+aűé sűé dűé fűé jűé kűé lűé éűé aűé sűé dűé fűé jűé kűé lűé 
+# 29.1.3.# 
+éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéűé éűé 
+éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáűúéűé éűé 
+éáéúéűé éáéúéűé éáéúéűé éáéúéűé éáéúéúé éáéűéűé éáúééűé éűé 
+# 29.2.1.# 
+gyűlés, gyűlés, műsor, műsor, gyűlés, gyűlés, műsor, műsor, 
+gyűlés, gyűlés, műsor, műsor, gyűlés, gyűlés, műsor, műsor, 
+gyűlés, gyűlés, műsor, műsor, gyűlés, gyűlés, műsor, műsor, 
+# 29.2.2.# 
+műértő, műértő, műgyűjtő műgyűjtő műértő, műértő, műgyűjtő 
+műértő, műértő, műgyűjtő műgyűjtő műértő, műértő, műgyűjtő 
+műértő, műértő, műgyűjtő műgyűjtő műértő, műértő, műgyűjtő 
+# 29.2.3.# 
+dűlt, dűlt, betűk betűk dűlt, dűlt, betűk betűk dűlt, dűlt, 
+dűlt, dűlt, betűk betűk dűlt, dűlt, betűk betűk dűlt, dűlt, 
+dűlt, dűlt, betűk betűk dűlt, dűlt, betűk betűk dűlt, dűlt, 
+# 29.2.4.# 
+könnyű könnyű gyűrű gyűrű könnyű könnyű gyűrű gyűrű könnyű 
+könnyű könnyű gyűrű gyűrű könnyű könnyű gyűrű gyűrű könnyű 
+könnyű könnyű gyűrű gyűrű könnyű könnyű gyűrű gyűrű könnyű 
+# 29.2.5.# 
+célszerű, célszerű, egyszerű, egyszerű, célszerű, célszerű, 
+célszerű, célszerű, egyszerű, egyszerű, célszerű, célszerű, 
+célszerű, célszerű, egyszerű, egyszerű, célszerű, célszerű, 
+# 29.2.6.# 
+űrmérték űrmérték űrtartalom, űrtartalom, űrmérték űrmérték 
+űrmérték űrmérték űrtartalom, űrtartalom, űrmérték űrmérték 
+űrmérték űrmérték űrtartalom, űrtartalom, űrmérték űrmérték 
+# 29.2.7.# 
+űrhajó űrhajó űrállomás, űrállomás, űrhajó űrhajó űrállomás 
+űrhajó űrhajó űrállomás, űrállomás, űrhajó űrhajó űrállomás 
+űrhajó űrhajó űrállomás, űrállomás, űrhajó űrhajó űrállomás 
+# 29.3.1.# 
+művelődés, művelődéssel, művelődési ház, művelődési központ, 
+művelődési egyesület, művelődjenek, műveltség, műveltséggel, 
+alapműveltség, általános műveltséggel, félműveltség, művész 
+# 29.3.2.# 
+népművész, szavalóművész, színművész, festőművész, művészet, 
+képzőművészet, színházművészet, művészetpártoló, művészetté, 
+művészettörténész, művészettörténet, művészetellenes, művel, 
+betű, betűéhség, betűcsere, betűírás, betűjegy, kezdőbetűre, 
+betűről betűre halad, betűrend, betűtípus, betűrím, betűszó, 
+# 29.3.3.# 
+egyszerű, egyszerűen, egyszerűsít, egyszerűsítjük, célszerű, 
+menetrendszerűen, mintaszerűek, rajtaütésszerű, Babits-szerű, 
+gyűjtemény, gyűjteménnyel, bélyeggyűjtemény, népdalgyűjtések, 
+néprajzi gyűjtemény, gyűlés, gyűlésterem, az országgyűléssel, 
+küldöttgyűlés, gyűlésezik, gyűléseztek, nagygyűlés, gyűlések, 
+# 29.4.1.# 
+zűrzavar, tűrésképesség, kűzs körű, ,tettirűs műsorváltozás, 
+művek, sűrűsödik, művelődési konohtto, műsorra tűzzé, bűvös, 
+bűnbánammal, műkedvelő, semminemű, egyszerűsödik, betűvetés, 
+gyűjteti, hegedűhangvarrás, műélvezet, forrásmű, műfajokkal, 
+könnyűszerrel, Stradivari-űdegeh, mestermű, elnyűhetetlenül, 
+sűrűek, zsűrizzenek, tűzbe hoz, korhűség, műhelyek, gyűjtők, 
+történelmi hűséggel, műgyűjteménye, művészi attitűd, széles- 
+körű, művészi igényű, díszbetű, borúra derű, bűnbocsánattal, 
+fűnek-fának, nagybecsű üss sűrűen régipénz-gyűjtemény remek- 
+mívű, szűkszavú, tűzzománc, zsűrizett, célszerű, önműködőek, 
+# 30.1.1.# 
+# idézőjel = SHIFT + bal kéz kisujja fel; a 2-es számon #
+#     A kezdő és záró idézőjel közvetlenül az idézethez tapad! #
+# pluszjel = SHIFT + bal kéz gyűrűsujja fel; a 3-as számon #
+# felkiáltójel = SHIFT + bal kéz középső ujja fel; a 4-es számon #
+# százalékjel = SHIFT + bal kéz mutatóujja fel; az 5-ös számon #
+# ferde törtvonal = SHIFT + bal kéz mutatóujja jobbra, fel; a 6-os számon #
+"Idézet." "Idézet." "Idézet." "Idézet." "Idézet." "Idézet." 
+"Idézet." "Idézet." "Idézet." "Idézet." "Idézet." "Idézet." 
+"Idézet." "Idézet." "Idézet." "Idézet." "Idézet." "Idézet." 
+# 30.1.2.# 
+Felsőbüki Nagy Páltól idézzük, hogy "A nyelv fontosabb az 
+alkotmánynál is. Új alkotmányt szerezhet a nemzet, de új 
+nyelvet nem, mert akkor már megszűnt magyarnak lenni." 
+# 30.1.3.# 
+# Az összeadásjel előtt és után szóközt kell ütni! #
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+# 30.1.4.# 
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 
+# 30.1.5.# 
+# A felkiáltójelet közvetlenül a szó után tesszük, utána viszont közt hagyunk! #
+felkiáltójel! felkiáltójel! felkiáltójel! felkiáltójel! 
+felkiáltójel! felkiéltójel! felkiáltójel! felkiáltójel! 
+felkiáltójel! felkiáltőjel! felkiéltájel! felkiáltójel! 
+# 30.1.6.# 
+"Szólj! s ki vagy, elmondom. - Ne tovább! 
+ismerlek egészen, 
+Nékem üres fecsegőt fest az üres fecsegés." 
+# 30.1.7.# 
+"Jót s jól! Ebben áll a nagy titok. Ezt 
+ha nem érted, 
+Szánts és vess, s hagyjad másnak az áldozatot." 
+# 30.1.8.# 
+# A százalékjel közvetlenül követi a számot. Ha nincs toldalékja, utána köz követi. 
+7%, 8%-os, 9%-kal, 13%-át, 20%-ból, 33%-ot, 48%-ban, 50%-tól, 
+7%, 8%-os, 9%-kal, 13%-át, 20%-ból, 33%-nak 48%-ban, 50%-tól, 
+7%, 8%-os, 9%-kal, 13%-át, 20%-ból, 33%-ot, 48%-ból, 50%-ról, 
+# 30.1.9.# 
+Upton Sinclair 100% c. könyve egyszerre kalandregény és po- 
+litikai vádirat. 
+# 30.1.10.# 
+1/2 1/3 1/4 1/5 1/6 1/7 1/8 1/9 1/10 
+1/2 1/3 1/4 1/5 1%6 1/7 1/8 1/9 1/10 
+1/2 1/3 1/4 1/5 1/6 1+7 1/8 1/9 1/10 
+# 30.2.1.# 
+BRECHT 
+"Látni, az nem annyi, mint bámészkodni. 
+Igen, hiszem, hogy az emberen hatalma van a szelíd 
+értelemnek... A gondolkodás az emberi faj legnagyobb öröme. 
+... a tudomány célja nem az, hogy a végtelen bölcsesség ka- 
+puját tárja fel, hanem az, hogy gátat szabjon a végtelen 
+tévedéseknek." 
+FORBÁTH IMRE 
+"Nem élhetünk illúziókból. Nélkülük sem." 
+HEMINGWAY 
+"Szamárság feladni a reményt.. Azonkívül bűn is, azt hiszem." 
+LINKLATER 
+"Ha valaki tudni akarja magáról, hogy valaki, akkor nemcsak 
+születési bizonyítványra, hanem személyiségre is szüksége 
+van, és a jól kiművelt személyiség a biztos siker reményét 
+nyújtja gazdájának... abban a demokráciában, ahol a legtöbb 
+dolog egyforma, és azzal lehet legjobban dícsérni valamit, 
+ha azt mondják rá, hogy "más"." 
+NÉMETH LÁSZLÓ 
+"...a műveltség nem ünneplő ruha, amelyet hordani kell. 
+A műveltség a helytállás segédeszköze, a kifejezés 
+szerszáma, a vállalkozás fegyverzete. Az a műveltség, 
+amely csak műveltség, meddő és fonnyatag." 
+# 31.1.1.# 
+#  egyenlőségjel = SHIFT + jobb kéz mutatóujja fel, balra; a 7-es számon #
+#  Az egyenlőség jele előtt és után közt kell ütni #
+#  kezdő zárójel = SHIFT + jobb kéz mutatóujja fel; a 8-as számon #
+#  végzárójel = SHIFT + jobb kéz középső ujja fel; a 9-es számon #
+#  pontosvessző = SHIFT + jobb kéz középső ujja le; vagy jobb alt és ugyanez a vesszős bill. #
+#  kettőspont = SHIFT + jobb kéz gyűrűsujja le; a pon bill. #
+#  kérdőjel = SHIFT + jobb kéz kisujja le, vagy középsőujj le #
+2 + 2 = 4   3 + 3 = 6   4 + 4 = 8   5 + 5 = 10   6 + 6 = 12 
+2 + 2 = 4   3 + 3 = 6   4 + 4 = 8   5 + 5 = 10   6 + 6 = 12 
+2 + 2 = 4   3 + 3 = 6   4 + 4 = 8   5 + 5 = 10   6 + 6 = 12 
+# 31.1.2.# 
+"Jól írni = annyi, mint jól gondolkozni, jól érezni és jól 
+kifejezni - egyszer kell hozzá szellem, lélek és ízlés." 
+# 31.1.3.# 
+#  A kezdő zárójelet közvetlenül a szó elé írjuk, #
+#  a végzárójelet pedig közvetlenül a szó után! #
+"A beszéd a legtökéletesebb kifejező mozgás (kifejező 
+mozgások még a gesztus és a mimika)." (Montágh Imre) 
+"A beszéd a legtökéletesebb kifejező mozgás (kifejező 
+mozgások még a gesztus és a mimika)." (Montágh Imre) 
+"A beszéd a legtökáletesebb kifejezű mozgás (kifejező 
+mozgások még a gesztus és a mimika)." (Montáhg Imre) 
+# 31.1.4.# 
+# A pontosvessző, a kettőspont és a kérdőjel közkihagyás nélkül írandó a szó után! 
+pontosvessző; pontosvessző; pontosvessző; pontosvessző; 
+pontosvessző; pontosvessző; pontosvesszű; pontosvessző; 
+pontosvessző; pontosvesszó; pontosvessző; pontosvesszű; 
+# 31.1.5.# 
+kettőspont: kettőspont: kettőspont: kettőspont: kettűspont: 
+kettőspont: kettőspont: kettőspont: kettőspont: kettűspont: 
+kettőspont: kettőspont: kettősponty kettőspont: kettőspont: 
+# 31.1.6.# 
+kérdőjel? kérdőjel? kérdőjel? kérdőjel? kérdőjel? kérdőjel? 
+kérdőjel? kérdőjel? kérdőjel? kérdójel? kérdőjel? kérdőjel? 
+kérdőjel? kérdőjel? kérdűjel? kérdőjel? kérdőjel? kérdőjel? 
+# 31.2.1.# 
+"Hol romlik a kiejtés? Ahol fogyatékos a nemzeti öntudat és 
+a velejáró felelősségérzet. Ahol az idegen nyelvek tudása 
+fontosabb, mint a nemzeti nyelvé. Ilyenkor a nemzeti nyelv 
+kiejtésében egyrészt zavarólag hat a túlságosan gyakorolt 
+idegen nyelvek kiejtése, másrészt bizonyos lelki tunyaság, 
+közömbösség lép fel a saját nyelvvel szemben; ennek követ- 
+kezménye a beszélő szervek ellazulása, kényelmeskedése, 
+hibás "ráigazítása": rossz kiejtés." 
+"Mielőtt arra törekszünk és hog a tlogna angolosan, a némete 
+németesen beszéljük: próbéljük meg a magyart magyarosan, 
+minden idegen mellékíz nélkül beszélni. A magyar kiejtést is 
+tanulni kell, még sületett magyarnak is." 
+(Kodály Zoltántól idéztünk) 
+"A féltudósság veszedelmesebb a csupa tiszta ostobaságnál. 
+A makacs és megátalkodott szív, a negédes magamegbízás az 
+ilyeneknél fészkelte meg magát. És ó! - nincs száma a fél- 
+tudósoknak közöttünk. Hányan vagynak azok a ritka lelkek, 
+akik a tudományokat ifjúkorokban nemcsak azért tanulták, 
+mert szüléi úgy akarták és mivel mesterei azt beléjek ver- 
+ték?" 
+(Kármán József) 
+ 
+
+
+## Vége ##
+ 486101457
+

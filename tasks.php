@@ -37,23 +37,15 @@
         }
         $title_arr = join(', ', $title_arr);
 
-        $get_email = "SELECT * FROM paragraph_subtitles ORDER BY id";
-        $run_email = mysqli_query($db,$get_email);
-        $subtitle_arr = array();
-        while( $exercise_arr = mysqli_fetch_array($run_email) ) {
-            $paragraph_order = $exercise_arr['id'];
-            array_push($subtitle_arr, $paragraph_order);
-        }
-        $subtitle_arr = join(', ', $subtitle_arr);
-
-        $get_email = "SELECT *, CURRENT_TIMESTAMP() AS time_now FROM paragraphs ORDER BY FIELD(title_id, $title_arr), FIELD(subtitle_id, $subtitle_arr)";
+        $get_email = "SELECT *, CURRENT_TIMESTAMP() AS time_now FROM paragraphs ORDER BY FIELD(title_id, $title_arr), section, subsection";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
             echo '<tr>';
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
             $paragraph_title_id = $row["title_id"];
-            $paragraph_subtitle_id = $row["subtitle_id"];
+            $paragraph_section = $row["section"];
+            $paragraph_subsection = $row["subsection"];
             $paragraph_attempts = $row["attempts"];
             $paragraph_start = $row["start"];
             $paragraph_deadline = $row["deadline"];
@@ -63,11 +55,6 @@
             $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
             $paragraph_title_row = mysqli_fetch_array($paragraph_title_qry);
             $paragraph_title = $paragraph_title_row['name'];
-            $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$paragraph_subtitle_id'";
-            $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
-            $paragraph_subtitle_row = mysqli_fetch_array($paragraph_subtitle_qry);
-            $paragraph_subtitle = $paragraph_subtitle_row['name'];
-
             if($paragraph_attempts) {
                 $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' && account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
@@ -75,7 +62,7 @@
             }
 
             echo '<td>'.$paragraph_id.'</td>';
-            echo '<td>'.$paragraph_title.' - '.$paragraph_subtitle.'</td>';
+            echo '<td>'.$paragraph_title.'</td>';
             
             if ($paragraph_start != '2000-01-01 00:00:00') echo '<td>'.$paragraph_start.'</td>';
             else echo '<td>Nincs</td>';
