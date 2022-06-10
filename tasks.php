@@ -67,7 +67,9 @@
             echo '<td>'.$paragraph_id.'</td>';
             
             if ($paragraph_start != '2000-01-01 00:00:00') echo '<td>'.$paragraph_start.'</td>';
+            else echo '<td></td>';
             if ($paragraph_deadline != '2000-01-01 00:00:00') echo '<td>'.$paragraph_deadline.'</td>';
+            else echo '<td></td>';
             if($paragraph_attempts)
                 echo '<td>'.strval($exercise_num).'/'.strval($paragraph_attempts).'</td>';
             else
