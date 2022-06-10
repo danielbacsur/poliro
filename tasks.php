@@ -88,7 +88,7 @@
 
 
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
-                echo '<td><span style="text-decoration:line-through">'.$text.'</span></td>';
+                echo '<td>Megirva</td>';
             else if (
                 !(($paragraph_start != '2000-01-01 00:00:00' &&
                 $paragraph_start > $paragraph_time_now) or
