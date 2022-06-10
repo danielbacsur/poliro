@@ -4,19 +4,29 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Bejelentkezés</h1>
-        <form action="" method="post">
-            Email Cimed: <input type="text" name="email"><br>
-            Jelszavad: <input type="password" name="password"><br>
-            <input type="submit" name="login">
-        </form>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <form action="" method="post">
+                        Email Cimed: <input type="text" name="email"><br>
+                        Jelszavad: <input type="password" name="password"><br>
+                        <input type="submit" name="login">
+                    </form>
+                </td>
+                <td>
+                    <form action="" method="post">
+                        Neved: <input type="text" name="name"><br>
+                        Email Cimed: <input type="text" name="email"><br>
+                        username: <input type="text" name="username"><br>
+                        Jelszavad: <input type="password" name="password"><br>
+                        <input type="submit" name="signup">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
 
-        <form action="" method="post">
-            Neved: <input type="text" name="name"><br>
-            Email Cimed: <input type="text" name="email"><br>
-            username: <input type="text" name="username"><br>
-            Jelszavad: <input type="password" name="password"><br>
-            <input type="submit" name="signup">
-        </form>
+        
         <?php
         if(isset($_POST['login'])){
             $account_email = $_POST['email'];
