@@ -27,7 +27,7 @@
             </tr>
 
         <?php
-
+        $account_id = $_SESSION['account_id'];
         $get_email = "SELECT * FROM paragraph_titles ORDER BY id";
         $run_email = mysqli_query($db,$get_email);
         $title_arr = array();
@@ -69,7 +69,7 @@
             $paragraph_subtitle = $paragraph_subtitle_row['name'];
 
             if($paragraph_attempts) {
-                $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id'";
+                $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' && account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
                 $exercise_num = mysqli_num_rows($exercise_qry);
             }
