@@ -4,19 +4,16 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Előzmények</h1>
-        <table style="width:100%">
+        <table style="width:100vw">
             <tr>
                 <th>
-                    Feladat ID
+                    Feladat Ideje
                 </th>
                 <th>
-                    Feladat ID
+                    Feladat Cime
                 </th>
                 <th>
-                    Feladat ID
-                </th>
-                <th>
-                    Feladat ID
+                    Feladat Megtekintése
                 </th>
             </tr>
             <tr>
@@ -50,9 +47,8 @@
                     
                     $arr = array();
                     echo '<td>'.$exercise_time.'</td>';
-                    echo '<td>'.$exercise_id.'</td>';
                     echo '<td>'.$paragraph_title.' - '.$paragraph_subtitle.'</td>';
-                    echo '<a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a>';
+                    echo '<td><a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a></td>';
                     echo '</tr>';
                 }
                 ?>
