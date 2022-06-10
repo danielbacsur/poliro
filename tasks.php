@@ -4,7 +4,8 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Kitűzött feladatok</h1>
-        <tr>
+        <table style="width:50vw">
+            <tr>
                 <th style="text-align: left">
                     Feladat Ideje
                 </th>
