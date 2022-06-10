@@ -57,12 +57,8 @@
             $arr = array();
             array_push($arr, $paragraph_id);
             
-            if ($paragraph_start != '2000-01-01 00:00:00' &&
-            ) {array_push($arr, $paragraph_start);
-            }
-            if ($paragraph_deadline != '2000-01-01 00:00:00') {
-                array_push($arr, $paragraph_deadline);
-            }
+            if ($paragraph_start != '2000-01-01 00:00:00') array_push($arr, $paragraph_start);
+            if ($paragraph_deadline != '2000-01-01 00:00:00') array_push($arr, $paragraph_deadline);
             if($paragraph_attempts)
                 array_push($arr, strval($exercise_num).'/'.strval($paragraph_attempts));
             else
