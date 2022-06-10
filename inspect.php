@@ -75,7 +75,7 @@
         array_push($grading_arr, 101);
 
         for($i = 0; $i < 5; $i++) {
-            if ($error_percent >= $grading_arr[$i] && $error_percent < $grading_arr[$i+1])
+            if ($correction_percent >= $grading_arr[$i] && $correction_percent < $grading_arr[$i+1])
             $grading_value = $i+1;
         }
         ?>
