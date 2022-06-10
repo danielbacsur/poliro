@@ -94,5 +94,6 @@
 
         }
         ?>
+        </table>
     </body>
 </html>
