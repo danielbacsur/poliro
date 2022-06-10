@@ -4,6 +4,17 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Kitűzött feladatok</h1>
+        <tr>
+                <th style="text-align: left">
+                    Feladat Ideje
+                </th>
+                <th style="text-align: left">
+                    Feladat Cime
+                </th>
+                <th style="text-align: left">
+                    Feladat Megtekintése
+                </th>
+            </tr>
 
         <?php
 
@@ -28,6 +39,7 @@
         $get_email = "SELECT *, CURRENT_TIMESTAMP() AS time_now FROM paragraphs ORDER BY FIELD(title_id, $title_arr), FIELD(subtitle_id, $subtitle_arr)";
         $run_email = mysqli_query($db,$get_email);
         while ($row = mysqli_fetch_array($run_email)) {
+            echo '<tr>';
             $paragraph_id = $row['id'];
             $paragraph_uuid = $row["uuid"];
             $paragraph_title_id = $row["title_id"];
@@ -52,21 +64,18 @@
                 $exercise_num = mysqli_num_rows($exercise_qry);
             }
 
-
-
-            $arr = array();
-            array_push($arr, $paragraph_id);
+            echo '<td>'.$paragraph_id.'</td>';
             
-            if ($paragraph_start != '2000-01-01 00:00:00') array_push($arr, $paragraph_start);
-            if ($paragraph_deadline != '2000-01-01 00:00:00') array_push($arr, $paragraph_deadline);
+            if ($paragraph_start != '2000-01-01 00:00:00') echo '<td>'.$paragraph_start.'</td>';
+            if ($paragraph_deadline != '2000-01-01 00:00:00') echo '<td>'.$paragraph_deadline.'</td>';
             if($paragraph_attempts)
-                array_push($arr, strval($exercise_num).'/'.strval($paragraph_attempts));
+                echo '<td>'.strval($exercise_num).'/'.strval($paragraph_attempts).'</td>';
             else
-                array_push($arr, '#/#');
-            array_push($arr, $paragraph_title);
-            array_push($arr, $paragraph_subtitle);
-            array_push($arr, '');
-            $text = join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $arr);
+                echo '<td>#/#</td>';
+
+            echo '<td>'.$paragraph_title.'</td>';
+            echo '<td>'.$paragraph_subtitle.'</td>';
+
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 $text = '<span style="text-decoration:line-through">'.$text.'</span>';
             else if (
@@ -79,7 +88,8 @@
             }
             else
                 $text .= 'Már/még nem Aktiv';
-            echo $text.'<br>';
+            echo $text.'</tr>';
+
         }
         ?>
     </body>

@@ -16,7 +16,6 @@
                     Feladat Megtekintése
                 </th>
             </tr>
-            <tr>
                 <?php
                 $account_id = $_SESSION['account_id'];
                 $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
