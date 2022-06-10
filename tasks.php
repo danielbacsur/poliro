@@ -7,13 +7,19 @@
         <table style="width:50vw">
             <tr>
                 <th style="text-align: left">
-                    Feladat Ideje
+                    Paragrafus ID
                 </th>
                 <th style="text-align: left">
-                    Feladat Cime
+                    Paragrafus Cime
                 </th>
                 <th style="text-align: left">
-                    Feladat Megtekintése
+                    Kezdés Időpontja
+                </th>
+                <th style="text-align: left">
+                    Zárás Időpontja
+                </th>
+                <th style="text-align: left">
+                    Próbálkozások
                 </th>
             </tr>
 
@@ -66,6 +72,7 @@
             }
 
             echo '<td>'.$paragraph_id.'</td>';
+            echo '<td>'.$paragraph_title.' - '.$paragraph_subtitle.'</td>';
             
             if ($paragraph_start != '2000-01-01 00:00:00') echo '<td>'.$paragraph_start.'</td>';
             else echo '<td></td>';
@@ -76,8 +83,6 @@
             else
                 echo '<td>#/#</td>';
 
-            echo '<td>'.$paragraph_title.'</td>';
-            echo '<td>'.$paragraph_subtitle.'</td>';
 
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
                 echo '<td><span style="text-decoration:line-through">'.$text.'</span></td>';
