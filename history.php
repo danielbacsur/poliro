@@ -4,15 +4,15 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Előzmények</h1>
-        <table style="width:100vw">
+        <table style="width:50vw">
             <tr>
-                <th>
+                <th style="text-align: left">
                     Feladat Ideje
                 </th>
-                <th>
+                <th style="text-align: left">
                     Feladat Cime
                 </th>
-                <th>
+                <th style="text-align: left">
                     Feladat Megtekintése
                 </th>
             </tr>
