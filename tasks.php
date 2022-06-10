@@ -80,17 +80,17 @@
             echo '<td>'.$paragraph_subtitle.'</td>';
 
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
-                $text = '<span style="text-decoration:line-through">'.$text.'</span>';
+                echo '<td><span style="text-decoration:line-through">'.$text.'</span></td>';
             else if (
                 !(($paragraph_start != '2000-01-01 00:00:00' &&
                 $paragraph_start > $paragraph_time_now) or
                 ($paragraph_deadline != '2000-01-01 00:00:00' &&
                 $paragraph_deadline < $paragraph_time_now))
             ) {
-                $text .= '<a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a>';
+                echo '<td><a href="exercise.php?paragraph_uuid='.strval($paragraph_uuid).'">Megtekintés</a></td>';
             }
             else
-                $text .= 'Már/még nem Aktiv';
+                $text .= '<td>Már/még nem Aktiv</td>';
             echo $text.'</tr>';
 
         }
