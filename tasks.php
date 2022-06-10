@@ -36,7 +36,6 @@
             $paragraph_start = $row["start"];
             $paragraph_deadline = $row["deadline"];
             $paragraph_time_now = $row["time_now"];
-            echo $paragraph_time_now;
 
             $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
             $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
@@ -57,6 +56,8 @@
 
             $arr = array();
             array_push($arr, $paragraph_id);
+            array_push($arr, $paragraph_start);
+            array_push($arr, $paragraph_deadline);
             if($paragraph_attempts)
                 array_push($arr, strval($exercise_num).'/'.strval($paragraph_attempts));
             else
