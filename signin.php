@@ -8,18 +8,20 @@
             <tr>
                 <td>
                     <form action="" method="post">
-                        Email Cimed: <input type="text" name="email"><br>
-                        Jelszavad: <input type="password" name="password"><br>
-                        <input type="submit" name="login">
+                        <b>Bejelentkezés</b>
+                        Email Cimed: <input type="text" name="email"/><br>
+                        Jelszavad: <input type="password" name="password"/><br>
+                        <input type="submit" name="login" value="Bejelentkezés"/>
                     </form>
                 </td>
                 <td>
                     <form action="" method="post">
-                        Neved: <input type="text" name="name"><br>
-                        Email Cimed: <input type="text" name="email"><br>
-                        username: <input type="text" name="username"><br>
-                        Jelszavad: <input type="password" name="password"><br>
-                        <input type="submit" name="signup">
+                        <b>Bejelentkezés</b>
+                        Neved: <Regisztráció type="text" name="name"/><br>
+                        Email Cimed: <input type="text" name="email"/><br>
+                        username: <input type="text" name="username"/><br>
+                        Jelszavad: <input type="password" name="password"/><br>
+                        <input type="submit" name="signup" value="Regisztráció"/>
                     </form>
                 </td>
             </tr>
