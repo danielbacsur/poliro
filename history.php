@@ -4,7 +4,7 @@
     <?php include("head.php"); ?>
     <body>
         <h1>Előzmények</h1>
-        <table style="width:50vw">
+        <table style="width:60vw">
             <tr>
                 <th style="text-align: left">
                     Feladat Ideje
