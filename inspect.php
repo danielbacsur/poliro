@@ -97,7 +97,7 @@
             </tr>
             <tr>
                 <td>Hibaszázalék:</td>
-                <td><?php echo $error_length; ?> / <?php echo $exercise_length; ?> = <?php echo $error_percent; ?>%</td>
+                <td><?php echo $error_length_sum; ?> / <?php echo $exercise_length; ?> = <?php echo $error_percent; ?>%</td>
             </tr>
             <tr>
                 <td>Érdemjegy:</td>
