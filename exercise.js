@@ -79,7 +79,7 @@ function ku(e) {
   a = document.getElementById("atext").innerText;
   b = document.getElementById("btext").innerText;
   c = document.getElementById("ctext").innerText;
-  if ((keycount) < c.length) {
+  if ((keycount+5) < c.length) {
     c = "";
     document.getElementById("ctext").innerText = c;
   }
