@@ -13,8 +13,9 @@
                 $run_email = mysqli_query($db,$get_email);
                 $row = mysqli_fetch_array($run_email);
                 $paragraph_id = $row["id"];
-        echo 'alma';
         $insert_customer = "INSERT INTO exercises (`uuid`, `account_id`, `paragraph_id`, `length`) VALUES (UUID(), '$account_id', '$paragraph_id', '$length')";
+        echo $insert_customer;
+        
         $run_customer = mysqli_query($db,$insert_customer);
         $exercise_id = mysqli_insert_id($db);
         $get_email = "SELECT * FROM exercises WHERE id='$exercise_id'";
