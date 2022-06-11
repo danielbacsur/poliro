@@ -8,8 +8,13 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
-sql = "INSERT INTO paragraphs (`uuid`, `title`, `section`, `subsection`, `text`) VALUES (UUID(), '9', '9', '9', 'alma hehe')"
-mycursor.execute(sql)
+mycursor = mydb.cursor()
+
+sql = "INSERT INTO paragraphs (`uuid`, `title`, `section`, `subsection`, `text`) VALUES (UUID(), '%s', '%s', '%s', '%s')"
+val = ('T', 'S', 'SS', 'P')
+mycursor.execute(sql, val)
+
+mydb.commit()
 
 
 
