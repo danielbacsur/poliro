@@ -10,10 +10,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 sql = "INSERT INTO paragraphs (uuid, title, section, subsection, text) VALUES (UUID(), %s, %s, %s, %s)"
-val = ('T', 'S', 'SS', 'P')
-mycursor.execute(sql, val)
 
-mydb.commit()
 
 
 
@@ -45,6 +42,16 @@ with open(filename, encoding='utf-8') as file:
         info2 = [title, section, subsection, paragraph]
         if not info[:3] == info2[:3]:
             print(info2)
+
+
+
+            val = (title, section, subsection, paragraph)
+            mycursor.execute(sql, val)
+
+            mydb.commit()
+
+
+
             info = info2
             paragraph = ''
         
