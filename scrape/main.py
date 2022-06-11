@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
-sql = "INSERT INTO paragraphs (`text`) VALUES ('alma hehe')"
+sql = "INSERT INTO paragraphs (`uuid`, `text`) VALUES (UUID(), 'alma hehe')"
 mycursor.execute(sql)
 
 
