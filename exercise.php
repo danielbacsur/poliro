@@ -9,6 +9,8 @@
     $run_email = mysqli_query($db,$get_email);
     $row = mysqli_fetch_array($run_email);
     $paragraph_title = $row["title"];
+    $paragraph_section = $row["section"];
+    $paragraph_subsection = $row["subsection"];
     $paragraph_text = $row["text"];
     $paragraph_time = $row["time"];
     
@@ -17,7 +19,7 @@
         <div class="typingtest w3-panel w3-info intro">
         <br class="w3-hide-small">
         <br>
-        <h1><?php echo $paragraph_title; ?></h1>
+        <h1><?php echo $paragraph_title.'.'.$paragraph_section.'.'.$paragraph_subsection; ?></h1>
         <br>
         <div id="startdiv" class="w3-row" style="max-width:500px;margin:auto;">
             <?php if($paragraph_time) { ?>
