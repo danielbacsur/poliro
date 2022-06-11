@@ -26,7 +26,6 @@
         $paragraph_section = $paragraph_arr['section'];
         $paragraph_subsection = $paragraph_arr['subsection'];
         $paragraph_length = mb_strlen($paragraph_text);
-        echo 'PARALEN='.strval($paragraph_length);
 
 
         /*$paragraph_title_id = $paragraph_arr['title_id'];
@@ -47,7 +46,6 @@
             $error_position = $error_arr["position"];
             $error_text = $error_arr["text"];
             $error_length += mb_strlen($error_text);
-            echo 'ERRLEN='.strval($error_length);
 
             $error_length = mb_strlen($error_text);
             $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
