@@ -81,6 +81,7 @@ function ku(e) {
   window.clearTimeout(blinktimeout);
   blinkstyle = "";
   setBlink();
+  console.log(a[i].charCodeAt(0));
   for (i = 0; i < c.length; i++) {
     if (a[i] == c[i] || (a[i].charCodeAt(0) == 32 && c[i].charCodeAt(0) == 160)) {
       charcount++;
