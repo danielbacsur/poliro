@@ -37,7 +37,7 @@
                     if($arrn == '')
                         break;
                     else {
-                        $sum .= urlencode($arrn);
+                        $sum .= str_replace( array( '\0', '\'', '\"', '\b', '\n', '\r', '\t', '\Z', '\\', '\%', '\_' ), ' ', $arrn);
                         echo $sum.'<br>';
                         $i++;
                     }
