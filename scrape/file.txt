@@ -1,3 +1,24 @@
 # 1.1.1.# 
 # alapsor betűinek gyakorlása #
-éáél
+# j k l é = jobb kéz mutató ujjától kezdve sorban egymás mellett #
+# f d s a = ball kéz mutató ujjától kezdve sorban egymás mellett #
+jjj jjj kkk kkk jjj jjj kkk kkk jjj jjj kkk kkk jjj jjj kkk 
+lll lll ééé ééé lll lll ééé ééé lll lll ééé ééé lll lll ééé 
+fff fff ddd ddd fff fff ddd ddd fff fff ddd ddd fff fff ddd 
+sss sss aaa aaa sss sss aaa aaa sss sss aaa aaa sss sss aaa 
+# 1.2.1.# 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+kéké kéké fsfs fsfs kéké kéké fsfs fsfs kéké kéké fsfs fsfs 
+# 1.2.2.# 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs kéfs 
+# 1.2.3.# 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+kés kés fék fék kés kés fék fék kés kés fék fék kés kés fék 
+# 1.2.4.# 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 
+ék és késs ék és késs ék és késs ék és késs ék és késs ék é 

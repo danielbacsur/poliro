@@ -71,7 +71,7 @@
             if($paragraph_attempts)
                 echo '<td>'.strval($exercise_num).'/'.strval($paragraph_attempts).'</td>';
             else
-                echo '<td>#/#</td>';
+                echo '<td>'.strval($exercise_num).'/#</td>';
 
 
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)

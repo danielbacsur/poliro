@@ -22,19 +22,16 @@
         $paragraph_arr = mysqli_fetch_array($paragraph_qry);
         $paragraph_text = $paragraph_arr['text'];
         $paragraph_grading = $paragraph_arr['grading'];
+        $paragraph_title = $paragraph_arr['title'];
+        $paragraph_section = $paragraph_arr['section'];
+        $paragraph_subsection = $paragraph_arr['subsection'];
         $paragraph_length = strlen($paragraph_text);
 
-        $paragraph_title_id = $paragraph_arr['title_id'];
+        /*$paragraph_title_id = $paragraph_arr['title_id'];
         $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
         $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
         $paragraph_title_arr = mysqli_fetch_array($paragraph_title_qry);
-        $paragraph_title = $paragraph_title_arr['name'];
-
-        $paragraph_subtitle_id = $paragraph_arr['subtitle_id'];
-        $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$paragraph_subtitle_id'";
-        $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
-        $paragraph_subtitle_arr = mysqli_fetch_array($paragraph_subtitle_qry);
-        $paragraph_subtitle = $paragraph_subtitle_arr['name'];
+        $paragraph_title = $paragraph_title_arr['name'];*/
 
         $correction_text = substr($paragraph_text, 0, $exercise_length);
         $correction_pointer = 0;
@@ -86,7 +83,7 @@
             </tr>
             <tr>
                 <td>Paragrafus neve:</td>
-                <td><?php echo $paragraph_title; ?> - <?php echo $paragraph_subtitle; ?></td>
+                <td><?php echo $paragraph_title; ?>.<?php echo $paragraph_section; ?>.<?php echo $paragraph_subsection; ?></td>
             </tr>
             <tr>
                 <td>Javitott paragrafus:</td>
