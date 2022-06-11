@@ -7,9 +7,6 @@
         echo 'redirecting..';
         $account_id = $_SESSION['account_id'];
         $data = $_GET["d"];
-        for($i = 0; $i < count($data); $i++) {
-            $data[$i] = urldecode($data[$i]);
-        }
         $length = $_GET["l"];
         $paragraph_uuid = $_GET["p"];
         $get_email = "SELECT * FROM paragraphs WHERE uuid='$paragraph_uuid'";
@@ -26,6 +23,9 @@
         $exercise_uuid = $row["uuid"];
         echo $exercise_uuid;
         if(isset($data)) {
+            for($i = 0; $i < count($data); $i++) {
+                $data[$i] = urldecode($data[$i]);
+            }
             for($i = 0; $i < count($data); $i++) {
                 $sum = '';
                 $origi = $i;
