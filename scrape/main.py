@@ -1,3 +1,17 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="poliro",
+  password="12345678"
+)
+
+mycursor = mydb.cursor()
+sql = "INSERT INTO paragraphs (`length`) VALUES (23)"
+mycursor.execute(sql)
+
+
+
 filename = 'file.txt'
 with open(filename, encoding='utf-8') as file:
     info, title, section, subsection, paragraph = ['1', '1', '1', ''], 1, 1, 1, ''
