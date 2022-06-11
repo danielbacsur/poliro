@@ -25,7 +25,9 @@
         $paragraph_title = $paragraph_arr['title'];
         $paragraph_section = $paragraph_arr['section'];
         $paragraph_subsection = $paragraph_arr['subsection'];
-        $paragraph_length = strlen($paragraph_text);
+        $paragraph_length = mb_strlen($paragraph_text);
+        echo 'PARALEN='.strval($paragraph_length);
+
 
         /*$paragraph_title_id = $paragraph_arr['title_id'];
         $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
@@ -33,7 +35,7 @@
         $paragraph_title_arr = mysqli_fetch_array($paragraph_title_qry);
         $paragraph_title = $paragraph_title_arr['name'];*/
 
-        $correction_text = substr($paragraph_text, 0, $exercise_length);
+        $correction_text = mb_substr($paragraph_text, 0, $exercise_length);
         $correction_pointer = 0;
 
         $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'position' DESC";
@@ -44,21 +46,22 @@
         {
             $error_position = $error_arr["position"];
             $error_text = $error_arr["text"];
-            $error_length += strlen($error_text);
+            $error_length += mb_strlen($error_text);
+            echo 'ERRLEN='.strval($error_length);
 
-            $error_length = strlen($error_text);
+            $error_length = mb_strlen($error_text);
             $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
 
             $correction_text =
-                substr($correction_text, 0, $error_position+$correction_pointer).
+                mb_substr($correction_text, 0, $error_position+$correction_pointer).
                 $corr.
-                substr($correction_text, $error_position+$correction_pointer+$error_length);
-            $correction_pointer += strlen($corr)-$error_length;
+                mb_substr($correction_text, $error_position+$correction_pointer+$error_length);
+            $correction_pointer += mb_strlen($corr)-$error_length;
         }
-        if (-($paragraph_length + $correction_pointer-strlen($correction_text))) {
+        if (-($paragraph_length + $correction_pointer-mb_strlen($correction_text))) {
             $correction_text .=
                 '<span style="text-decoration:line-through; color: rgba(127, 0, 0, 0.5)">'
-                .substr($paragraph_text, -($paragraph_length + $correction_pointer-strlen($correction_text))).
+                .mb_substr($paragraph_text, -($paragraph_length + $correction_pointer-mb_strlen($correction_text))).
                 '</span>';
         }
         $writed_length = $exercise_length / $paragraph_length * 100;
