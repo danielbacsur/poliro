@@ -40,13 +40,15 @@
         $error_sql = "SELECT * FROM errors WHERE exercise_id='$exercise_id' ORDER BY 'position' DESC";
         $error_qry = mysqli_query($db,$error_sql);
         $error_length = 0;
+        $error_length_sum = 0;
 
         while ($error_arr = mysqli_fetch_array($error_qry))  
         {
             $error_position = $error_arr["position"];
             $error_text = $error_arr["text"];
-            $error_length += mb_strlen($error_text);
+            $error_length_sum += mb_strlen($error_text);
 
+            $error_length = mb_strlen($error_text);
             $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
 
             $correction_text =
