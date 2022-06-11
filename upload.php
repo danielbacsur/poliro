@@ -37,7 +37,7 @@
                     if($arrn == '')
                         break;
                     else {
-                        $sum .= utf8_encode( $arrn);
+                        $sum .= urlencode($arrn);
                         echo $sum.'<br>';
                         $i++;
                     }
