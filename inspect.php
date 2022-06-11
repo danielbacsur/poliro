@@ -46,9 +46,9 @@
         {
             $error_position = $error_arr["position"];
             $error_text = $error_arr["text"];
-            $error_length_sum += mb_strlen($error_text);
-
             $error_length = mb_strlen($error_text);
+            $error_length_sum += $error_length;
+
             $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
 
             $correction_text =
@@ -65,7 +65,7 @@
         }
         $writed_length = $exercise_length / $paragraph_length * 100;
                 
-        $error_percent = $error_length / $exercise_length * 100;
+        $error_percent = $error_length_sum / $exercise_length * 100;
         $correction_percent = 100 - $error_percent;
 
         $grading_arr = unpack("c*", $paragraph_grading);
