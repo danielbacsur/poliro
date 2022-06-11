@@ -38,7 +38,7 @@ with open(filename, encoding='utf-8') as file:
                 pass
         else:
             # PARAGRAPH TEXT
-            paragraph += line
+            paragraph += line + ' '
         
         info2 = [title, section, subsection, paragraph]
         if not info[:3] == info2[:3]:
