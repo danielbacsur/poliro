@@ -38,7 +38,7 @@
             <div id="ctext" autocomplete="off" autocorrect="off" autocapitalize="off" onmouseup="clickc()" onblur="unfocus()" onkeydown="kd(event)" onkeyup="ku(event)" style="outline: 0 solid transparent;color:transparent;" contenteditable="true" spellcheck="false"></div>
             <div id="dtext" contenteditable="true"></div>
             <div id="atext" style="background-color:white;color:rgba(0,0,0,0.3);" contenteditable="true">
-                <?php echo $paragraph_text; ?>
+                <?php echo $paragraph_text; ?><br>ALMA
             </div>
         </div>
     </div>
