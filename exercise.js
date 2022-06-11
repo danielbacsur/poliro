@@ -81,7 +81,6 @@ function ku(e) {
   window.clearTimeout(blinktimeout);
   blinkstyle = "";
   setBlink();
-  console.log(a[i].charCodeAt(cursorPos));
   for (i = 0; i < c.length; i++) {
     if (a[i] == c[i] || (a[i].charCodeAt(0) == 32 && c[i].charCodeAt(0) == 160)) {
       charcount++;
@@ -179,6 +178,7 @@ function kd(e) {
   } else if(e.which){
     keynum = e.which;
   }
+  console.log(keynum);
   if (cARR.indexOf(keynum) > -1) {
     e.preventDefault();
     return false;
