@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
-sql = "INSERT INTO paragraphs (`length`) VALUES (23)"
+sql = "INSERT INTO paragraphs (`paragraph`) VALUES ('alma hehe')"
 mycursor.execute(sql)
 
 
