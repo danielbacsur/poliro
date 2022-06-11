@@ -47,7 +47,7 @@
             $error_text = $error_arr["text"];
             $error_length += mb_strlen($error_text);
 
-            $error_length = mb_strlen($error_text);
+            $error_length += $error_length;
             $corr = '<span style="text-decoration:underline; color:red">'.$error_text.'</span>';
 
             $correction_text =
