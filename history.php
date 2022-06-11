@@ -32,21 +32,13 @@
                     $paragraph_qry = mysqli_query($db,$paragraph_sql);
                     $paragraph_row = mysqli_fetch_array($paragraph_qry);
                     $paragraph_title = $paragraph_row['title'];
-                    $paragraph_title_id = $paragraph_row["title_id"];
-                    $paragraph_subtitle_id = $paragraph_row["subtitle_id"];
+                    $paragraph_title = $paragraph_row["title"];
+                    $paragraph_section = $paragraph_row["section"];
+                    $paragraph_subsection = $paragraph_row["subsection"];
 
-                    $paragraph_title_sql = "SELECT * FROM paragraph_titles WHERE id='$paragraph_title_id'";
-                    $paragraph_title_qry = mysqli_query($db,$paragraph_title_sql);
-                    $paragraph_title_row = mysqli_fetch_array($paragraph_title_qry);
-                    $paragraph_title = $paragraph_title_row['name'];
-                    $paragraph_subtitle_sql = "SELECT * FROM paragraph_subtitles WHERE id='$paragraph_subtitle_id'";
-                    $paragraph_subtitle_qry = mysqli_query($db,$paragraph_subtitle_sql);
-                    $paragraph_subtitle_row = mysqli_fetch_array($paragraph_subtitle_qry);
-                    $paragraph_subtitle = $paragraph_subtitle_row['name'];
-                    
                     $arr = array();
                     echo '<td>'.$exercise_time.'</td>';
-                    echo '<td>'.$paragraph_title.' - '.$paragraph_subtitle.'</td>';
+                    echo '<td>'.$paragraph_title.'.'.$paragraph_section.'.'.$paragraph_subsection.'</td>';
                     echo '<td><a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a></td>';
                     echo '</tr>';
                 }
