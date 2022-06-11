@@ -7,6 +7,9 @@
         echo 'redirecting..';
         $account_id = $_SESSION['account_id'];
         $data = $_GET["d"];
+        for($i = 0; $i < count($data); $i++) {
+            echo urldecode($data[$i]);
+        }
         $length = $_GET["l"];
         $paragraph_uuid = $_GET["p"];
         $get_email = "SELECT * FROM paragraphs WHERE uuid='$paragraph_uuid'";
