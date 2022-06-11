@@ -23,9 +23,11 @@
         $exercise_uuid = $row["uuid"];
         echo $exercise_uuid;
         if(isset($data)) {
+            echo 'inside';
             for($i = 0; $i < count($data); $i++) {
                 $data[$i] = urldecode($data[$i]);
             }
+            echo 'adfter';
             for($i = 0; $i < count($data); $i++) {
                 $sum = '';
                 $origi = $i;
