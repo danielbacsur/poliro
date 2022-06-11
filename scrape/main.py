@@ -14,7 +14,7 @@ sql = "INSERT INTO paragraphs (uuid, title, section, subsection, text) VALUES (U
 
 
 
-filename = 'file.txt'
+filename = 'konyv.txt'
 with open(filename, encoding='utf-8') as file:
     info, title, section, subsection, paragraph = ['1', '1', '1', ''], 1, 1, 1, ''
     for line in file:
@@ -25,12 +25,13 @@ with open(filename, encoding='utf-8') as file:
             if all([char in '#1234567890. ' for char in line]):
                 # NEW SECTION
                 arr = line[2:-2].split('.')
-                title = arr[0]
+                #title = arr[0]
                 section = arr[1]
                 subsection = arr[2]
             elif not '=' in line:
                 # REAL TITLE
                 print('TITLE AT:', title, '=', line[2:-2])
+                title = line[2:-2]
                 pass
             else:
                 # NEW KEY
