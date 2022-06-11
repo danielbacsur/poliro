@@ -149,7 +149,7 @@ function compare() {
     }
   }
   var link = 'upload.php?';
-  link += '&l=' + c.length.toString();
+  link += '&l=' + (c.length+1).toString();
   link += '&p=' + paragraph_uuid.toString();
   for (let i = 0; i < arr.length; i++) {
     link += '&d[]=' + encodeURI(arr[i].toString());
