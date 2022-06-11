@@ -43,8 +43,9 @@
             $paragraph_deadline = $row["deadline"];
             $paragraph_time_now = $row["time_now"];
 
+            $exercise_num = 0;
             if($paragraph_attempts) {
-                $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' && account_id='$account_id'";
+                $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' AND account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
                 $exercise_num = mysqli_num_rows($exercise_qry);
             }
