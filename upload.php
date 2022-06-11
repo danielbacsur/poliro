@@ -38,13 +38,13 @@
                         break;
                     else {
                         $sum .= utf8_encode( $arrn);
-                        echo $sum;
                         $i++;
                     }
                     
                 }
                 if(!$sum) continue;
                 $insert_customer = "INSERT INTO errors (`exercise_id`, `position`, `text`) VALUES ('$exercise_id', '$origi', '$sum')";
+                echo $insert_customer;
                 $run_customer = mysqli_query($db,$insert_customer);
             }
         }
