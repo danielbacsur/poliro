@@ -35,7 +35,6 @@
                         break;
                     else {
                         $sum .= utf8_encode( $arrn);
-                        echo $sum;
                         $i++;
                     }
                     
