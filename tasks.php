@@ -43,12 +43,9 @@
             $paragraph_deadline = $row["deadline"];
             $paragraph_time_now = $row["time_now"];
 
-            $exercise_num = 0;
-            if($paragraph_attempts) {
-                $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' AND account_id='$account_id'";
-                $exercise_qry = mysqli_query($db,$exercise_sql);
-                $exercise_num = mysqli_num_rows($exercise_qry);
-            }
+            $exercise_sql = "SELECT * FROM exercises WHERE paragraph_id='$paragraph_id' AND account_id='$account_id'";
+            $exercise_qry = mysqli_query($db,$exercise_sql);
+            $exercise_num = mysqli_num_rows($exercise_qry);
 
             echo '<td>'.$paragraph_id.'</td>';
             echo '<td>'.$paragraph_title.'.'.$paragraph_section.'.'.$paragraph_subsection.'</td>';
@@ -57,10 +54,11 @@
             else echo '<td>Nincs</td>';
             if ($paragraph_deadline != '2000-01-01 00:00:00') echo '<td>'.$paragraph_deadline.'</td>';
             else echo '<td>Nincs</td>';
+            echo '<td>'.strval($exercise_num);
             if($paragraph_attempts)
-                echo '<td>'.strval($exercise_num).'/'.strval($paragraph_attempts).'</td>';
+                echo '/'.strval($paragraph_attempts).'</td>';
             else
-                echo '<td>'.strval($exercise_num).'/#</td>';
+                echo '/#</td>';
 
 
             if($paragraph_attempts != 0 && $paragraph_attempts-$exercise_num<=0)
