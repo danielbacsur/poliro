@@ -8,7 +8,7 @@
         $account_id = $_SESSION['account_id'];
         $data = $_GET["d"];
         for($i = 0; $i < count($data); $i++) {
-            echo urldecode($data[$i]);
+            $data[$i] = urldecode($data[$i]);
         }
         $length = $_GET["l"];
         $paragraph_uuid = $_GET["p"];
@@ -34,7 +34,8 @@
                     if($arrn == '')
                         break;
                     else {
-                        $sum .= utf8_encode(urldecode( $arrn));
+                        $sum .= utf8_encode( $arrn);
+                        echo $sum;
                         $i++;
                     }
                     
