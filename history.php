@@ -32,7 +32,6 @@
                     $paragraph_qry = mysqli_query($db,$paragraph_sql);
                     $paragraph_row = mysqli_fetch_array($paragraph_qry);
                     $paragraph_title = $paragraph_row['title'];
-                    $paragraph_title = $paragraph_row["title"];
                     $paragraph_section = $paragraph_row["section"];
                     $paragraph_subsection = $paragraph_row["subsection"];
 
