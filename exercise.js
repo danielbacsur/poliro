@@ -62,6 +62,12 @@ function checkScroll() {
 
 var start = 0, keycount = 0, wcount, wrongword, charcount, errcount;
 function ku(e) {
+  if(window.event) { // IE                    
+    keynum = e.keyCode;
+  } else if(e.which){
+    keynum = e.which;
+  }
+  console.log(keynum);
   wcount = 0, charcount = 0, errcount = 0;
   keycount++;
   if (start == 0) {
@@ -178,7 +184,6 @@ function kd(e) {
   } else if(e.which){
     keynum = e.which;
   }
-  console.log(keynum);
   if (cARR.indexOf(keynum) > -1) {
     e.preventDefault();
     return false;
