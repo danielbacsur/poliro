@@ -46,7 +46,7 @@ with open(filename, encoding='utf-8') as file:
 
 
 
-            val = (title, section, subsection, paragraph[:-1])
+            val = (info[0], info[1], info[2], paragraph[:-1])
             mycursor.execute(sql, val)
 
             mydb.commit()
