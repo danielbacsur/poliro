@@ -6,6 +6,6 @@ if ($db -> connect_errno) {
   exit();
 }
 if(!isset($_SESSION['account_id'])) {
-  header( 'Location: singin.php' );
+  header( 'Location: signin.php' );
 }
 ?>
