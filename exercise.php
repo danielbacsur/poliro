@@ -27,9 +27,6 @@
                 <div class="bench" id="time" style="margin-bottom:-10px;"><?php echo $paragraph_time; ?></div>
                 <span id="timefooter">Az óra, az első billentyű lenyomásával együtt indul.</span>
             <?php } ?>
-            <div id="phonebutton">
-                Telefonos / Tabletes felhasználók<br>Dupla klikk
-            </div>
         </div>
         <br class="w3-hide-small">
         <br>

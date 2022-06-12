@@ -1,18 +1,13 @@
 document.getElementById("ctext").focus();
 document.getElementById("ctext").style.height = w3_getStyleValue(document.getElementById("atext"), "height");
 var source = document.getElementById("atext").innerText;
-console.log(paragraph_uuid);
-console.log(paragraph_time);
 
-
-function dblclickc() {
-  document.getElementById("ctext").click();
-}
 document.getElementById("ctext").addEventListener("focus", function() {
   setBlink();
 });
 
-
+var blinktimeout, blinkstyle = "";
+var cursorPos = 0;
 
 function clickc() {
   var c = document.getElementById("ctext");
@@ -28,8 +23,6 @@ function clickc() {
   }
 }
 
-var blinktimeout, blinkstyle = "";
-var cursorPos = 0;
 function setBlink(a) {
   var n = cursorPos;
   if (blinkstyle == "") blinkstyle = "background-color:rgba(30, 144, 255,0.2)";
@@ -114,7 +107,6 @@ function ku(e) {
   if(c.length >= source.length) {
     end();
   }
-  console.log(c.length - source.length);
 }
 
 timelength = paragraph_time;
@@ -157,10 +149,6 @@ function compare() {
   document.location = link;
 }
 
-function displayScore() {
-  document.getElementById("startdiv").style.display = "none";
-  window.scrollTo(0, 0);
-}
 
 function stopTyping() {
   document.getElementById("ctext").contentEditable = false;

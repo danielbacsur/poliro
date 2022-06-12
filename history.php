@@ -25,7 +25,7 @@
                     $exercise_id = $exercise_arr['id'];
                     $exercise_uuid = $exercise_arr['uuid'];
                     $exercise_length = $exercise_arr['length'];
-                    $exercise_time = $exercise_arr['time'];
+                    $exercise_timestamp = $exercise_arr['timestamp'];
                     
                     $paragraph_id = $exercise_arr['paragraph_id'];
                     $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
@@ -36,7 +36,7 @@
                     $paragraph_subsection = $paragraph_row["subsection"];
 
                     $arr = array();
-                    echo '<td>'.$exercise_time.'</td>';
+                    echo '<td>'.$exercise_timestamp.'</td>';
                     echo '<td>'.$paragraph_title.'.'.$paragraph_section.'.'.$paragraph_subsection.'</td>';
                     echo '<td><a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a></td>';
                     echo '</tr>';

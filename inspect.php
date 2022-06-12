@@ -14,7 +14,7 @@
         $exercise_arr = mysqli_fetch_array($exercise_qry);
         $exercise_id = $exercise_arr['id'];
         $exercise_length = $exercise_arr['length'];
-        $exercise_time = $exercise_arr['time'];
+        $exercise_timestamp = $exercise_arr['timestamp'];
                 
         $paragraph_id = $exercise_arr['paragraph_id'];
         $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
@@ -81,7 +81,7 @@
         <table style="width:100%">
             <tr>
                 <td>Keltezés:</td>
-                <td><?php echo $exercise_time; ?></td>
+                <td><?php echo $exercise_timestamp; ?></td>
             </tr>
             <tr>
                 <td>Paragrafus neve:</td>
