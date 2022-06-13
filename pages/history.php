@@ -422,7 +422,7 @@
                         </div>
                       </td>
                       <td class="align-middle">
-                        <a class="font-weight-bold text-sm mb-0">
+                        <a class="text-secondary font-weight-bold text-sm mb-0">
                           Edit
                         </a>
                       </td>
