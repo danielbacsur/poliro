@@ -5,7 +5,9 @@ if ($db -> connect_errno) {
   echo "Failed to connect to MySQL: " . $db -> connect_error;
   exit();
 }
-selectfrom("SELECT * FROM paragraphs WHERE id='$paragraph_id'", 'paragraph', [])
+echo 'a';
+selectfrom("SELECT * FROM paragraphs WHERE id='$paragraph_id'", 'paragraph', []);
+
 function selectfrom($sql, $key, $arr) {
   ${$key.'_qry'} = mysqli_query($db,$sql);
   $paragraph_row = mysqli_fetch_array($paragraph_qry);
