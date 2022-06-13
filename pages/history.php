@@ -21,6 +21,7 @@
                     <thead>
                       <tr>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Ideje</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Pontosság</th>
@@ -60,6 +61,9 @@
                               <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
                             </div>
                           </div>
+                        </td>
+                        <td>
+                          <p class="text-sm font-weight-bold mb-0"><?php echo $exercise_timestamp; ?></p>
                         </td>
                         <td>
                           <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
