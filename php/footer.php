@@ -6,9 +6,7 @@
                 © <script>
                   document.write(new Date().getFullYear())
                 </script>,
-                made with <i class="fa fa-heart"></i> by
                 <a href="http://danielbacsur.com/" class="font-weight-bold" target="_blank">Daniel Bacsur</a>
-                for a better web.
               </div>
             </div>
             <div class="col-lg-6">
