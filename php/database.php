@@ -9,15 +9,11 @@ echo 'a';
 
 function selectfrom($sql, $key, $arr) {
   global $db;
-  $alma = mysqli_query($db, $sql);
   ${$key.'_qry'} = mysqli_query($db, $sql);
-  ${$key.'_qry'} = mysqli_fetch_array($paragraph_qry);
+  ${$key.'_arr'} = mysqli_fetch_array(${$key.'_qry'});
   for($i = 0; $i < count($arr); $i++) {
     echo $arr[$i];
+    ${$key.'_'.$arr[$i]} = ${$key.'_arr'}[$arr[$i]];
   }
-  ${$key.'_qry'} = $paragraph_row['title'];
-  ${$key.'_qry'} = $paragraph_row["section"];
-  ${$key.'_qry'} = $paragraph_row["subsection"];
-  ${$key.'_qry'} =  $paragraph_row["text"];
 }
 ?>
