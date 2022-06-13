@@ -11,8 +11,10 @@ selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
 function selectfrom($sql, $key, $arr) {
   $varname = $key.'_qry';
   echo $varname;
-  $$varname = mysqli_query($db,$sql);
+  $alma = mysqli_query($db, $sql);
   echo 'alma';
+  $$varname = mysqli_query($db, $sql);
+  echo 'korte';
   $paragraph_row = mysqli_fetch_array($paragraph_qry);
   $paragraph_title = $paragraph_row['title'];
   $paragraph_section = $paragraph_row["section"];
