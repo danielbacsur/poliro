@@ -7,7 +7,8 @@ if ($db -> connect_errno) {
 }
 echo 'a';
 
-function selectfrom($db, $sql, $key, $arr) {
+function selectfrom($sql, $key, $arr) {
+  global $db;
   $varname = $key.'_qry';
   echo $varname;
   $alma = mysqli_query($db, $sql);
