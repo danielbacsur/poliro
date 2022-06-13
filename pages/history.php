@@ -386,16 +386,10 @@
                         $exercise_length = $exercise_arr['length'];
                         $exercise_timestamp = $exercise_arr['timestamp'];
                         
-                        selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', ['id', 'title', 'section', 'subsection', 'text']);
                         
                         $paragraph_id = $exercise_arr['paragraph_id'];
                         $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
-                        $paragraph_qry = mysqli_query($db,$paragraph_sql);
-                        $paragraph_row = mysqli_fetch_array($paragraph_qry);
-                        $paragraph_title = $paragraph_row['title'];
-                        $paragraph_section = $paragraph_row["section"];
-                        $paragraph_subsection = $paragraph_row["subsection"];
-                        $paragraph_text =  $paragraph_row["text"];
+                        selectfrom($sql, 'paragraph', ['id', 'title', 'section', 'subsection', 'text']);
                         $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
                         $percent = 40;
                     ?>
