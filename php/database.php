@@ -11,6 +11,7 @@ selectfrom("SELECT * FROM paragraphs WHERE id='$paragraph_id'", 'paragraph', [])
 function selectfrom($sql, $key, $arr) {
   echo 'b';
   $varname = $key.'_qry';
+  echo $varname;
   $$varname = mysqli_query($db,$sql);
   echo 'c';
   $paragraph_row = mysqli_fetch_array($paragraph_qry);
