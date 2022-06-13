@@ -378,6 +378,8 @@
                   <tbody>
                     <?php
                     $account_id = $_SESSION['account_id'];
+                    echo $account_id;
+                    echo 'ALMA';
                     $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
                     $exercise_qry = mysqli_query($db,$exercise_sql);
                     while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
