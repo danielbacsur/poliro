@@ -13,7 +13,7 @@ function selectfrom($sql, $key, $arr) {
   echo $varname;
   $alma = mysqli_query($db, $sql);
   echo 'alma';
-  $($key.'_qry') = mysqli_query($db, $sql);
+  ${$key.'_qry'} = mysqli_query($db, $sql);
   echo 'korte';
   $paragraph_row = mysqli_fetch_array($paragraph_qry);
   $paragraph_title = $paragraph_row['title'];
