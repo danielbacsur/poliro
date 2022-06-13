@@ -376,6 +376,8 @@
                     </tr>
                   </thead>
                   <tbody>
+                    <?php
+                    for($i = 0; $i < 3; $i++) { ?>
                     <tr>
                       <td>
                         <div class="d-flex px-2">
@@ -409,6 +411,7 @@
                         </button>
                       </td>
                     </tr>
+                    <?php } ?>
                   </tbody>
                 </table>
               </div>
