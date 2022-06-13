@@ -368,8 +368,8 @@
                 <table class="table align-items-center justify-content-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Project</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Budget</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Completion</th>
                       <th></th>
@@ -378,8 +378,6 @@
                   <tbody>
                     <?php
                     $account_id = $_SESSION['account_id'];
-                    echo $account_id;
-                    echo 'ALMA';
                     $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
                     $exercise_qry = mysqli_query($db,$exercise_sql);
                     while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
@@ -424,9 +422,9 @@
                         </div>
                       </td>
                       <td class="align-middle">
-                        <button class="btn btn-link text-secondary mb-0">
-                          <i class="fa fa-ellipsis-v text-xs"></i>
-                        </button>
+                        <a class="font-weight-bold text-sm mb-0">
+                          Edit
+                        </a>
                       </td>
                     </tr>
                     <?php } ?>
