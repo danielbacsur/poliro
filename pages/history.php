@@ -387,7 +387,7 @@
                         $exercise_timestamp = $exercise_arr['timestamp'];
                         echo 'ALMA';
                         
-                        selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
+                        selectfrom($db, "SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
                         echo 'KORTT';
                         
                         $paragraph_id = $exercise_arr['paragraph_id'];
