@@ -80,44 +80,6 @@
                           </a>
                         </td>
                       </tr>
-
-
-                      <tr>
-                        <td>
-                          <div class="d-flex px-2">
-                            <div>
-                              <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
-                            </div>
-                            <div class="my-auto">
-                              <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
-                            </div>
-                          </div>
-                        </td>
-                        <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo $exercise_timestamp; ?></p>
-                        </td>
-                        <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
-                        </td>
-                        <td>
-                          <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
-                        </td>
-                        <td class="align-middle text-center">
-                          <div class="d-flex align-items-center justify-content-center">
-                            <span class="me-2 text-sm font-weight-bold"><?php echo $percent; ?>%</span>
-                            <div>
-                              <div class="progress">
-                                <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="<?php echo $percent; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $percent; ?>%;"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </td>
-                        <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/inspect.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
-                            Megtekintés
-                          </a>
-                        </td>
-                      </tr>
                       <?php } ?>
                     </tbody>
                   </table>
