@@ -5,4 +5,13 @@ if ($db -> connect_errno) {
   echo "Failed to connect to MySQL: " . $db -> connect_error;
   exit();
 }
+
+function selectfrom($sql, $key, $arr) {
+  $($key.'_qry') = mysqli_query($db,$sql);
+  $paragraph_row = mysqli_fetch_array($paragraph_qry);
+  $paragraph_title = $paragraph_row['title'];
+  $paragraph_section = $paragraph_row["section"];
+  $paragraph_subsection = $paragraph_row["subsection"];
+  $paragraph_text =  $paragraph_row["text"];
+}
 ?>
