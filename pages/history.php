@@ -386,7 +386,7 @@
                         $exercise_length = $exercise_arr['length'];
                         $exercise_timestamp = $exercise_arr['timestamp'];
                         
-                        selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
+                        selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', ['id', 'title', 'section', 'subsection', 'text']);
                         
                         $paragraph_id = $exercise_arr['paragraph_id'];
                         $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
