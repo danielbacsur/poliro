@@ -393,6 +393,7 @@
                         $paragraph_title = $paragraph_row['title'];
                         $paragraph_section = $paragraph_row["section"];
                         $paragraph_subsection = $paragraph_row["subsection"];
+                        $percent = 40;
                     ?>
                     <tr>
                       <td>
@@ -401,29 +402,29 @@
                             <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Spotify</h6>
+                            <h6 class="mb-0 text-sm">Paragrafus #<php echo $paragraph_id; ?></h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$2,500</p>
+                        <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">working</span>
+                        <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
-                          <span class="me-2 text-xs font-weight-bold">60%</span>
+                          <span class="me-2 text-xs font-weight-bold"><?php echo $percent; ?>%</span>
                           <div>
                             <div class="progress">
-                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                              <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="<?php echo $percent; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $percent; ?>%;"></div>
                             </div>
                           </div>
                         </div>
                       </td>
                       <td class="align-middle">
                         <a class="text-secondary font-weight-bold text-sm mb-0">
-                          Edit
+                          Megtekintés
                         </a>
                       </td>
                     </tr>
