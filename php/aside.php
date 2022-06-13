@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/dashboard.html">
+          <a class="nav-link <?php if($root_filename== 'dashboard.php') echo 'active'; ?> " href="../pages/dashboard.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>shop </title>
@@ -31,7 +31,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?>" href="../pages/tables.html">
+          <a class="nav-link <?php if($root_filename== 'tables.php') echo 'active'; ?>" href="../pages/tables.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>office</title>
@@ -71,7 +71,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/virtual-reality.html">
+          <a class="nav-link <?php if($root_filename== 'virtual-reality.php') echo 'active'; ?> " href="../pages/virtual-reality.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>box-3d-50</title>
@@ -92,7 +92,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/rtl.html">
+          <a class="nav-link <?php if($root_filename== 'rtl.php') echo 'active'; ?> " href="../pages/rtl.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>settings</title>
@@ -116,7 +116,7 @@
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account pages</h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/profile.html">
+          <a class="nav-link <?php if($root_filename== 'profile.php') echo 'active'; ?> " href="../pages/profile.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>customer-support</title>
@@ -137,7 +137,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/sign-in.html">
+          <a class="nav-link <?php if($root_filename== 'sign-in.php') echo 'active'; ?> " href="../pages/sign-in.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>document</title>
@@ -157,7 +157,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if($root_filename== 'history.php') echo 'active'; ?> " href="../pages/sign-up.html">
+          <a class="nav-link <?php if($root_filename== 'sign-up.php') echo 'active'; ?> " href="../pages/sign-up.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="20px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>spaceship</title>
