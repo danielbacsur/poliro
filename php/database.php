@@ -6,7 +6,6 @@ if ($db -> connect_errno) {
   exit();
 }
 echo 'a';
-selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
 
 function selectfrom($sql, $key, $arr) {
   $varname = $key.'_qry';
