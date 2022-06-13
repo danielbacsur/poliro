@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <?php $root_filename = __FILE__; ?>
   <?php include("../php/database.php"); ?>
   <?php include('../php/head.php'); ?>
 
