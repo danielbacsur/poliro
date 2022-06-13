@@ -393,6 +393,8 @@
                         $paragraph_title = $paragraph_row['title'];
                         $paragraph_section = $paragraph_row["section"];
                         $paragraph_subsection = $paragraph_row["subsection"];
+                        $paragraph_text =  $paragraph_row["text"];
+                        $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
                         $percent = 40;
                     ?>
                     <tr>
