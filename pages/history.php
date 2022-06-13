@@ -14,7 +14,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<?php include("database.php"); ?>
+<?php include("../php/database.php"); ?>
 
 
 <head>
