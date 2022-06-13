@@ -6,14 +6,12 @@ if ($db -> connect_errno) {
   exit();
 }
 echo 'a';
-selectfrom("SELECT * FROM paragraphs WHERE id='$paragraph_id'", 'paragraph', []);
+selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
 
 function selectfrom($sql, $key, $arr) {
-  echo 'b';
   $varname = $key.'_qry';
   echo $varname;
-  $$varname = mysqli_query($db,$sql);
-  echo 'c';
+  $($key.'_qry') = mysqli_query($db,$sql);
   $paragraph_row = mysqli_fetch_array($paragraph_qry);
   $paragraph_title = $paragraph_row['title'];
   $paragraph_section = $paragraph_row["section"];
