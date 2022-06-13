@@ -385,10 +385,8 @@
                         $exercise_uuid = $exercise_arr['uuid'];
                         $exercise_length = $exercise_arr['length'];
                         $exercise_timestamp = $exercise_arr['timestamp'];
-                        echo 'ALMA';
                         
                         selectfrom("SELECT * FROM paragraphs WHERE id='1'", 'paragraph', []);
-                        echo 'KORTT';
                         
                         $paragraph_id = $exercise_arr['paragraph_id'];
                         $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
