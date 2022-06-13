@@ -11,7 +11,7 @@
       <?php include('../php/nav.php'); ?>
       <div class="container-fluid py-4">
         <div class="row">
-        <div class="col-12">
+          <div class="col-12">
             <div class="card mb-4">
               <div class="card-header pb-0">
                 <h6>Dolgozatok</h6>
@@ -54,29 +54,37 @@
                       ?>
                       <tr>
                         <td>
-                          <div class="d-flex px-2 py-1">
+                          <div class="d-flex px-2">
                             <div>
-                              <img src="../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                              <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                             </div>
-                            <div class="d-flex flex-column justify-content-center">
-                              <h6 class="mb-0 text-sm">John Michael</h6>
-                              <p class="text-xs text-secondary mb-0">john@creative-tim.com</p>
+                            <div class="my-auto">
+                              <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
                             </div>
                           </div>
                         </td>
                         <td>
-                          <p class="text-xs font-weight-bold mb-0">Manager</p>
-                          <p class="text-xs text-secondary mb-0">Organization</p>
+                          <p class="text-sm font-weight-bold mb-0"><?php echo $exercise_timestamp; ?></p>
                         </td>
-                        <td class="align-middle text-center text-sm">
-                          <span class="badge badge-sm bg-gradient-success">Online</span>
+                        <td>
+                          <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
+                        </td>
+                        <td>
+                          <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                         </td>
                         <td class="align-middle text-center">
-                          <span class="text-secondary text-xs font-weight-bold">23/04/18</span>
+                          <div class="d-flex align-items-center justify-content-center">
+                            <span class="me-2 text-sm font-weight-bold"><?php echo $percent; ?>%</span>
+                            <div>
+                              <div class="progress">
+                                <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="<?php echo $percent; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $percent; ?>%;"></div>
+                              </div>
+                            </div>
+                          </div>
                         </td>
                         <td class="align-middle">
-                          <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                            Edit
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/inspect.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
+                            Megtekintés
                           </a>
                         </td>
                       </tr>
@@ -87,6 +95,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-12">
             <div class="card mb-4">
               <div class="card-header pb-0">
