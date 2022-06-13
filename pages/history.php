@@ -78,7 +78,7 @@
                           </div>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/instpect?exercise_uuid=<?php echo $exercise_uuid; ?>">
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/inspect.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
                             Megtekintés
                           </a>
                         </td>
