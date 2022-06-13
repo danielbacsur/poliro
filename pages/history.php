@@ -402,7 +402,7 @@
                             <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Paragrafus #<php echo $paragraph_id; ?></h6>
+                            <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
                           </div>
                         </div>
                       </td>
