@@ -21,7 +21,6 @@
                 $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
                 $exercise_qry = mysqli_query($db,$exercise_sql);
                 while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
-                    echo '<tr>';
                     $exercise_id = $exercise_arr['id'];
                     $exercise_uuid = $exercise_arr['uuid'];
                     $exercise_length = $exercise_arr['length'];
@@ -36,6 +35,7 @@
                     $paragraph_subsection = $paragraph_row["subsection"];
 
                     $arr = array();
+                    echo '<tr>';
                     echo '<td>'.$exercise_timestamp.'</td>';
                     echo '<td>'.$paragraph_title.'.'.$paragraph_section.'.'.$paragraph_subsection.'</td>';
                     echo '<td><a href="inspect.php?exercise_uuid='.strval($exercise_uuid).'">Megtekintés</a></td>';
