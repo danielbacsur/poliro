@@ -377,7 +377,23 @@
                   </thead>
                   <tbody>
                     <?php
-                    for($i = 0; $i < 3; $i++) { ?>
+                    $account_id = $_SESSION['account_id'];
+                    $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
+                    $exercise_qry = mysqli_query($db,$exercise_sql);
+                    while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
+                        $exercise_id = $exercise_arr['id'];
+                        $exercise_uuid = $exercise_arr['uuid'];
+                        $exercise_length = $exercise_arr['length'];
+                        $exercise_timestamp = $exercise_arr['timestamp'];
+                        
+                        $paragraph_id = $exercise_arr['paragraph_id'];
+                        $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
+                        $paragraph_qry = mysqli_query($db,$paragraph_sql);
+                        $paragraph_row = mysqli_fetch_array($paragraph_qry);
+                        $paragraph_title = $paragraph_row['title'];
+                        $paragraph_section = $paragraph_row["section"];
+                        $paragraph_subsection = $paragraph_row["subsection"];
+                    ?>
                     <tr>
                       <td>
                         <div class="d-flex px-2">
