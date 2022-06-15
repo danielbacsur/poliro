@@ -36,7 +36,7 @@
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       $paragraph_num = mysqli_num_rows($paragraph_qry);
                       if(!$paragraph_num) { ?>
-                        <td colspan="4">Üres</td>
+                        <td colspan="4" class="text-sm font-weight-bold text-center">Üres</td>
                       <?php }
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
@@ -109,7 +109,7 @@
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       $paragraph_num = mysqli_num_rows($paragraph_qry);
                       if(!$paragraph_num) { ?>
-                        <td colspan="4">Üres</td>
+                        <td colspan="4" class="text-sm font-weight-bold text-center">Üres</td>
                       <?php }
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
