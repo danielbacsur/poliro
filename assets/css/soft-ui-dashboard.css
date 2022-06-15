@@ -22720,7 +22720,7 @@ hr.horizontal.gray-light {
   .navbar-vertical.navbar-expand-md .navbar-collapse {
     display: block;
     overflow: auto;
-    height: calc(100vh - 360px);
+    height: calc(100vh);
   }
 
   .navbar-vertical.navbar-expand-md>[class*="container"] {
