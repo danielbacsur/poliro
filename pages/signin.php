@@ -4,13 +4,12 @@
     <?php include("../php/head.php"); ?>
     <body>
         <h1>Bejelentkezés</h1>
-        <?php 
-        echo isset($_GET['signup']);
-        echo isset($_GET['login']);
+        <?php
         echo isset($_GET['signup']) && isset($_GET['login']); ?>>
 
         <table style="width:100%">
             <tr>
+                <?php if(isset($_GET['signup']) && !isset($_GET['login'])) { ?>>
                 <td>
                     <form action="" method="post">
                         <b>Regisztráció</b><br/>
@@ -21,6 +20,7 @@
                         <input type="submit" name="signup" value="Regisztráció"/>
                     </form>
                 </td>
+                <?php } else if(!isset($_GET['signup']) && isset($_GET['login'])) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Bejelentkezés</b><br/>
@@ -29,6 +29,7 @@
                         <input type="submit" name="login" value="Bejelentkezés"/>
                     </form>
                 </td>
+                <?php } ?>
             </tr>
         </table>
         
