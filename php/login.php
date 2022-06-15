@@ -12,7 +12,7 @@ $account_email = $_POST['email'];
             }
             $_SESSION['account_id'] = $row_account['id'];
             if(!isset($_GET['redirect'])) {
-                header( 'Location: index.php' );
+                header( 'Location: ../pages/index.php' );
             } else {
                 $l = $_GET['redirect'];
                 header( "Location: $l" );
