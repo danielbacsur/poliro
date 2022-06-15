@@ -97,7 +97,7 @@
                     <thead>
                       <tr>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Ideje</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Határidő</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Pontosság</th>
@@ -107,23 +107,14 @@
                     <tbody>
                       <?php
                       $account_id = $_SESSION['account_id'];
-                      $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
-                      $exercise_qry = mysqli_query($db,$exercise_sql);
-                      while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
-                          $exercise_id = $exercise_arr['id'];
-                          $exercise_uuid = $exercise_arr['uuid'];
-                          $exercise_length = $exercise_arr['length'];
-                          $exercise_timestamp = $exercise_arr['timestamp'];
-                          
-                          
-                          $paragraph_id = $exercise_arr['paragraph_id'];
-                          $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
-                          $paragraph_qry = mysqli_query($db,$paragraph_sql);
-                          $paragraph_row = mysqli_fetch_array($paragraph_qry);
-                          $paragraph_title = $paragraph_row['title'];
-                          $paragraph_section = $paragraph_row["section"];
-                          $paragraph_subsection = $paragraph_row["subsection"];
-                          $paragraph_text =  $paragraph_row["text"];
+                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id);";
+                      $paragraph_qry = mysqli_query($db,$paragraph_sql);
+                      while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
+                          $paragraph_title = $paragraph_arr['title'];
+                          $paragraph_section = $paragraph_arr["section"];
+                          $paragraph_subsection = $paragraph_arr["subsection"];
+                          $paragraph_text =  $paragraph_arr["text"];
+                          $paragraph_deadline =  $paragraph_arr["deadline"];
                           $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
                           $percent = 40;
                       ?>
@@ -147,18 +138,8 @@
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                         </td>
-                        <td class="align-middle text-center">
-                          <div class="d-flex align-items-center justify-content-center">
-                            <span class="me-2 text-sm font-weight-bold"><?php echo $percent; ?>%</span>
-                            <div>
-                              <div class="progress">
-                                <div class="progress-bar bg-gradient-info" role="progressbar" aria-valuenow="<?php echo $percent; ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $percent; ?>%;"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/inspect.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
                             Megtekintés
                           </a>
                         </td>
