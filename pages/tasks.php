@@ -36,6 +36,7 @@
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
+                          $paragraph_uuid = $paragraph_arr['uuid'];
                           $paragraph_title = $paragraph_arr['title'];
                           $paragraph_section = $paragraph_arr["section"];
                           $paragraph_subsection = $paragraph_arr["subsection"];
@@ -69,7 +70,7 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">Megtekintés</a>
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $paragraph_uuid; ?>">Megtekintés</a>
                         </td>
                       </tr>
                       <?php } ?>
@@ -104,6 +105,7 @@
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
+                          $paragraph_uuid = $paragraph_arr['uuid'];
                           $paragraph_title = $paragraph_arr['title'];
                           $paragraph_section = $paragraph_arr["section"];
                           $paragraph_subsection = $paragraph_arr["subsection"];
@@ -130,7 +132,7 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $paragraph_uuid; ?>">
                             Megtekintés
                           </a>
                         </td>
