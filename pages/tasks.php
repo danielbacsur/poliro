@@ -26,7 +26,7 @@
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kezdés</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Határidő</th>
-                        <th class="text-left"></th>
+                        <th></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -68,7 +68,7 @@
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
-                        <td class="align-middle">
+                        <td class="align-left text-left">
                           <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
                             Megtekintés
                           </a>
