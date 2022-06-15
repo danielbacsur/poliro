@@ -11,18 +11,28 @@
       <?php include('../php/nav.php'); ?>
       <div class="container-fluid py-4">
         <div class="row">
-        <div class="col-12">
+          <div class="col-12">
             <div class="card mb-4">
               <div class="card-header pb-0">
-                <h6>Dolgozatok</h6>
+                <h6>Határidős Feladatok</h6>
               </div>
               <div class="card-body px-0 pt-0 pb-0">
                 <div class="table-responsive p-0">
                   <table class="table align-items-center justify-content-center mb-0">
                     <thead>
-                    <?php
+                      <tr>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kezdés</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Határidő</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <?php
                       $account_id = $_SESSION['account_id'];
-                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=1) AND (start!='2000-01-01 00:00:00' OR deadline!='2000-01-01 00:00:00')";
+                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id) LIMIT 20";
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
@@ -53,10 +63,10 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                         </td>
                         <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo $paragraph_start; ?></p>
+                          <span class="text-sm font-weight-bold"><?php echo $paragraph_start; ?></span>
                         </td>
                         <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo $paragraph_deadline; ?></p>
+                          <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
                         <td class="align-middle">
                           <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
@@ -71,6 +81,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-12">
             <div class="card mb-4">
               <div class="card-header pb-0">
