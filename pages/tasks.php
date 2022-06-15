@@ -30,6 +30,7 @@
                           $paragraph_section = $paragraph_arr["section"];
                           $paragraph_subsection = $paragraph_arr["subsection"];
                           $paragraph_text =  $paragraph_arr["text"];
+                          $paragraph_start =  $paragraph_arr["start"];
                           $paragraph_deadline =  $paragraph_arr["deadline"];
                           $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
                           $percent = 40;
@@ -46,13 +47,16 @@
                           </div>
                         </td>
                         <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo $exercise_timestamp; ?></p>
-                        </td>
-                        <td>
                           <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
                         </td>
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
+                        </td>
+                        <td>
+                          <p class="text-sm font-weight-bold mb-0"><?php echo $paragraph_start; ?></p>
+                        </td>
+                        <td>
+                          <p class="text-sm font-weight-bold mb-0"><?php echo $paragraph_deadline; ?></p>
                         </td>
                         <td class="align-middle">
                           <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
@@ -78,7 +82,6 @@
                     <thead>
                       <tr>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Határidő</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th></th>
@@ -109,9 +112,6 @@
                               <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
                             </div>
                           </div>
-                        </td>
-                        <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo $exercise_timestamp; ?></p>
                         </td>
                         <td>
                           <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
