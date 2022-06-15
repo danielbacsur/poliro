@@ -4,6 +4,11 @@
     <?php include("../php/head.php"); ?>
     <body>
         <h1>Bejelentkezés</h1>
+        <?php 
+        echo isset($_GET('signup'));
+        echo isset($_GET('login'));
+        echo isset($_GET('signup')) && isset($_GET('login')); ?>>
+
         <table style="width:100%">
             <tr>
                 <td>
