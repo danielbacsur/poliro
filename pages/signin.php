@@ -4,12 +4,10 @@
     <?php include("../php/head.php"); ?>
     <body>
         <h1>Bejelentkezés</h1>
-        <?php
-        echo isset($_GET['signup']) && isset($_GET['login']); ?>>
 
         <table style="width:100%">
             <tr>
-                <?php if(isset($_GET['signup']) && !isset($_GET['login'])) { ?>>
+                <?php if(isset($_POST['signup'])) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Regisztráció</b><br/>
@@ -17,16 +15,19 @@
                         Email Cimed: <input type="text" name="email"/><br/>
                         username: <input type="text" name="username"/><br/>
                         Jelszavad: <input type="password" name="password"/><br/>
-                        <input type="submit" name="signup" value="Regisztráció"/>
+                        <input type="submit" name="signup" value="Regisztráció"/><br/>
+                        <input type="submit" name="switchtologin" value="Másik"/>
                     </form>
                 </td>
-                <?php } else if(!isset($_GET['signup']) && isset($_GET['login'])) { ?>
+                <?php } else if(!isset($_POST['signup'])) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Bejelentkezés</b><br/>
                         Email Cimed: <input type="text" name="email"/><br/>
                         Jelszavad: <input type="password" name="password"/><br/>
-                        <input type="submit" name="login" value="Bejelentkezés"/>
+                        <input type="submit" name="login" value="Bejelentkezés"/><br/>
+                        <input type="submit" name="switchtosignup" value="Másik"/>
+
                     </form>
                 </td>
                 <?php } ?>
