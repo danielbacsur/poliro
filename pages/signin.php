@@ -6,6 +6,7 @@
         <h1>Bejelentkezés</h1>
         <table style="width:100%">
             <tr>
+                <?php if(isset($_GET('signup')) && !isset($_GET('login'))) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Regisztráció</b><br/>
@@ -16,6 +17,7 @@
                         <input type="submit" name="signup" value="Regisztráció"/>
                     </form>
                 </td>
+                <? } else if(!isset($_GET('signup')) && isset($_GET('login'))) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Bejelentkezés</b><br/>
@@ -24,6 +26,7 @@
                         <input type="submit" name="login" value="Bejelentkezés"/>
                     </form>
                 </td>
+                <?php } ?>
             </tr>
         </table>
         
