@@ -70,6 +70,9 @@
             <span class="nav-link-text ms-1">Feladatok</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="btn bg-gradient-primary mt-3 w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree">Upgrade to pro</a>
+        </li>
         <!--<li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account pages</h6>
         </li>
