@@ -70,7 +70,7 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?paragraph_uuid=<?php echo $paragraph_uuid; ?>">Megtekintés</a>
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../pages/exercise.php?paragraph_uuid=<?php echo $paragraph_uuid; ?>">Megtekintés</a>
                         </td>
                       </tr>
                       <?php } ?>
@@ -132,7 +132,7 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?paragraph_uuid=<?php echo $paragraph_uuid; ?>">
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../pages/exercise.php?paragraph_uuid=<?php echo $paragraph_uuid; ?>">
                             Megtekintés
                           </a>
                         </td>
