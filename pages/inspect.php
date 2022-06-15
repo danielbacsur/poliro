@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<?php include("database.php"); ?>
+<?php include("../php/database.php"); ?>
 <html>
-    <?php include("head.php"); ?>
+    <?php include("../php/head.php"); ?>
     <body>
         <h1>Elemzés</h1>
 
