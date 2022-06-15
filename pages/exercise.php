@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Poliro - Gyakorlat</title>
-    <link rel="stylesheet" href="exercise.css">
+    <link rel="stylesheet" href="../assets/css/exercise.css">
 </head>
 <html>
     <?php #include("head.php"); ?>
@@ -48,6 +48,6 @@
         var paragraph_uuid = '<?php echo $paragraph_uuid; ?>';
         var paragraph_time = '<?php echo $paragraph_time; ?>';
     </script>
-    <script src="exercise.js"></script>
+    <script src="../assets/js/exercise.js"></script>
     </body>
 </html>
