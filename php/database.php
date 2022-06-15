@@ -6,7 +6,7 @@ if ($db -> connect_errno) {
   exit();
 }
 if($root_filename == 'signin.php' && isset($_SESSION['account_id'])) {
-  header( 'Location: ../pages/dashboard.php' );
+  #header( 'Location: ../pages/dashboard.php' );
 }
 else if(!isset($_SESSION['account_id'])) {
   header( 'Location: ../pages/signin.php' );
