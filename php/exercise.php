@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
 <html>
-    <?php include("head.php"); ?>
+    <?php #include("head.php"); ?>
     <?php
     $account_id = $_SESSION['account_id'];
     $paragraph_uuid = $_GET['paragraph_uuid'];
