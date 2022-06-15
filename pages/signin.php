@@ -6,9 +6,6 @@
         <h1>Bejelentkezés</h1>
         <table style="width:100%">
             <tr>
-                <?php $d = isset($_GET('signup')) && !isset($_GET('login'));
-                echo $d;
-                ?>
                 <td>
                     <form action="" method="post">
                         <b>Regisztráció</b><br/>
