@@ -140,7 +140,7 @@ function compare() {
       arr[i] = c[i];
     }
   }
-  var link = 'upload.php?';
+  var link = '../php/upload.php?';
   link += '&l=' + c.length.toString();
   link += '&p=' + paragraph_uuid.toString();
   for (let i = 0; i < arr.length; i++) {
