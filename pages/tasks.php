@@ -47,17 +47,10 @@
                       ?>
                       <tr>
                         <td>
-                          <div class="d-flex px-2">
-                            <div>
-                              <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
-                            </div>
-                            <div class="my-auto">
-                              <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
-                            </div>
-                          </div>
+                          <h6 class="text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
                         </td>
                         <td>
-                          <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
+                          <span class="text-sm font-weight-bold"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></span>
                         </td>
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
@@ -69,9 +62,7 @@
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
                         <td class="align-middle">
-                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
-                            Megtekintés
-                          </a>
+                          <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">Megtekintés</a>
                         </td>
                       </tr>
                       <?php } ?>
