@@ -5,4 +5,7 @@ if ($db -> connect_errno) {
   echo "Failed to connect to MySQL: " . $db -> connect_error;
   exit();
 }
+if($root_filename != 'signin.php' && !isset($_SESSION['account_id'])) {
+  header( 'Location: ../php/signin.php' );
+}
 ?>

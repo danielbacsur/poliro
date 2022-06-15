@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $root_filename = basename(__FILE__); ?>
 <?php include("../php/database.php"); ?>
 <html>
     <?php include("../php/head.php"); ?>
