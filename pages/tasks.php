@@ -26,7 +26,7 @@
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kezdés</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Határidő</th>
-                        <th></th>
+                        <th class="text-left"></th>
                       </tr>
                     </thead>
                     <tbody>
