@@ -44,7 +44,7 @@
             }
             $_SESSION['account_id'] = $row_account['id'];
             if(!isset($_GET['redirect'])) {
-                header( 'Location: index.php' );
+                header( 'Location: ../pages/dashboard.php' );
             } else {
                 $l = $_GET['redirect'];
                 header( "Location: $l" );
@@ -70,7 +70,7 @@
             $_SESSION['account_id'] = mysqli_insert_id($db);
 
             if(!isset($_GET['redirect'])) {
-                header( 'Location: index.php' );
+                header( 'Location: ../pages/dashboard.php' );
             } else {
                 $l = $_GET['redirect'];
                 header( "Location: $l" );
