@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <?php include("database.php"); ?>
+<head>
+    <meta charset="UTF-8">
+    <title>Poliro - Gyakorlat</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
 <html>
     <?php #include("head.php"); ?>
-    <head>
-        <meta charset="UTF-8">
-        <title>Poliro - Gyakorlat</title>
-        <link rel="stylesheet" href="exercise.css">
-    </head>
     <?php
     $account_id = $_SESSION['account_id'];
     $paragraph_uuid = $_GET['paragraph_uuid'];
