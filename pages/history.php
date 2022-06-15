@@ -136,7 +136,7 @@
                           $paragraph_subsection = $paragraph_row["subsection"];
                           $paragraph_text =  $paragraph_row["text"];
                           $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
-                          $percent = 40;
+                          $percent = rand(10, 100);
                       ?>
                       <tr>
                         <td>
