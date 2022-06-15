@@ -109,6 +109,7 @@
                       $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id);";
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
+                          $paragraph_id = $paragraph_arr['id'];
                           $paragraph_title = $paragraph_arr['title'];
                           $paragraph_section = $paragraph_arr["section"];
                           $paragraph_subsection = $paragraph_arr["subsection"];
