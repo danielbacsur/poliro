@@ -51,7 +51,7 @@
         }
         echo 'befheader';
 
-        header("Location: end.php?exercise_uuid=".strval($exercise_uuid));
+        header("Location: ../pages/end.php?exercise_uuid=".strval($exercise_uuid));
         die();
         ?>
     </body>
