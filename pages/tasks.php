@@ -16,7 +16,7 @@
               <div class="card-header pb-0">
                 <h6>Dolgozatok</h6>
               </div>
-              <div class="card-body px-0 pt-0">
+              <div class="card-body px-0 pt-0 pb-0">
                 <div class="table-responsive p-0">
                   <table class="table align-items-center justify-content-center mb-0">
                     <thead>
@@ -74,7 +74,7 @@
               <div class="card-header pb-0">
                 <h6>Gyakorlatok</h6>
               </div>
-              <div class="card-body px-0 pt-0">
+              <div class="card-body px-0 pt-0 pb-0">
                 <div class="table-responsive p-0">
                   <table class="table align-items-center justify-content-center mb-0">
                     <thead>
