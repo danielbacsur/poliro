@@ -17,7 +17,7 @@
                   <p class="mb-0">Enter your email and password to sign in</p>
                 </div>
                 <div class="card-body">
-                  <form action="login.php" method="post" role="form">
+                  <form action="../php/login.php" method="post" role="form">
                     <label>Email</label>
                     <div class="mb-3">
                       <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
