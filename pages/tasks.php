@@ -20,34 +20,17 @@
                 <div class="table-responsive p-0">
                   <table class="table align-items-center justify-content-center mb-0">
                     <thead>
-                      <tr>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Author</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
-                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                        <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employed</th>
-                        <th class="text-secondary opacity-7"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <?php
+                    <?php
                       $account_id = $_SESSION['account_id'];
-                      $exercise_sql = "SELECT * FROM exercises WHERE account_id='$account_id'";
-                      $exercise_qry = mysqli_query($db,$exercise_sql);
-                      while ($exercise_arr = mysqli_fetch_array($exercise_qry)) {
-                          $exercise_id = $exercise_arr['id'];
-                          $exercise_uuid = $exercise_arr['uuid'];
-                          $exercise_length = $exercise_arr['length'];
-                          $exercise_timestamp = $exercise_arr['timestamp'];
-                          
-                          
-                          $paragraph_id = $exercise_arr['paragraph_id'];
-                          $paragraph_sql = "SELECT * FROM paragraphs WHERE id='$paragraph_id'";
-                          $paragraph_qry = mysqli_query($db,$paragraph_sql);
-                          $paragraph_row = mysqli_fetch_array($paragraph_qry);
-                          $paragraph_title = $paragraph_row['title'];
-                          $paragraph_section = $paragraph_row["section"];
-                          $paragraph_subsection = $paragraph_row["subsection"];
-                          $paragraph_text =  $paragraph_row["text"];
+                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id) WHERE deadline!='2000-01-01 00:00:00' LIMIT 20";
+                      $paragraph_qry = mysqli_query($db,$paragraph_sql);
+                      while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
+                          $paragraph_id = $paragraph_arr['id'];
+                          $paragraph_title = $paragraph_arr['title'];
+                          $paragraph_section = $paragraph_arr["section"];
+                          $paragraph_subsection = $paragraph_arr["subsection"];
+                          $paragraph_text =  $paragraph_arr["text"];
+                          $paragraph_deadline =  $paragraph_arr["deadline"];
                           $paragraph_snippet = mb_substr($paragraph_text, 0, 50);
                           $percent = 40;
                       ?>
