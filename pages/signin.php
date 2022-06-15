@@ -1,67 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-  <?php $root_filename = basename(__FILE__); ?>
-  <?php include("../php/database.php"); ?>
-  <?php include('../php/head.php'); ?>
-
-<body class="">
-  <main class="main-content mt-0">
-    <section>
-      <div class="page-header min-vh-75">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
-              <div class="card card-plain mt-8">
-                <div class="card-header pb-0 text-left bg-transparent">
-                  <h3 class="font-weight-bolder text-info text-gradient">Welcome back</h3>
-                  <p class="mb-0">Enter your email and password to sign in</p>
-                </div>
-                <div class="card-body">
-                  <!--<form role="form">
-                    <label>Email</label>
-                    <div class="mb-3">
-                      <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
-                    </div>
-                    <label>Password</label>
-                    <div class="mb-3">
-                      <input type="email" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
-                    </div>
-                    <div class="form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="rememberMe" checked="">
-                      <label class="form-check-label" for="rememberMe">Remember me</label>
-                    </div>
-                    <div class="text-center">
-                      <button type="button" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign in</button>
-                    </div>
-                  </form>-->
-                  <form action="../php/login.php" method="post">
+<?php include("database.php"); ?>
+<html>
+    <?php include("head.php"); ?>
+    <body>
+        <h1>Bejelentkezés</h1>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <form action="" method="post">
+                        <b>Regisztráció</b><br/>
+                        Neved: <input type="text" name="name"/><br/>
+                        Email Cimed: <input type="text" name="email"/><br/>
+                        username: <input type="text" name="username"/><br/>
+                        Jelszavad: <input type="password" name="password"/><br/>
+                        <input type="submit" name="signup" value="Regisztráció"/>
+                    </form>
+                </td>
+                <td>
+                    <form action="" method="post">
                         <b>Bejelentkezés</b><br/>
                         Email Cimed: <input type="text" name="email"/><br/>
                         Jelszavad: <input type="password" name="password"/><br/>
-                        <input type="submit" value="Bejelentkezés"/>
-                  </form>
-                </div>
-                <div class="card-footer text-center pt-0 px-lg-2 px-1">
-                  <p class="mb-4 text-sm mx-auto">
-                    Don't have an account?
-                    <a href="javascript:;" class="text-info text-gradient font-weight-bold">Sign up</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
-                <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('../assets/img/curved-images/curved6.jpg')"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <?php include('../php/footer.php'); ?>
+                        <input type="submit" name="login" value="Bejelentkezés"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
 
-  <?php include('../php/core.php'); ?>
-</body>
+        
+        <?php
+        if(isset($_POST['login'])){
+            $account_email = $_POST['email'];
+            $account_password = hash('sha256', $_POST['password']);
 
+            $get_email = "SELECT * FROM accounts WHERE email='$account_email' AND password='$account_password'";
+            $run_email = mysqli_query($db,$get_email);
+            $check_email = mysqli_num_rows($run_email);
+            $row_account = mysqli_fetch_array($run_email);
+            if($check_email==0){
+                echo "<script>alert('Hibás email cím vagy jelszó!')</script>";
+                exit();
+            }
+            $_SESSION['account_id'] = $row_account['id'];
+            if(!isset($_GET['redirect'])) {
+                header( 'Location: index.php' );
+            } else {
+                $l = $_GET['redirect'];
+                header( "Location: $l" );
+            }
+        }
+        if(isset($_POST['signup'])){                 
+            $account_name = $_POST['name'];
+            $account_email = $_POST['email'];
+            $account_username = $_POST['username'];
+            $account_password = hash('sha256', $_POST['password']);
+
+            $get_email = "SELECT * FROM accounts WHERE email='$account_email'";
+            $run_email = mysqli_query($db,$get_email);
+            $check_email = mysqli_num_rows($run_email);
+
+            if($check_email == 1){
+                echo "<script>alert('Ez az email cím már regisztrálva lett. Próbálj másikat.')</script>";
+                exit();
+            }
+
+            $insert_customer = "INSERT INTO accounts (`name`, `username`, `email`, `password`) VALUES ('$account_name', '$account_username', '$account_email','$account_password')";
+            $run_customer = mysqli_query($db,$insert_customer);
+            $_SESSION['account_id'] = mysqli_insert_id($db);
+
+            if(!isset($_GET['redirect'])) {
+                header( 'Location: index.php' );
+            } else {
+                $l = $_GET['redirect'];
+                header( "Location: $l" );
+            }
+        } ?>
+    </body>
 </html>
