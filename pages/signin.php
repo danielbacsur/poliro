@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<?php include("database.php"); ?>
+<?php include("../php/database.php"); ?>
 <html>
-    <?php include("head.php"); ?>
+    <?php include("../php/head.php"); ?>
     <body>
         <h1>Bejelentkezés</h1>
         <table style="width:100%">
@@ -44,7 +44,7 @@
             }
             $_SESSION['account_id'] = $row_account['id'];
             if(!isset($_GET['redirect'])) {
-                header( 'Location: ../pages/history.php' );
+                header( 'Location: index.php' );
             } else {
                 $l = $_GET['redirect'];
                 header( "Location: $l" );
@@ -70,7 +70,7 @@
             $_SESSION['account_id'] = mysqli_insert_id($db);
 
             if(!isset($_GET['redirect'])) {
-                header( 'Location: ../pages/history.php' );
+                header( 'Location: index.php' );
             } else {
                 $l = $_GET['redirect'];
                 header( "Location: $l" );
