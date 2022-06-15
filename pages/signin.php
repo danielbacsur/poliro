@@ -7,7 +7,7 @@
 
         <table style="width:100%">
             <tr>
-                <?php if(isset($_POST['switchtosignup']) || (!isset($_POST['switchtosignup']) && !isset($_POST['switchtologin']))) { ?>
+                <?php if(isset($_POST['switchtosignup'])) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Regisztráció</b><br/>
@@ -19,7 +19,7 @@
                         <input type="submit" name="switchtologin" value="Másik"/>
                     </form>
                 </td>
-                <?php } else if(isset($_POST['switchtologin'])) { ?>
+                <?php } else if(isset($_POST['switchtologin']) || (!isset($_POST['switchtosignup']) && !isset($_POST['switchtologin']))) { ?>
                 <td>
                     <form action="" method="post">
                         <b>Bejelentkezés</b><br/>
