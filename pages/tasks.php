@@ -47,7 +47,9 @@
                       ?>
                       <tr>
                         <td>
-                          <h6 class="text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
+                          <div class="d-flex px-2">
+                              <h6 class="mb-0 text-sm">Paragrafus #<?php echo $paragraph_id; ?></h6>
+                            </div>
                         </td>
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></span>
