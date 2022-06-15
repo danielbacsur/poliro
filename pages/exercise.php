@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include("database.php"); ?>
+<?php include("../php/database.php"); ?>
 <head>
     <meta charset="UTF-8">
     <title>Poliro - Gyakorlat</title>
