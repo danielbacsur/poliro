@@ -24,7 +24,7 @@
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Ideje</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
-                        <!--<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>-->
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Pontosság</th>
                         <th></th>
                       </tr>
@@ -69,9 +69,9 @@
                         <td>
                           <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
                         </td>
-                        <!--<td>
+                        <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
-                        </td>-->
+                        </td>
                         <td class="align-middle text-center">
                           <div class="d-flex align-items-center justify-content-center">
                             <span class="me-2 text-sm font-weight-bold"><?php echo $percent; ?>%</span>
@@ -110,7 +110,7 @@
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Paragrafus</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Ideje</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Lecke</th>
-                        <!--<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>-->
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Részlet</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Pontosság</th>
                         <th></th>
                       </tr>
@@ -155,9 +155,9 @@
                         <td>
                           <p class="text-sm font-weight-bold mb-0"><?php echo implode('.', [$paragraph_title, $paragraph_section, $paragraph_subsection]); ?></p>
                         </td>
-                        <!--<td>
+                        <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_snippet; ?></span>
-                        </td>-->
+                        </td>
                         <td class="align-middle text-center">
                           <div class="d-flex align-items-center justify-content-center">
                             <span class="me-2 text-sm font-weight-bold"><?php echo $percent; ?>%</span>
