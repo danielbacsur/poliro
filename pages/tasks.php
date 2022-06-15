@@ -68,7 +68,7 @@
                         <td>
                           <span class="text-sm font-weight-bold"><?php echo $paragraph_deadline; ?></span>
                         </td>
-                        <td class="align-left text-left">
+                        <td class="align-right text-right">
                           <a class="text-secondary font-weight-bold text-sm mb-0" href="../php/exercise.php?exercise_uuid=<?php echo $exercise_uuid; ?>">
                             Megtekintés
                           </a>
