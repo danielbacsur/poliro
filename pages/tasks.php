@@ -106,7 +106,7 @@
                     <tbody>
                       <?php
                       $account_id = $_SESSION['account_id'];
-                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id);";
+                      $paragraph_sql = "SELECT * FROM paragraphs WHERE id NOT IN (SELECT paragraph_id FROM exercises WHERE account_id=$account_id) LIMIT 20";
                       $paragraph_qry = mysqli_query($db,$paragraph_sql);
                       while ($paragraph_arr = mysqli_fetch_array($paragraph_qry)) {
                           $paragraph_id = $paragraph_arr['id'];
