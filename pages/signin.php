@@ -60,7 +60,8 @@
           </div>
         </nav>
          End Navbar -->
-    <?php include('../php/aside.php'); ?>
+    <?php include('../php/nav.php'); ?>
+
 
       </div>
     </div>
